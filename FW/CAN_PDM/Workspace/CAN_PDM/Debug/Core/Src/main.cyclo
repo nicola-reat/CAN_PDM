@@ -1,0 +1,4 @@
+../Core/Src/main.c:66:6:Send_CAN_Alive	2
+../Core/Src/main.c:80:5:main	1
+../Core/Src/main.c:140:6:SystemClock_Config	4
+../Core/Src/main.c:198:6:Error_Handler	1

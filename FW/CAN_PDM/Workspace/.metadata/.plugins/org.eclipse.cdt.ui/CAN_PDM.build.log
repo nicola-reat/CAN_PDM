@@ -1,0 +1,10 @@
+16:56:20 **** Build of configuration Debug for project CAN_PDM ****
+make -j20 all 
+arm-none-eabi-size  CAN_PDM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10144	     12	   1724	  11880	   2e68	CAN_PDM.elf
+Finished building: default.size.stdout
+ 
+
+16:56:21 Build Finished. 0 errors, 0 warnings. (took 556ms)
+

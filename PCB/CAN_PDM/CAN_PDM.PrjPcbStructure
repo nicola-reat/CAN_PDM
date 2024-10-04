@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=CAN.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=I2C.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=MCU.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=PWR.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Sheet1.SchDoc|SheetNumber=1

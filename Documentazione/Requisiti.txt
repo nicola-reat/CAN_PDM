@@ -1,0 +1,49 @@
+Requisiti scheda grande arroganza pura
+
+---26/08/2024---
+Corrente attesa > 50A
+Input 2x 74651195 m5 85A --> 170A 
+Connettore da usare: 33503152 (aptiv) 32 posizioni di cui 8 pin max 27.5A mentre 24 pin max 13A
+MCU:STM32F446RET6 
+FRAM: MB85RC04VPNF-G-JNERE1
+Switch SLW-121456-3A-N-D
+PIN POTENZA: 144A
+4X 21A --> BTS70021EPPXUMA1 (4x Pin PWM (IN) - 4x Pin Gpio (DEN) - 4x Pin ADC (IS)
+4X 15A --> BTS70041EPZXUMA1 (4x Pin PWM (IN) - 4x Pin Gpio (DEN) - 4x Pin ADC (IS)
+
+PIN MEDIA/BASSA POTENZA: 27A
+2X 7.5A --> BTS70082EPZXUMA1 (1x Pin PWM (IN0) - 1x Pin PWM (IN1) - 1x Pin Gpio (DEN) - 1x Pin Gpio (DSEL) - 1x Pin ADC (IS)
+4X 3A --> BTS70802EPAXUMA1 (2x Pin PWM (IN0) - 2x Pin PWM (IN1) - 2x Pin Gpio (DEN) - 2x Pin Gpio (DSEL) - 2x Pin ADC (IS)
+
+Pin Segnali:
+2x Can 
+2x Alimentazione scheda?? (unire masse? dividere masse? usare connettore grosso per collegamento gnd (forse non serve)
+1x Ignition (abilita dc/dc) --> Da comandare tramite pulsante in modo da accendere la scheda
+4x Ingressi ADC 0-5V 
+4x Ingressi Digitali 0-5V
+3x 5V
+2x GND 
+
+Board:
+Update Fw via can
+Usare i/o expander I2C tipo PI4IOE5V6416LEX per comandare led stato uscite (usare led bicolor? in questo modo se è tutto ok verde se c'è qualche problema rosso)
+Usare programmazione stile atos? (aghi per minore ingombro senza usare i test point)
+Led stato (in base alla velocità di blink si capisce se la scheda ha un problema)
+
+
+Funzioni:
+Monitorare corrente in uscita con IS presenti su Profet e incaso di sovraccarico (impostare soglia) disabilitare output in maniera automatica (magari dando priorità in modo da spegnere cose non usate)
+Update FW via UART / CAN (Dipende da scelta micro)
+Conversione ADC INPUT 0-5V in 0-3.3 (Usare circuito OP AMP TRICAN PCB)
+Input segnali digitali (interruttori, pulsanti) che poi vengono convertiti in messaggio can
+Completamente configurabile tramite PC/SW (Da iniziare)
+Integrare un sensore di temperatura ? o basta solo quello presente nel mcu? Sensore di temp vicino profet?
+Fare simulazione termica
+
+Calcolo Pin per micro:
+GPIO-PWM: 14
+GPIO: 18
+ADC: 15
+
+TJA1051T/E (da usare per can visto che ha pin En per sleep )
+
