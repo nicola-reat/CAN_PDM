@@ -1,9 +1,10 @@
 Record=TopLevelDocument|FileName=CAN.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=CONNECTOR.SchDoc|SheetNumber=9
-Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=DIGITAL_INP.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=CONNECTOR.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=DIGITAL_INP.SchDoc|SheetNumber=8
 Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=HIGH_CURR_MOS.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=I2C.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=I2C.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=LOW_CURR_MOS.SchDoc|SheetNumber=6
 Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=MCU.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=MID_CURR_MOS.SchDoc|SheetNumber=5
 Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=PWR.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=SENSOR_INP.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=SENSOR_INP.SchDoc|SheetNumber=7

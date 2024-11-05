@@ -1,0 +1,7 @@
+Added Component: Designator=J2(MOLEX_0477450100)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "0477450100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "477450100"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin D1-A
+Add Pin To Net: Unknown Pin: Pin D1-C
+Added Member To Class: ClassName=CONNECTOR Member=Component J2 MOLEX_477450100
