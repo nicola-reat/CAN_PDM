@@ -1,0 +1,54 @@
+DA VALUTARE:
+- Es: ventola radiatore 15A --> Positivo esce da pcb - Il negativo collegarlo ad un buon punto di massa (stile telaio) ? Può andare bene?
+- Per un futuro ipotetico si può usare pwm sui gpio per comandare attivazione / disattivazione profet? Configurazione ok per farlo? Consigli? 
+
+TO DO SCHEMATICO:
+
+- Aggiungere Offsheet o Port
+- Partitore BATT VREF Basta così? Filtro? o meglio mettere una res prima del micro?
+- Controllare parte PWR ( DC DC E LDO) 
+- Controllare Induttore PWR Se ok
+- Controllare Quale induttore inserire su VREF STM32
+- Mettere resistenza oscillatore STM32?
+- Ha senso mettere pull down esterno su pin In infineon? Si potrebbe usare pull down interno al mcu. 
+- Controllare se servono TVS In uscita ?
+- Bisogna mettere dei condensatori grossi sulla 12 v? ha senso? come si calcolano? 
+- Ha senso mettere un op amp per "amplificare" segnale IS Profet?? 
+- Indirizzi i2c meglio metterci una 0 ohm?
+- Sistemare Part Number 
+
+
+TO DO PCB:
+-Regola width r120 + diffpair
+- Usare un 4 layer e 2oz (in modo da contenere il costo)
+- Posizionare sensore temperatura vicino ai profet. Zona centrale del connettore
+- Valutare distanza LED in angolo in modo che siano distanti per aiutare a capire se è tutto ok oppure c'è qualche problema
+- Fori fissaggio Non connessi metalizzati 
+- La base del case sarà una piastra in ALU per dissipare -verrà montata a sua volta in una lamiera in alu.
+- Ha senso togliere la soldermask per lasciare scoperti i piani ?  Essendo a contatto con ALU conviene mettere un pad termico ? Stile omp? 
+- Piani su tutti e 4 i layer
+
+
+NOTE:
+- Come si calcola filtro per input analogici o digitali? 
+
+- L'alimentazione della scheda (12 v) viene fatta tramite i due m5 della wurth.. Su questi m5 verrà messa una barra in rame in modo da uscire con un solo cavo.
+- Inserito Pull-up su uscita OP amp (5v to 3.3v) per sensori che necessitano un pull-up definito (tipo il bosch del trican)
+- Aggiunta FRAM per memorizzare parametri. Si può usare flash del stm32 come con atos ma meglio avere uno spazio esterno
+- Modificato i tp a 2mm
+- In caso di over Temp disabilita gli infineon in modo da raffreddare la scheda
+
+ASSORBIMENTI:
+
+Assorbimenti 3V3:  366mA --> TPS7A21-Q1 (0.5A max)
+Micro: 240mA
+Can: 70mA (tx) --> 10ma (rx)
+Flash: 90uA 
+CP2102-UART: 26mA
+Led stato (Verde OK -- Rosso PROBLEMA) : 30 mA (15mA cad)
+Sensori temperatura : valori nell'ordine dei uA
+
+Assorbimenti 5V : 150mA  --> LMR51606XDBVR (0.6A max)
+9 led stato OK / ERR USCITE : 90 mA (10mA cad)
+4 Led Stato Sensori OK / ERR : 40mA (10mA cad) --> Stato sensori per vedere che non siano fuori soglia , Abilitati , Disabilitati ecc
+2 Led Stato CAN Tx e CAN Rx : 20mA (10mA cad) --> Stato traffico can  

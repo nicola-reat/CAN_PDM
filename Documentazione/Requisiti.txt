@@ -2,14 +2,15 @@ Requisiti scheda grande arroganza pura
 
 ---26/08/2024---
 Corrente attesa <= 50A
-Input 2x 74651195 m5 85A --> 170A 
-Connettore da usare: 33503152 (aptiv) 32 posizioni di cui 8 pin max 27.5A mentre 24 pin max 13A
+Input 2x 74651195 m5 85A --> 120A 
+Connettore da usare: 477450100 (molex) 28 pos 5x 21 A, 5x 12A , restanti 3A
 MCU:STM32F446RET6 
 FRAM: MB85RC04VPNF-G-JNERE1
 Switch SLW-121456-3A-N-D
-PIN POTENZA: 108A
+
+PIN POTENZA: 93A
 3X 21A --> BTS70021EPPXUMA1 (3x Pin PWM (IN)  - 3x Pin ADC (IS)
-3X 15A --> BTS70041EPZXUMA1 (3x Pin PWM (IN)  - 3x Pin ADC (IS)
+2X 15A --> BTS70041EPZXUMA1 (3x Pin PWM (IN)  - 3x Pin ADC (IS)
 
 PIN MEDIA/BASSA POTENZA: 27A
 2X 7.5A --> BTS70082EPZXUMA1 (1x Pin PWM (IN0) - 1x Pin PWM (IN1)  - 1x Pin Gpio (DSEL) - 1x Pin ADC (IS)
