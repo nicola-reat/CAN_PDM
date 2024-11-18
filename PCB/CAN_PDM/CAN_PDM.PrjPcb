@@ -38,7 +38,7 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-CrossRefSheetStyle=1
+CrossRefSheetStyle=2
 CrossRefLocationStyle=1
 CrossRefPorts=3
 CrossRefCrossSheets=1
@@ -118,6 +118,23 @@ GenerateClassCluster=0
 DocumentUniqueId=RCQYNNIW
 
 [Document5]
+DocumentPath=USB.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=12
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MBSVVSXZ
+
+[Document6]
 DocumentPath=CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GDCBDICZ
 
-[Document6]
+[Document7]
 DocumentPath=HIGH_CURR_MOS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WOJVZRRX
 
-[Document7]
+[Document8]
 DocumentPath=MID_CURR_MOS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZAMCBNIP
 
-[Document8]
+[Document9]
 DocumentPath=LOW_CURR_MOS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CZPDACGL
 
-[Document9]
+[Document10]
 DocumentPath=SENSOR_INP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZNVKZIKV
 
-[Document10]
+[Document11]
 DocumentPath=DIGITAL_INP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OBAPKUVJ
 
-[Document11]
+[Document12]
 DocumentPath=I2C.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OYAUKYII
 
-[Document12]
+[Document13]
 DocumentPath=LED_STATUS_OUTPUTS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +270,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FQIHHERE
 
-[Document13]
+[Document14]
 DocumentPath=LED_STATUS_INPUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +287,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BOJFNCBZ
 
-[Document14]
+[Document15]
 DocumentPath=CONNECTOR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -287,7 +304,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HKERSAWE
 
-[Document15]
+[Document16]
 DocumentPath=PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1245,16 +1262,22 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=My_LIB.SchLib
-ComponentDesignItemID0=Diode_Schottky
-ComponentSymbolReference0=Diode_Schottky
+ComponentDesignItemID0=LED_Red_Green
+ComponentSymbolReference0=LED_Red_Green
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=My_LIB.SchLib
-ComponentDesignItemID1=LED_Red_Green
-ComponentSymbolReference1=LED_Red_Green
+ComponentDesignItemID1=Resistor
+ComponentSymbolReference1=Resistor
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=My_LIB.SchLib
+ComponentDesignItemID2=TLV75530PDBVR
+ComponentSymbolReference2=TLV75530PDBVR
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
 FullReplace=0
 UpdateDesignatorLock=0
 UpdatePartIDLock=1
@@ -1282,13 +1305,36 @@ ParameterName5=Manufacturer
 ParameterUpdate5=1
 ParameterName6=PartNumber
 ParameterUpdate6=1
-ParameterName7=Value
+ParameterName7=SMD/PTH
 ParameterUpdate7=1
+ParameterName8=Value
+ParameterUpdate8=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=SOT65P210X100-3N - AC
+ModelName0=RESC1005X04N
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=RESC1608X06M
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=RESC2012X06N
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=RESC3216X07N
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=RESC3225X07N
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=RESC6432X07N
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=SOT95P280X145-5N
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=WURTH-SBTW_3528
+ModelUpdate7=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
