@@ -237,7 +237,7 @@ GenerateClassCluster=0
 DocumentUniqueId=OYAUKYII
 
 [Document12]
-DocumentPath=LED_STATUS.SchDoc
+DocumentPath=LED_STATUS_OUTPUTS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -254,6 +254,23 @@ GenerateClassCluster=0
 DocumentUniqueId=FQIHHERE
 
 [Document13]
+DocumentPath=LED_STATUS_INPUT.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=11
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BOJFNCBZ
+
+[Document14]
 DocumentPath=CONNECTOR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +287,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HKERSAWE
 
-[Document14]
+[Document15]
 DocumentPath=PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
