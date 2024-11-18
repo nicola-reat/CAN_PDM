@@ -50,6 +50,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=CAN_PDM.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document2]
 DocumentPath=..\..\..\ALTIUM_MY_LIB\My_LIB.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -66,7 +83,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EALVAAHD
 
-[Document2]
+[Document3]
 DocumentPath=..\..\..\ALTIUM_MY_LIB\My_LIB.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -83,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KEERINPY
 
-[Document3]
+[Document4]
 DocumentPath=PWR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ILYFAZRB
 
-[Document4]
+[Document5]
 DocumentPath=MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RCQYNNIW
 
-[Document5]
+[Document6]
 DocumentPath=USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MBSVVSXZ
 
-[Document6]
+[Document7]
 DocumentPath=CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GDCBDICZ
 
-[Document7]
+[Document8]
 DocumentPath=HIGH_CURR_MOS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WOJVZRRX
 
-[Document8]
+[Document9]
 DocumentPath=MID_CURR_MOS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZAMCBNIP
 
-[Document9]
+[Document10]
 DocumentPath=LOW_CURR_MOS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CZPDACGL
 
-[Document10]
+[Document11]
 DocumentPath=SENSOR_INP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZNVKZIKV
 
-[Document11]
+[Document12]
 DocumentPath=DIGITAL_INP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OBAPKUVJ
 
-[Document12]
+[Document13]
 DocumentPath=I2C.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +270,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OYAUKYII
 
-[Document13]
+[Document14]
 DocumentPath=LED_STATUS_OUTPUTS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +287,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FQIHHERE
 
-[Document14]
+[Document15]
 DocumentPath=LED_STATUS_INPUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -287,7 +304,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BOJFNCBZ
 
-[Document15]
+[Document16]
 DocumentPath=CONNECTOR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -304,7 +321,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HKERSAWE
 
-[Document16]
+[Document17]
 DocumentPath=PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1262,20 +1279,20 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=My_LIB.SchLib
-ComponentDesignItemID0=LED_Red_Green
-ComponentSymbolReference0=LED_Red_Green
+ComponentDesignItemID0=IND
+ComponentSymbolReference0=IND
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=My_LIB.SchLib
-ComponentDesignItemID1=Resistor
-ComponentSymbolReference1=Resistor
+ComponentDesignItemID1=LED_Red_Green
+ComponentSymbolReference1=LED_Red_Green
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=My_LIB.SchLib
-ComponentDesignItemID2=TLV75530PDBVR
-ComponentSymbolReference2=TLV75530PDBVR
+ComponentDesignItemID2=Resistor
+ComponentSymbolReference2=Resistor
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 FullReplace=0
@@ -1312,29 +1329,38 @@ ParameterUpdate8=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=RESC1005X04N
+ModelName0=BOURNS-SRN5040
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=RESC1608X06M
+ModelName1=BOURNS-SRU1048
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=RESC2012X06N
+ModelName2=BOURNS-SRU8028
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=RESC3216X07N
+ModelName3=INDC1608X09N
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=RESC3225X07N
+ModelName4=RESC1005X04N
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=RESC6432X07N
+ModelName5=RESC1608X06M
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=SOT95P280X145-5N
+ModelName6=RESC2012X06N
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=WURTH-SBTW_3528
+ModelName7=RESC3216X07N
 ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=RESC3225X07N
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=RESC6432X07N
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=WURTH-SBTW_3528
+ModelUpdate10=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
