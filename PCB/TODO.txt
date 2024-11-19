@@ -8,6 +8,7 @@ TO DO SCHEMATICO:
 - Partitore BATT VREF Basta così? Filtro? o meglio mettere una res prima del micro?
 - Controllare parte PWR ( DC DC E LDO) 
 - Controllare Induttore PWR Se ok
+- Al posto di 1206 bypass st si può usare un 0805
 - Controllare Quale induttore inserire su VREF STM32
 - Mettere resistenza oscillatore STM32?
 - Ha senso mettere pull down esterno su pin In infineon? Si potrebbe usare pull down interno al mcu. 
@@ -15,6 +16,7 @@ TO DO SCHEMATICO:
 - Bisogna mettere dei condensatori grossi sulla 12 v? ha senso? come si calcolano? 
 - Ha senso mettere un op amp per "amplificare" segnale IS Profet?? 
 - Indirizzi i2c meglio metterci una 0 ohm?
+
 - Sistemare Part Number 
 
 

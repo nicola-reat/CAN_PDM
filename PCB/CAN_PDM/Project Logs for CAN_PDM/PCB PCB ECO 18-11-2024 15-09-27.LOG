@@ -1,0 +1,2597 @@
+Added Component: Designator=C1(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C1206C225K5RAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2u2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0606"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GCJ31CR71A106MA13L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GCJ31CR71A106MA13L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C5(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GCJ31CR71A106MA13L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C6(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GCJ31CR71A106MA13L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C7(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C105K8RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C8(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C105K8RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C9(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GCJ31CR71A106MA13L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C10(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C11(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GCJ31CR71A106MA13L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C12(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C13(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GCJ31CR71A106MA13L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C14(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C15(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GCJ31CR71A106MA13L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C16(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C17(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C18(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C105K8RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C19(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GCM1885C2A270FA16D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "27p"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Added Component: Designator=C20(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GCM1885C2A270FA16D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "27p"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Added Component: Designator=C21(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C22(CAPC2012X14N)
+Add component (AddParameter): Name = "Case"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C1206C475K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4u7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C23(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C24(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C25(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C26(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603X473K5RAC3316"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C27(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C28(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C29(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C30(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C31(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C32(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C33(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220p"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C34(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C35(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220p"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C36(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C37(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C38(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C39(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220p"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C40(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C41(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C42(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C43(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220p"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C44(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C45(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C46(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C47(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220p"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C48(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C49(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C50(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C51(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C52(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C53(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C54(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C55(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C56(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C57(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C103K1RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Added Component: Designator=C58(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C103K1RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Added Component: Designator=C59(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C103K1RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Added Component: Designator=C60(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C103K1RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Added Component: Designator=C61(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C62(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C63(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C105K8RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C64(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C105K8RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C65(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C66(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C67(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C68(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C69(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220p"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C70(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C71(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C72(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C73(CAPC3216X16M)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=C74(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220p"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Component: Designator=D1(SODFL360X130-2M -AC)
+Add component (AddParameter): Name = "Case"; Value = "SOD123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "PMEG4010EGWX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "PMEG4010EGWX"; VariantName = "[No Variations]"
+Added Component: Designator=D2(ONSC-SMB-2)
+Add component (AddParameter): Name = "Case"; Value = "SMB-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Littelfuse"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "SZ1SMB20CAT3G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "SZ1SMB20CAT3G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "20V"; VariantName = "[No Variations]"
+Added Component: Designator=D3(SOT65P210X100-3N - AC)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5V"; VariantName = "[No Variations]"
+Added Component: Designator=D4(SOT95P240X120-3N)
+Add component (AddParameter): Name = "Case"; Value = "SOT23-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Littelfuse"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "SM712-02HTG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "SM712-02HTG"; VariantName = "[No Variations]"
+Added Component: Designator=D5(SOT65P210X100-3N - AC)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5V"; VariantName = "[No Variations]"
+Added Component: Designator=D6(SOT65P210X100-3N - AC)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5V"; VariantName = "[No Variations]"
+Added Component: Designator=D7(SOT65P210X100-3N - AC)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5V"; VariantName = "[No Variations]"
+Added Component: Designator=D8(SOT65P210X100-3N - AC)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5V"; VariantName = "[No Variations]"
+Added Component: Designator=D9(SOT65P210X100-3N - AC)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5V"; VariantName = "[No Variations]"
+Added Component: Designator=D10(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Littelfuse"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "SP0504BAHTG"; VariantName = "[No Variations]"
+Added Component: Designator=D11(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Littelfuse"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "SP0504BAHTG"; VariantName = "[No Variations]"
+Added Component: Designator=D12(SOT65P210X100-3N - AC)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5V"; VariantName = "[No Variations]"
+Added Component: Designator=D13(SOT65P210X100-3N - AC)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5V"; VariantName = "[No Variations]"
+Added Component: Designator=D14(SOT95P240X120-3N)
+Add component (AddParameter): Name = "Case"; Value = "SOT23-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Littelfuse"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "SM712-02HTG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "SM712-02HTG"; VariantName = "[No Variations]"
+Added Component: Designator=D15(SODFL360X130-2M -AC)
+Add component (AddParameter): Name = "Case"; Value = "SOD123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "PMEG4010EGWX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "PMEG4010EGWX"; VariantName = "[No Variations]"
+Added Component: Designator=D16(SODFL360X130-2M -AC)
+Add component (AddParameter): Name = "Case"; Value = "SOD123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "PMEG4010EGWX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "PMEG4010EGWX"; VariantName = "[No Variations]"
+Added Component: Designator=DL1(LED0603)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150060VS75000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150060VS75000"; VariantName = "[No Variations]"
+Added Component: Designator=DL2(LED0603)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150060VS75000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150060VS75000"; VariantName = "[No Variations]"
+Added Component: Designator=DL3(LED0603)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150060BS75000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150060BS75000"; VariantName = "[No Variations]"
+Added Component: Designator=DL4(LED0603)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Value"; VariantName = "[No Variations]"
+Added Component: Designator=DL5(WURTH-SBTW_3528)
+Add component (AddParameter): Name = "Case"; Value = "3528"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150141YB73100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150141YB73100"; VariantName = "[No Variations]"
+Added Component: Designator=DL6(WURTH-SBTW_3528)
+Add component (AddParameter): Name = "Case"; Value = "3528"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Added Component: Designator=DL7(WURTH-SBTW_3528)
+Add component (AddParameter): Name = "Case"; Value = "3528"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Added Component: Designator=DL8(WURTH-SBTW_3528)
+Add component (AddParameter): Name = "Case"; Value = "3528"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Added Component: Designator=DL9(WURTH-SBTW_3528)
+Add component (AddParameter): Name = "Case"; Value = "3528"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Added Component: Designator=DL10(WURTH-SBTW_3528)
+Add component (AddParameter): Name = "Case"; Value = "3528"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Added Component: Designator=DL11(WURTH-SBTW_3528)
+Add component (AddParameter): Name = "Case"; Value = "3528"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Added Component: Designator=DL12(WURTH-SBTW_3528)
+Add component (AddParameter): Name = "Case"; Value = "3528"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Added Component: Designator=DL13(WURTH-SBTW_3528)
+Add component (AddParameter): Name = "Case"; Value = "3528"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Added Component: Designator=DL14(WURTH-SBTW_3528)
+Add component (AddParameter): Name = "Case"; Value = "3528"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150141RV73100"; VariantName = "[No Variations]"
+Added Component: Designator=DL15(LED0603)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150060BS75000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150060BS75000"; VariantName = "[No Variations]"
+Added Component: Designator=DL16(LED0603)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150060BS75000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150060BS75000"; VariantName = "[No Variations]"
+Added Component: Designator=DL17(LED0603)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150060BS75000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150060BS75000"; VariantName = "[No Variations]"
+Added Component: Designator=DL18(LED0603)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150060BS75000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150060BS75000"; VariantName = "[No Variations]"
+Added Component: Designator=J1(SAMTEC_FTSH-105-X-X-DV-007-P-X)
+Add component (AddParameter): Name = "Value"; Value = "FTSH-105-01-L-DV-007-K"; VariantName = "[No Variations]"
+Added Component: Designator=J2(MOLEX_0477450100)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "0477450100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "477450100"; VariantName = "[No Variations]"
+Added Component: Designator=J3(GCT-USB4105-GF-A)
+Add component (AddParameter): Name = "Manufacturer"; Value = "GCT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "USB4105-GF-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "USB4105-GF-A"; VariantName = "[No Variations]"
+Added Component: Designator=L1(BOURNS-SRU1048)
+Add component (AddParameter): Name = "Manufacturer"; Value = "BOURNS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "SDE0805A-120M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "12u"; VariantName = "[No Variations]"
+Added Component: Designator=L2(INDC1608X09N)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=L3(INDC1608X09N)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "BLM18HB331SN1D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "BLM18HB331SN1D"; VariantName = "[No Variations]"
+Added Component: Designator=L4(INDC1608X09N)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "BLM18HB331SN1D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "BLM18HB331SN1D"; VariantName = "[No Variations]"
+Added Component: Designator=MP1(WURTH_74651195)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "74651195R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "74651195R"; VariantName = "[No Variations]"
+Added Component: Designator=MP2(WURTH_74651195)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "74651195R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "74651195R"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060351K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "51K"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060310K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060322K1FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22K1"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-07560RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "560R"; VariantName = "[No Variations]"
+Added Component: Designator=R6(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-07560RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "560R"; VariantName = "[No Variations]"
+Added Component: Designator=R7(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060310K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R8(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060351K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "51K"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06037K50FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "7K5"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW0603120RFKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "120R"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R12(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060310K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RESC3216X07N)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Added Component: Designator=R14(RESC3216X07N)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Added Component: Designator=R15(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R16(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R17(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R18(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R19(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R20(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R21(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R22(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R23(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K2"; VariantName = "[No Variations]"
+Added Component: Designator=R24(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K2"; VariantName = "[No Variations]"
+Added Component: Designator=R25(RESC3216X07N)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Added Component: Designator=R26(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R27(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R28(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R29(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R30(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K2"; VariantName = "[No Variations]"
+Added Component: Designator=R31(RESC3216X07N)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Added Component: Designator=R32(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R33(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R34(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R35(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R36(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K2"; VariantName = "[No Variations]"
+Added Component: Designator=R37(RESC3216X07N)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Added Component: Designator=R38(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R39(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R40(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R41(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R42(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K2"; VariantName = "[No Variations]"
+Added Component: Designator=R43(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060310K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R44(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060310K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R45(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06030000Z0EAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R46(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06030000Z0EAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R47(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060315K0FKEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "15K"; VariantName = "[No Variations]"
+Added Component: Designator=R48(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060315K0FKEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "15K"; VariantName = "[No Variations]"
+Added Component: Designator=R49(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06030000Z0EAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R50(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06030000Z0EAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R51(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060315K0FKEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "15K"; VariantName = "[No Variations]"
+Added Component: Designator=R52(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060315K0FKEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "15K"; VariantName = "[No Variations]"
+Added Component: Designator=R53(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060310K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R54(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060310K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R55(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060310K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R56(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060310K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R57(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06030000Z0EAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R58(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06030000Z0EAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R59(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060315K0FKEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "15K"; VariantName = "[No Variations]"
+Added Component: Designator=R60(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060315K0FKEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "15K"; VariantName = "[No Variations]"
+Added Component: Designator=R61(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06030000Z0EAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R62(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06030000Z0EAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R63(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060315K0FKEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "15K"; VariantName = "[No Variations]"
+Added Component: Designator=R64(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060315K0FKEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "15K"; VariantName = "[No Variations]"
+Added Component: Designator=R65(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060310K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R66(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060310K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R67(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R68(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R69(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R70(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R71(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R72(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R73(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060310K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R74(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060310K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R75(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06030000Z0EAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R76(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-07560RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "560R"; VariantName = "[No Variations]"
+Added Component: Designator=R77(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R78(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R79(RESC3216X07N)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Added Component: Designator=R80(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R81(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R82(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R83(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R84(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R85(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R86(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K2"; VariantName = "[No Variations]"
+Added Component: Designator=R87(RESC3216X07N)
+Add component (AddParameter): Name = "Case"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Added Component: Designator=R88(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R89(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R90(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R91(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R92(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R93(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06034K70FKEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R94(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K2"; VariantName = "[No Variations]"
+Added Component: Designator=R95(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R96(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R97(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R98(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R99(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R100(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R101(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R102(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R103(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R104(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R105(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R106(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R107(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R108(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R109(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R110(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R111(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R112(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-071K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K3"; VariantName = "[No Variations]"
+Added Component: Designator=R113(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-07560RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "560R"; VariantName = "[No Variations]"
+Added Component: Designator=R114(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-07560RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "560R"; VariantName = "[No Variations]"
+Added Component: Designator=R115(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-07560RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "560R"; VariantName = "[No Variations]"
+Added Component: Designator=R116(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603FR-07560RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "560R"; VariantName = "[No Variations]"
+Added Component: Designator=R117(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06030000Z0EAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R118(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW06030000Z0EAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R119(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CRCW06031K50FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K5"; VariantName = "[No Variations]"
+Added Component: Designator=R120(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CRCW06035K10FKEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5K1"; VariantName = "[No Variations]"
+Added Component: Designator=R121(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CRCW06035K10FKEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5K1"; VariantName = "[No Variations]"
+Added Component: Designator=R122(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CRCW060362K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "62K"; VariantName = "[No Variations]"
+Added Component: Designator=R123(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CRCW0603120KFKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "120K"; VariantName = "[No Variations]"
+Added Component: Designator=SW1(SW_CJS-1200TA)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nidec Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CJS-1200TA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "CJS-1200TA"; VariantName = "[No Variations]"
+Added Component: Designator=TP1(TP_c200)
+Added Component: Designator=TP2(TP_c200)
+Added Component: Designator=TP3(TP_c200)
+Added Component: Designator=TP4(TP_c200)
+Added Component: Designator=TP5(TP_c200)
+Added Component: Designator=TP6(TP_c200)
+Added Component: Designator=TP7(TP_c200)
+Added Component: Designator=TP8(TP_c200)
+Added Component: Designator=TP9(TP_c200)
+Added Component: Designator=TP10(TP_c200)
+Added Component: Designator=TP11(TP_c200)
+Added Component: Designator=TP12(TP_c200)
+Added Component: Designator=TP13(TP_c200)
+Added Component: Designator=TP14(TP_c200)
+Added Component: Designator=TP15(TP_c200)
+Added Component: Designator=TP16(TP_c200)
+Added Component: Designator=TP17(TP_c200)
+Added Component: Designator=TP18(TP_c200)
+Added Component: Designator=TP19(TP_c200)
+Added Component: Designator=TP20(TP_c200)
+Added Component: Designator=TP21(TP_c200)
+Added Component: Designator=TP22(TP_c200)
+Added Component: Designator=TP23(TP_c200)
+Added Component: Designator=U1(SOT95P280X145-6N)
+Add component (AddParameter): Name = "Case"; Value = "6-SOT-23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "LV3842XDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "LV3842XDBVR"; VariantName = "[No Variations]"
+Added Component: Designator=U2(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Case"; Value = "SOT-23-5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "TLV75530PDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "TLV75530PDBVR"; VariantName = "[No Variations]"
+Added Component: Designator=U3(STM-LQFP64_M)
+Add component (AddParameter): Name = "Manufacturer"; Value = "ST"; VariantName = "[No Variations]"
+Added Component: Designator=U4(SON65P300X300X100-9N-D)
+Add component (AddParameter): Name = "Case"; Value = "HVSON-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "NXP Semiconductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "TJA1051TK/3,118"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "TJA1051TK/3,118"; VariantName = "[No Variations]"
+Added Component: Designator=U5(SOP65P600X115-15)
+Add component (AddParameter): Name = "Case"; Value = "TSDSO-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "BTS70021EPPXUMA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "BTS70021EPPXUMA1"; VariantName = "[No Variations]"
+Added Component: Designator=U6(SOP65P600X115-15)
+Add component (AddParameter): Name = "Case"; Value = "TSDSO-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "BTS70021EPPXUMA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "BTS70021EPPXUMA1"; VariantName = "[No Variations]"
+Added Component: Designator=U7(SOP65P600X115-15)
+Add component (AddParameter): Name = "Case"; Value = "TSDSO-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "BTS70021EPPXUMA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "BTS70021EPPXUMA1"; VariantName = "[No Variations]"
+Added Component: Designator=U8(SOP65P600X115-15)
+Add component (AddParameter): Name = "Case"; Value = "TSDSO-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "BTS70041EPZXUMA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "BTS70041EPZXUMA1"; VariantName = "[No Variations]"
+Added Component: Designator=U9(SOP65P600X115-15)
+Add component (AddParameter): Name = "Case"; Value = "TSDSO-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "BTS70041EPZXUMA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "BTS70041EPZXUMA1"; VariantName = "[No Variations]"
+Added Component: Designator=U10(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Case"; Value = "SOT23-5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instrument"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "TLV9001IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "TLV9001IDBVR"; VariantName = "[No Variations]"
+Added Component: Designator=U11(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Case"; Value = "SOT23-5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instrument"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "TLV9001IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "TLV9001IDBVR"; VariantName = "[No Variations]"
+Added Component: Designator=U12(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Case"; Value = "SOT23-5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instrument"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "TLV9001IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "TLV9001IDBVR"; VariantName = "[No Variations]"
+Added Component: Designator=U13(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Case"; Value = "SOT23-5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instrument"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "TLV9001IDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "TLV9001IDBVR"; VariantName = "[No Variations]"
+Added Component: Designator=U14(SOIC127P600X175-8N)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Fujitsu Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "MB85RC04VPNF-G-JNERE1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "MB85RC04V"; VariantName = "[No Variations]"
+Added Component: Designator=U15(FP-SOT1426-1-IPC_A)
+Add component (AddParameter): Name = "Case"; Value = "HUQFN-32"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "NXP Semiconductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "PCAL6524HEAZ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "PCAL6524HEAZ"; VariantName = "[No Variations]"
+Added Component: Designator=U16(MCHP-MSOP-MS8_N)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "MCP9808-E/MS"; VariantName = "[No Variations]"
+Added Component: Designator=U17(SOP65P600X115-15)
+Add component (AddParameter): Name = "Case"; Value = "TSDSO-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "BTS70082EPZXUMA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "BTS70082EPZXUMA1"; VariantName = "[No Variations]"
+Added Component: Designator=U18(SOP65P600X115-15)
+Add component (AddParameter): Name = "Case"; Value = "TSDSO-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "BTS70802EPAXUMA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "BTS70802EPAXUMA1"; VariantName = "[No Variations]"
+Added Component: Designator=X1(ABM8G_abracon)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Abracom"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "ABM8AIG-8.000MHZ-1Z-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "ABM8AIG-8.000MHZ-1Z-T"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=5V Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=5V Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=5V Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=5V Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=5V Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=3V3 Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=+3V3 Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=+3V3 Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=+3V3 Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=+3V3 Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=+3V3 Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=+3V3 Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=+3V3 Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=+3V3 Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C16-2
+Added Pin To Net: NetName=VDDA Pin=C17-1
+Added Pin To Net: NetName=GND Pin=C17-2
+Added Pin To Net: NetName=VDDA Pin=C18-1
+Added Pin To Net: NetName=GND Pin=C18-2
+Added Pin To Net: NetName=MCU_OSC_IN Pin=C19-1
+Added Pin To Net: NetName=GND Pin=C19-2
+Added Pin To Net: NetName=MCU_OSC_OUT Pin=C20-1
+Added Pin To Net: NetName=GND Pin=C20-2
+Added Pin To Net: NetName=MCU_RST Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C21-2
+Added Pin To Net: NetName=GND Pin=C22-2
+Added Pin To Net: NetName=+3V3 Pin=C23-1
+Added Pin To Net: NetName=GND Pin=C23-2
+Added Pin To Net: NetName=MCU_BATT_REF Pin=C24-1
+Added Pin To Net: NetName=GND Pin=C24-2
+Added Pin To Net: NetName=5V Pin=C25-1
+Added Pin To Net: NetName=GND Pin=C25-2
+Added Pin To Net: NetName=5V Pin=C26-1
+Added Pin To Net: NetName=GND Pin=C26-2
+Added Pin To Net: NetName=3V3 Pin=C27-1
+Added Pin To Net: NetName=GND Pin=C27-2
+Added Pin To Net: NetName=5V Pin=C28-1
+Added Pin To Net: NetName=3V3 Pin=C28-2
+Added Pin To Net: NetName=+12V Pin=C29-1
+Added Pin To Net: NetName=+12V Pin=C30-1
+Added Pin To Net: NetName=NetC30_2 Pin=C30-2
+Added Pin To Net: NetName=+12V Pin=C31-1
+Added Pin To Net: NetName=GND Pin=C31-2
+Added Pin To Net: NetName=+12V Pin=C32-1
+Added Pin To Net: NetName=GND Pin=C32-2
+Added Pin To Net: NetName=OUT_H1 Pin=C34-1
+Added Pin To Net: NetName=GND Pin=C34-2
+Added Pin To Net: NetName=OUT_H3 Pin=C36-1
+Added Pin To Net: NetName=GND Pin=C36-2
+Added Pin To Net: NetName=+12V Pin=C37-1
+Added Pin To Net: NetName=+12V Pin=C38-1
+Added Pin To Net: NetName=GND Pin=C38-2
+Added Pin To Net: NetName=OUT_H2 Pin=C40-1
+Added Pin To Net: NetName=GND Pin=C40-2
+Added Pin To Net: NetName=+12V Pin=C41-1
+Added Pin To Net: NetName=+12V Pin=C42-1
+Added Pin To Net: NetName=GND Pin=C42-2
+Added Pin To Net: NetName=NetC43_2 Pin=C43-2
+Added Pin To Net: NetName=OUT_M1 Pin=C44-1
+Added Pin To Net: NetName=GND Pin=C44-2
+Added Pin To Net: NetName=+12V Pin=C45-1
+Added Pin To Net: NetName=+12V Pin=C46-1
+Added Pin To Net: NetName=GND Pin=C46-2
+Added Pin To Net: NetName=OUT_M2 Pin=C48-1
+Added Pin To Net: NetName=GND Pin=C48-2
+Added Pin To Net: NetName=MCU_SENS1 Pin=C49-1
+Added Pin To Net: NetName=GND Pin=C49-2
+Added Pin To Net: NetName=MCU_SENS4 Pin=C50-1
+Added Pin To Net: NetName=GND Pin=C50-2
+Added Pin To Net: NetName=5V Pin=C51-1
+Added Pin To Net: NetName=GND Pin=C51-2
+Added Pin To Net: NetName=5V Pin=C52-1
+Added Pin To Net: NetName=GND Pin=C52-2
+Added Pin To Net: NetName=MCU_SENS2 Pin=C53-1
+Added Pin To Net: NetName=GND Pin=C53-2
+Added Pin To Net: NetName=MCU_SENS3 Pin=C54-1
+Added Pin To Net: NetName=GND Pin=C54-2
+Added Pin To Net: NetName=5V Pin=C55-1
+Added Pin To Net: NetName=GND Pin=C55-2
+Added Pin To Net: NetName=5V Pin=C56-1
+Added Pin To Net: NetName=GND Pin=C56-2
+Added Pin To Net: NetName=MCU_DIG1 Pin=C57-1
+Added Pin To Net: NetName=GND Pin=C57-2
+Added Pin To Net: NetName=MCU_DIG3 Pin=C58-1
+Added Pin To Net: NetName=GND Pin=C58-2
+Added Pin To Net: NetName=MCU_DIG2 Pin=C59-1
+Added Pin To Net: NetName=GND Pin=C59-2
+Added Pin To Net: NetName=MCU_DIG4 Pin=C60-1
+Added Pin To Net: NetName=GND Pin=C60-2
+Added Pin To Net: NetName=3V3 Pin=C61-1
+Added Pin To Net: NetName=GND Pin=C61-2
+Added Pin To Net: NetName=3V3 Pin=C62-1
+Added Pin To Net: NetName=GND Pin=C62-2
+Added Pin To Net: NetName=5V Pin=C63-1
+Added Pin To Net: NetName=GND Pin=C63-2
+Added Pin To Net: NetName=3V3 Pin=C64-1
+Added Pin To Net: NetName=GND Pin=C64-2
+Added Pin To Net: NetName=+12V Pin=C65-1
+Added Pin To Net: NetName=+12V Pin=C66-1
+Added Pin To Net: NetName=GND Pin=C66-2
+Added Pin To Net: NetName=OUT_L1 Pin=C67-1
+Added Pin To Net: NetName=GND Pin=C67-2
+Added Pin To Net: NetName=OUT_L2 Pin=C68-1
+Added Pin To Net: NetName=GND Pin=C68-2
+Added Pin To Net: NetName=+12V Pin=C70-1
+Added Pin To Net: NetName=NetC70_2 Pin=C70-2
+Added Pin To Net: NetName=+12V Pin=C71-1
+Added Pin To Net: NetName=GND Pin=C71-2
+Added Pin To Net: NetName=OUT_L3 Pin=C72-1
+Added Pin To Net: NetName=GND Pin=C72-2
+Added Pin To Net: NetName=OUT_L4 Pin=C73-1
+Added Pin To Net: NetName=GND Pin=C73-2
+Added Pin To Net: NetName=NetC74_2 Pin=C74-2
+Added Pin To Net: NetName=+12V Pin=D1-A
+Added Pin To Net: NetName=NetC1_1 Pin=D1-C
+Added Pin To Net: NetName=GND Pin=D2-1
+Added Pin To Net: NetName=+12V Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D3-A
+Added Pin To Net: NetName=MCU_BATT_REF Pin=D3-C
+Added Pin To Net: NetName=CAN_N Pin=D4-1
+Added Pin To Net: NetName=CAN_P Pin=D4-2
+Added Pin To Net: NetName=GND Pin=D4-3
+Added Pin To Net: NetName=NetD5_C Pin=D5-C
+Added Pin To Net: NetName=NetD6_C Pin=D6-C
+Added Pin To Net: NetName=NetD7_C Pin=D7-C
+Added Pin To Net: NetName=NetC43_2 Pin=D8-A
+Added Pin To Net: NetName=NetD8_C Pin=D8-C
+Added Pin To Net: NetName=S1_IN Pin=D10-1
+Added Pin To Net: NetName=GND Pin=D10-2
+Added Pin To Net: NetName=S2_IN Pin=D10-3
+Added Pin To Net: NetName=S4_IN Pin=D10-4
+Added Pin To Net: NetName=S3_IN Pin=D10-5
+Added Pin To Net: NetName=D1_IN Pin=D11-1
+Added Pin To Net: NetName=GND Pin=D11-2
+Added Pin To Net: NetName=D2_IN Pin=D11-3
+Added Pin To Net: NetName=D4_IN Pin=D11-4
+Added Pin To Net: NetName=D3_IN Pin=D11-5
+Added Pin To Net: NetName=NetD12_C Pin=D12-C
+Added Pin To Net: NetName=NetC74_2 Pin=D13-A
+Added Pin To Net: NetName=NetD13_C Pin=D13-C
+Added Pin To Net: NetName=GND Pin=D14-3
+Added Pin To Net: NetName=5V Pin=D15-C
+Added Pin To Net: NetName=5V Pin=D16-C
+Added Pin To Net: NetName=NetDL1_A Pin=DL1-A
+Added Pin To Net: NetName=GND Pin=DL1-C
+Added Pin To Net: NetName=NetDL2_A Pin=DL2-A
+Added Pin To Net: NetName=GND Pin=DL2-C
+Added Pin To Net: NetName=NetDL3_A Pin=DL3-A
+Added Pin To Net: NetName=GND Pin=DL3-C
+Added Pin To Net: NetName=NetDL4_A Pin=DL4-A
+Added Pin To Net: NetName=NetDL4_C Pin=DL4-C
+Added Pin To Net: NetName=NetDL5_A1 Pin=DL5-A1
+Added Pin To Net: NetName=NetDL5_A2 Pin=DL5-A2
+Added Pin To Net: NetName=GND Pin=DL5-C1
+Added Pin To Net: NetName=GND Pin=DL5-C2
+Added Pin To Net: NetName=NetDL6_A1 Pin=DL6-A1
+Added Pin To Net: NetName=NetDL6_A2 Pin=DL6-A2
+Added Pin To Net: NetName=GND Pin=DL6-C1
+Added Pin To Net: NetName=GND Pin=DL6-C2
+Added Pin To Net: NetName=NetDL7_A1 Pin=DL7-A1
+Added Pin To Net: NetName=NetDL7_A2 Pin=DL7-A2
+Added Pin To Net: NetName=GND Pin=DL7-C1
+Added Pin To Net: NetName=GND Pin=DL7-C2
+Added Pin To Net: NetName=NetDL8_A1 Pin=DL8-A1
+Added Pin To Net: NetName=NetDL8_A2 Pin=DL8-A2
+Added Pin To Net: NetName=GND Pin=DL8-C1
+Added Pin To Net: NetName=GND Pin=DL8-C2
+Added Pin To Net: NetName=NetDL9_A1 Pin=DL9-A1
+Added Pin To Net: NetName=NetDL9_A2 Pin=DL9-A2
+Added Pin To Net: NetName=GND Pin=DL9-C1
+Added Pin To Net: NetName=GND Pin=DL9-C2
+Added Pin To Net: NetName=NetDL10_A1 Pin=DL10-A1
+Added Pin To Net: NetName=NetDL10_A2 Pin=DL10-A2
+Added Pin To Net: NetName=GND Pin=DL10-C1
+Added Pin To Net: NetName=GND Pin=DL10-C2
+Added Pin To Net: NetName=NetDL11_A1 Pin=DL11-A1
+Added Pin To Net: NetName=NetDL11_A2 Pin=DL11-A2
+Added Pin To Net: NetName=GND Pin=DL11-C1
+Added Pin To Net: NetName=GND Pin=DL11-C2
+Added Pin To Net: NetName=NetDL12_A1 Pin=DL12-A1
+Added Pin To Net: NetName=NetDL12_A2 Pin=DL12-A2
+Added Pin To Net: NetName=GND Pin=DL12-C1
+Added Pin To Net: NetName=GND Pin=DL12-C2
+Added Pin To Net: NetName=NetDL13_A1 Pin=DL13-A1
+Added Pin To Net: NetName=NetDL13_A2 Pin=DL13-A2
+Added Pin To Net: NetName=GND Pin=DL13-C1
+Added Pin To Net: NetName=GND Pin=DL13-C2
+Added Pin To Net: NetName=GND Pin=DL14-C1
+Added Pin To Net: NetName=GND Pin=DL14-C2
+Added Pin To Net: NetName=GND Pin=DL15-C
+Added Pin To Net: NetName=GND Pin=DL16-C
+Added Pin To Net: NetName=GND Pin=DL17-C
+Added Pin To Net: NetName=GND Pin=DL18-C
+Added Pin To Net: NetName=+3V3 Pin=J1-1
+Added Pin To Net: NetName=MCU_SWDIO Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Pin To Net: NetName=MCU_SWCLK Pin=J1-4
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=MCU_SWO Pin=J1-6
+Added Pin To Net: NetName=MCU_RST Pin=J1-10
+Added Pin To Net: NetName=OUT_H1 Pin=J2-1
+Added Pin To Net: NetName=OUT_H2 Pin=J2-2
+Added Pin To Net: NetName=OUT_H3 Pin=J2-3
+Added Pin To Net: NetName=OUT_M1 Pin=J2-4
+Added Pin To Net: NetName=OUT_M2 Pin=J2-5
+Added Pin To Net: NetName=CAN_P Pin=J2-17
+Added Pin To Net: NetName=CAN_N Pin=J2-18
+Added Pin To Net: NetName=OUT_L1 Pin=J2-25
+Added Pin To Net: NetName=OUT_L2 Pin=J2-26
+Added Pin To Net: NetName=OUT_L3 Pin=J2-27
+Added Pin To Net: NetName=OUT_L4 Pin=J2-28
+Added Pin To Net: NetName=GND Pin=J3-1
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J3-3
+Added Pin To Net: NetName=GND Pin=J3-4
+Added Pin To Net: NetName=GND Pin=J3-A1-B12
+Added Pin To Net: NetName=GND Pin=J3-B1-A12
+Added Pin To Net: NetName=+3V3 Pin=L2-1
+Added Pin To Net: NetName=VDDA Pin=L2-2
+Added Pin To Net: NetName=CAN0_IC_P Pin=L3-1
+Added Pin To Net: NetName=CAN_P Pin=L3-2
+Added Pin To Net: NetName=CAN0_IC_N Pin=L4-1
+Added Pin To Net: NetName=CAN_N Pin=L4-2
+Added Pin To Net: NetName=+12V Pin=MP1-1
+Added Pin To Net: NetName=+12V Pin=MP1-1
+Added Pin To Net: NetName=+12V Pin=MP1-1
+Added Pin To Net: NetName=+12V Pin=MP1-1
+Added Pin To Net: NetName=+12V Pin=MP1-1
+Added Pin To Net: NetName=+12V Pin=MP1-1
+Added Pin To Net: NetName=+12V Pin=MP1-1
+Added Pin To Net: NetName=+12V Pin=MP1-1
+Added Pin To Net: NetName=+12V Pin=MP1-1
+Added Pin To Net: NetName=+12V Pin=MP2-1
+Added Pin To Net: NetName=+12V Pin=MP2-1
+Added Pin To Net: NetName=+12V Pin=MP2-1
+Added Pin To Net: NetName=+12V Pin=MP2-1
+Added Pin To Net: NetName=+12V Pin=MP2-1
+Added Pin To Net: NetName=+12V Pin=MP2-1
+Added Pin To Net: NetName=+12V Pin=MP2-1
+Added Pin To Net: NetName=+12V Pin=MP2-1
+Added Pin To Net: NetName=+12V Pin=MP2-1
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetDL1_A Pin=R2-1
+Added Pin To Net: NetName=5V Pin=R2-2
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=IGNITION Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=NetR1_1 Pin=R4-2
+Added Pin To Net: NetName=NetDL2_A Pin=R5-1
+Added Pin To Net: NetName=3V3 Pin=R5-2
+Added Pin To Net: NetName=NetDL3_A Pin=R6-1
+Added Pin To Net: NetName=LD_STATUS Pin=R6-2
+Added Pin To Net: NetName=MCU_BOOT0 Pin=R7-2
+Added Pin To Net: NetName=MCU_BATT_REF Pin=R8-1
+Added Pin To Net: NetName=+12V Pin=R8-2
+Added Pin To Net: NetName=GND Pin=R9-1
+Added Pin To Net: NetName=MCU_BATT_REF Pin=R9-2
+Added Pin To Net: NetName=CAN0_IC_N Pin=R10-1
+Added Pin To Net: NetName=CAN0_IC_P Pin=R10-2
+Added Pin To Net: NetName=MCU_CAN_TX Pin=R11-1
+Added Pin To Net: NetName=3V3 Pin=R11-2
+Added Pin To Net: NetName=GND Pin=R12-1
+Added Pin To Net: NetName=GND Pin=R13-2
+Added Pin To Net: NetName=NetC30_2 Pin=R14-1
+Added Pin To Net: NetName=GND Pin=R14-2
+Added Pin To Net: NetName=NetR15_1 Pin=R15-1
+Added Pin To Net: NetName=+12V Pin=R15-2
+Added Pin To Net: NetName=+12V Pin=R16-2
+Added Pin To Net: NetName=NetR17_2 Pin=R17-2
+Added Pin To Net: NetName=NetD5_C Pin=R19-2
+Added Pin To Net: NetName=NetD5_C Pin=R20-1
+Added Pin To Net: NetName=NetD6_C Pin=R21-2
+Added Pin To Net: NetName=NetD6_C Pin=R22-1
+Added Pin To Net: NetName=GND Pin=R25-2
+Added Pin To Net: NetName=+12V Pin=R26-2
+Added Pin To Net: NetName=NetD7_C Pin=R28-2
+Added Pin To Net: NetName=NetD7_C Pin=R29-1
+Added Pin To Net: NetName=GND Pin=R31-2
+Added Pin To Net: NetName=NetR32_1 Pin=R32-1
+Added Pin To Net: NetName=+12V Pin=R32-2
+Added Pin To Net: NetName=NetD8_C Pin=R34-2
+Added Pin To Net: NetName=NetD8_C Pin=R35-1
+Added Pin To Net: NetName=NetR35_2 Pin=R35-2
+Added Pin To Net: NetName=NetC43_2 Pin=R36-1
+Added Pin To Net: NetName=NetR35_2 Pin=R36-2
+Added Pin To Net: NetName=GND Pin=R37-2
+Added Pin To Net: NetName=+12V Pin=R38-2
+Added Pin To Net: NetName=NetR39_2 Pin=R39-2
+Added Pin To Net: NetName=NetR43_1 Pin=R43-1
+Added Pin To Net: NetName=NetR44_1 Pin=R44-1
+Added Pin To Net: NetName=MCU_SENS1 Pin=R45-1
+Added Pin To Net: NetName=3V3 Pin=R45-2
+Added Pin To Net: NetName=MCU_SENS4 Pin=R46-1
+Added Pin To Net: NetName=3V3 Pin=R46-2
+Added Pin To Net: NetName=GND Pin=R47-2
+Added Pin To Net: NetName=GND Pin=R48-2
+Added Pin To Net: NetName=NetR43_1 Pin=R49-1
+Added Pin To Net: NetName=MCU_SENS1 Pin=R49-2
+Added Pin To Net: NetName=NetR44_1 Pin=R50-1
+Added Pin To Net: NetName=MCU_SENS4 Pin=R50-2
+Added Pin To Net: NetName=S1_IN Pin=R51-1
+Added Pin To Net: NetName=S4_IN Pin=R52-1
+Added Pin To Net: NetName=GND Pin=R53-1
+Added Pin To Net: NetName=GND Pin=R54-1
+Added Pin To Net: NetName=NetR56_2 Pin=R56-2
+Added Pin To Net: NetName=MCU_SENS2 Pin=R57-1
+Added Pin To Net: NetName=3V3 Pin=R57-2
+Added Pin To Net: NetName=MCU_SENS3 Pin=R58-1
+Added Pin To Net: NetName=3V3 Pin=R58-2
+Added Pin To Net: NetName=GND Pin=R59-2
+Added Pin To Net: NetName=NetR56_2 Pin=R60-1
+Added Pin To Net: NetName=GND Pin=R60-2
+Added Pin To Net: NetName=MCU_SENS2 Pin=R61-2
+Added Pin To Net: NetName=MCU_SENS3 Pin=R62-2
+Added Pin To Net: NetName=S2_IN Pin=R63-1
+Added Pin To Net: NetName=S3_IN Pin=R64-1
+Added Pin To Net: NetName=GND Pin=R65-1
+Added Pin To Net: NetName=GND Pin=R66-1
+Added Pin To Net: NetName=D1_IN Pin=R67-1
+Added Pin To Net: NetName=MCU_DIG1 Pin=R67-2
+Added Pin To Net: NetName=D3_IN Pin=R68-1
+Added Pin To Net: NetName=MCU_DIG3 Pin=R68-2
+Added Pin To Net: NetName=D2_IN Pin=R69-1
+Added Pin To Net: NetName=MCU_DIG2 Pin=R69-2
+Added Pin To Net: NetName=D4_IN Pin=R70-1
+Added Pin To Net: NetName=MCU_DIG4 Pin=R70-2
+Added Pin To Net: NetName=I2C_SDA Pin=R71-1
+Added Pin To Net: NetName=3V3 Pin=R71-2
+Added Pin To Net: NetName=I2C_SCL Pin=R72-1
+Added Pin To Net: NetName=3V3 Pin=R72-2
+Added Pin To Net: NetName=3V3 Pin=R73-2
+Added Pin To Net: NetName=3V3 Pin=R74-2
+Added Pin To Net: NetName=GND Pin=R75-2
+Added Pin To Net: NetName=NetDL4_A Pin=R76-1
+Added Pin To Net: NetName=3V3 Pin=R76-2
+Added Pin To Net: NetName=NetDL5_A2 Pin=R77-1
+Added Pin To Net: NetName=NetDL5_A1 Pin=R78-1
+Added Pin To Net: NetName=GND Pin=R79-2
+Added Pin To Net: NetName=+12V Pin=R80-2
+Added Pin To Net: NetName=NetR83_2 Pin=R83-2
+Added Pin To Net: NetName=NetD12_C Pin=R84-2
+Added Pin To Net: NetName=NetD12_C Pin=R85-1
+Added Pin To Net: NetName=NetR85_2 Pin=R85-2
+Added Pin To Net: NetName=NetR85_2 Pin=R86-2
+Added Pin To Net: NetName=NetC70_2 Pin=R87-1
+Added Pin To Net: NetName=GND Pin=R87-2
+Added Pin To Net: NetName=+12V Pin=R88-2
+Added Pin To Net: NetName=NetR91_2 Pin=R91-2
+Added Pin To Net: NetName=NetD13_C Pin=R92-2
+Added Pin To Net: NetName=NetD13_C Pin=R93-1
+Added Pin To Net: NetName=NetR93_2 Pin=R93-2
+Added Pin To Net: NetName=NetC74_2 Pin=R94-1
+Added Pin To Net: NetName=NetR93_2 Pin=R94-2
+Added Pin To Net: NetName=NetDL6_A2 Pin=R95-1
+Added Pin To Net: NetName=STATUS_OUT_H1_OK Pin=R95-2
+Added Pin To Net: NetName=NetDL6_A1 Pin=R96-1
+Added Pin To Net: NetName=STATUS_OUT_H1_ERR Pin=R96-2
+Added Pin To Net: NetName=NetDL7_A2 Pin=R97-1
+Added Pin To Net: NetName=STATUS_OUT_H2_OK Pin=R97-2
+Added Pin To Net: NetName=NetDL7_A1 Pin=R98-1
+Added Pin To Net: NetName=STATUS_OUT_H2_ERR Pin=R98-2
+Added Pin To Net: NetName=NetDL8_A2 Pin=R99-1
+Added Pin To Net: NetName=STATUS_OUT_H3_OK Pin=R99-2
+Added Pin To Net: NetName=NetDL8_A1 Pin=R100-1
+Added Pin To Net: NetName=STATUS_OUT_H3_ERR Pin=R100-2
+Added Pin To Net: NetName=NetDL9_A2 Pin=R101-1
+Added Pin To Net: NetName=STATUS_OUT_M1_OK Pin=R101-2
+Added Pin To Net: NetName=NetDL9_A1 Pin=R102-1
+Added Pin To Net: NetName=STATUS_OUT_M1_ERR Pin=R102-2
+Added Pin To Net: NetName=NetDL10_A2 Pin=R103-1
+Added Pin To Net: NetName=STATUS_OUT_M2_OK Pin=R103-2
+Added Pin To Net: NetName=NetDL10_A1 Pin=R104-1
+Added Pin To Net: NetName=STATUS_OUT_M2_ERR Pin=R104-2
+Added Pin To Net: NetName=NetDL11_A2 Pin=R105-1
+Added Pin To Net: NetName=STATUS_OUT_L1_OK Pin=R105-2
+Added Pin To Net: NetName=NetDL11_A1 Pin=R106-1
+Added Pin To Net: NetName=STATUS_OUT_L1_ERR Pin=R106-2
+Added Pin To Net: NetName=NetDL12_A2 Pin=R107-1
+Added Pin To Net: NetName=STATUS_OUT_L2_OK Pin=R107-2
+Added Pin To Net: NetName=NetDL12_A1 Pin=R108-1
+Added Pin To Net: NetName=STATUS_OUT_L2_ERR Pin=R108-2
+Added Pin To Net: NetName=NetDL13_A2 Pin=R109-1
+Added Pin To Net: NetName=STATUS_OUT_L3_OK Pin=R109-2
+Added Pin To Net: NetName=NetDL13_A1 Pin=R110-1
+Added Pin To Net: NetName=STATUS_OUT_L3_ERR Pin=R110-2
+Added Pin To Net: NetName=STATUS_OUT_L4_OK Pin=R111-2
+Added Pin To Net: NetName=STATUS_OUT_L4_ERR Pin=R112-2
+Added Pin To Net: NetName=GND Pin=R120-1
+Added Pin To Net: NetName=GND Pin=R121-1
+Added Pin To Net: NetName=GND Pin=R123-1
+Added Pin To Net: NetName=+3V3 Pin=SW1-1
+Added Pin To Net: NetName=GND Pin=SW1-3
+Added Pin To Net: NetName=MCU_BOOT0 Pin=TP1-1
+Added Pin To Net: NetName=MCU_SWDIO Pin=TP2-1
+Added Pin To Net: NetName=MCU_SWCLK Pin=TP3-1
+Added Pin To Net: NetName=MCU_SWO Pin=TP4-1
+Added Pin To Net: NetName=MCU_RST Pin=TP5-1
+Added Pin To Net: NetName=CAN_P Pin=TP6-1
+Added Pin To Net: NetName=CAN_N Pin=TP7-1
+Added Pin To Net: NetName=NetR15_1 Pin=TP8-1
+Added Pin To Net: NetName=NetR32_1 Pin=TP11-1
+Added Pin To Net: NetName=I2C_SDA Pin=TP13-1
+Added Pin To Net: NetName=I2C_SCL Pin=TP14-1
+Added Pin To Net: NetName=NetDL4_C Pin=TP17-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=NetR1_1 Pin=U1-3
+Added Pin To Net: NetName=IGNITION Pin=U1-4
+Added Pin To Net: NetName=NetC1_1 Pin=U1-5
+Added Pin To Net: NetName=5V Pin=U2-1
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=5V Pin=U2-3
+Added Pin To Net: NetName=3V3 Pin=U2-5
+Added Pin To Net: NetName=+3V3 Pin=U3-1
+Added Pin To Net: NetName=MCU_OSC_IN Pin=U3-5
+Added Pin To Net: NetName=MCU_OSC_OUT Pin=U3-6
+Added Pin To Net: NetName=MCU_RST Pin=U3-7
+Added Pin To Net: NetName=MCU_SENS1 Pin=U3-8
+Added Pin To Net: NetName=MCU_SENS2 Pin=U3-9
+Added Pin To Net: NetName=MCU_SENS3 Pin=U3-10
+Added Pin To Net: NetName=MCU_SENS4 Pin=U3-11
+Added Pin To Net: NetName=GND Pin=U3-12
+Added Pin To Net: NetName=VDDA Pin=U3-13
+Added Pin To Net: NetName=MCU_BATT_REF Pin=U3-17
+Added Pin To Net: NetName=GND Pin=U3-18
+Added Pin To Net: NetName=+3V3 Pin=U3-19
+Added Pin To Net: NetName=GND Pin=U3-31
+Added Pin To Net: NetName=+3V3 Pin=U3-32
+Added Pin To Net: NetName=MCU_SWDIO Pin=U3-46
+Added Pin To Net: NetName=GND Pin=U3-47
+Added Pin To Net: NetName=+3V3 Pin=U3-48
+Added Pin To Net: NetName=MCU_SWCLK Pin=U3-49
+Added Pin To Net: NetName=LD_STATUS Pin=U3-54
+Added Pin To Net: NetName=MCU_SWO Pin=U3-55
+Added Pin To Net: NetName=I2C_SCL Pin=U3-58
+Added Pin To Net: NetName=I2C_SDA Pin=U3-59
+Added Pin To Net: NetName=MCU_BOOT0 Pin=U3-60
+Added Pin To Net: NetName=MCU_CAN_RX Pin=U3-61
+Added Pin To Net: NetName=MCU_CAN_TX Pin=U3-62
+Added Pin To Net: NetName=GND Pin=U3-63
+Added Pin To Net: NetName=+3V3 Pin=U3-64
+Added Pin To Net: NetName=MCU_CAN_TX Pin=U4-1
+Added Pin To Net: NetName=GND Pin=U4-2
+Added Pin To Net: NetName=5V Pin=U4-3
+Added Pin To Net: NetName=MCU_CAN_RX Pin=U4-4
+Added Pin To Net: NetName=3V3 Pin=U4-5
+Added Pin To Net: NetName=CAN0_IC_N Pin=U4-6
+Added Pin To Net: NetName=CAN0_IC_P Pin=U4-7
+Added Pin To Net: NetName=GND Pin=U4-9
+Added Pin To Net: NetName=NetR17_2 Pin=U5-2
+Added Pin To Net: NetName=NetR15_1 Pin=U5-3
+Added Pin To Net: NetName=OUT_H1 Pin=U5-8
+Added Pin To Net: NetName=OUT_H1 Pin=U5-9
+Added Pin To Net: NetName=OUT_H1 Pin=U5-10
+Added Pin To Net: NetName=OUT_H1 Pin=U5-11
+Added Pin To Net: NetName=OUT_H1 Pin=U5-12
+Added Pin To Net: NetName=OUT_H1 Pin=U5-13
+Added Pin To Net: NetName=OUT_H1 Pin=U5-14
+Added Pin To Net: NetName=+12V Pin=U5-15
+Added Pin To Net: NetName=NetC30_2 Pin=U6-1
+Added Pin To Net: NetName=OUT_H3 Pin=U6-8
+Added Pin To Net: NetName=OUT_H3 Pin=U6-9
+Added Pin To Net: NetName=OUT_H3 Pin=U6-10
+Added Pin To Net: NetName=OUT_H3 Pin=U6-11
+Added Pin To Net: NetName=OUT_H3 Pin=U6-12
+Added Pin To Net: NetName=OUT_H3 Pin=U6-13
+Added Pin To Net: NetName=OUT_H3 Pin=U6-14
+Added Pin To Net: NetName=+12V Pin=U6-15
+Added Pin To Net: NetName=OUT_H2 Pin=U7-8
+Added Pin To Net: NetName=OUT_H2 Pin=U7-9
+Added Pin To Net: NetName=OUT_H2 Pin=U7-10
+Added Pin To Net: NetName=OUT_H2 Pin=U7-11
+Added Pin To Net: NetName=OUT_H2 Pin=U7-12
+Added Pin To Net: NetName=OUT_H2 Pin=U7-13
+Added Pin To Net: NetName=OUT_H2 Pin=U7-14
+Added Pin To Net: NetName=+12V Pin=U7-15
+Added Pin To Net: NetName=NetR32_1 Pin=U8-3
+Added Pin To Net: NetName=NetR35_2 Pin=U8-4
+Added Pin To Net: NetName=OUT_M1 Pin=U8-8
+Added Pin To Net: NetName=OUT_M1 Pin=U8-9
+Added Pin To Net: NetName=OUT_M1 Pin=U8-10
+Added Pin To Net: NetName=OUT_M1 Pin=U8-11
+Added Pin To Net: NetName=OUT_M1 Pin=U8-12
+Added Pin To Net: NetName=OUT_M1 Pin=U8-13
+Added Pin To Net: NetName=OUT_M1 Pin=U8-14
+Added Pin To Net: NetName=+12V Pin=U8-15
+Added Pin To Net: NetName=NetR39_2 Pin=U9-2
+Added Pin To Net: NetName=OUT_M2 Pin=U9-8
+Added Pin To Net: NetName=OUT_M2 Pin=U9-9
+Added Pin To Net: NetName=OUT_M2 Pin=U9-10
+Added Pin To Net: NetName=OUT_M2 Pin=U9-11
+Added Pin To Net: NetName=OUT_M2 Pin=U9-12
+Added Pin To Net: NetName=OUT_M2 Pin=U9-13
+Added Pin To Net: NetName=OUT_M2 Pin=U9-14
+Added Pin To Net: NetName=+12V Pin=U9-15
+Added Pin To Net: NetName=NetR43_1 Pin=U10-1
+Added Pin To Net: NetName=GND Pin=U10-2
+Added Pin To Net: NetName=5V Pin=U10-5
+Added Pin To Net: NetName=NetR44_1 Pin=U11-1
+Added Pin To Net: NetName=GND Pin=U11-2
+Added Pin To Net: NetName=5V Pin=U11-5
+Added Pin To Net: NetName=GND Pin=U12-2
+Added Pin To Net: NetName=5V Pin=U12-5
+Added Pin To Net: NetName=GND Pin=U13-2
+Added Pin To Net: NetName=NetR56_2 Pin=U13-4
+Added Pin To Net: NetName=5V Pin=U13-5
+Added Pin To Net: NetName=GND Pin=U14-2
+Added Pin To Net: NetName=GND Pin=U14-3
+Added Pin To Net: NetName=GND Pin=U14-4
+Added Pin To Net: NetName=I2C_SDA Pin=U14-5
+Added Pin To Net: NetName=I2C_SCL Pin=U14-6
+Added Pin To Net: NetName=GND Pin=U14-7
+Added Pin To Net: NetName=3V3 Pin=U14-8
+Added Pin To Net: NetName=STATUS_OUT_H1_ERR Pin=U15-1
+Added Pin To Net: NetName=STATUS_OUT_H1_OK Pin=U15-2
+Added Pin To Net: NetName=STATUS_OUT_H2_ERR Pin=U15-3
+Added Pin To Net: NetName=STATUS_OUT_H2_OK Pin=U15-4
+Added Pin To Net: NetName=STATUS_OUT_H3_ERR Pin=U15-5
+Added Pin To Net: NetName=STATUS_OUT_H3_OK Pin=U15-6
+Added Pin To Net: NetName=STATUS_OUT_M1_ERR Pin=U15-7
+Added Pin To Net: NetName=STATUS_OUT_M1_OK Pin=U15-8
+Added Pin To Net: NetName=STATUS_OUT_M2_ERR Pin=U15-9
+Added Pin To Net: NetName=STATUS_OUT_M2_OK Pin=U15-10
+Added Pin To Net: NetName=STATUS_OUT_L1_ERR Pin=U15-11
+Added Pin To Net: NetName=STATUS_OUT_L1_OK Pin=U15-12
+Added Pin To Net: NetName=STATUS_OUT_L2_ERR Pin=U15-13
+Added Pin To Net: NetName=STATUS_OUT_L2_OK Pin=U15-14
+Added Pin To Net: NetName=STATUS_OUT_L3_ERR Pin=U15-15
+Added Pin To Net: NetName=STATUS_OUT_L3_OK Pin=U15-16
+Added Pin To Net: NetName=STATUS_OUT_L4_ERR Pin=U15-17
+Added Pin To Net: NetName=STATUS_OUT_L4_OK Pin=U15-18
+Added Pin To Net: NetName=GND Pin=U15-25
+Added Pin To Net: NetName=5V Pin=U15-27
+Added Pin To Net: NetName=I2C_SCL Pin=U15-29
+Added Pin To Net: NetName=I2C_SDA Pin=U15-30
+Added Pin To Net: NetName=3V3 Pin=U15-31
+Added Pin To Net: NetName=GND Pin=U15-33
+Added Pin To Net: NetName=I2C_SDA Pin=U16-1
+Added Pin To Net: NetName=I2C_SCL Pin=U16-2
+Added Pin To Net: NetName=NetDL4_C Pin=U16-3
+Added Pin To Net: NetName=GND Pin=U16-4
+Added Pin To Net: NetName=GND Pin=U16-5
+Added Pin To Net: NetName=GND Pin=U16-6
+Added Pin To Net: NetName=GND Pin=U16-7
+Added Pin To Net: NetName=3V3 Pin=U16-8
+Added Pin To Net: NetName=NetR85_2 Pin=U17-4
+Added Pin To Net: NetName=NetR83_2 Pin=U17-6
+Added Pin To Net: NetName=OUT_L2 Pin=U17-8
+Added Pin To Net: NetName=OUT_L2 Pin=U17-9
+Added Pin To Net: NetName=OUT_L2 Pin=U17-10
+Added Pin To Net: NetName=OUT_L1 Pin=U17-12
+Added Pin To Net: NetName=OUT_L1 Pin=U17-13
+Added Pin To Net: NetName=OUT_L1 Pin=U17-14
+Added Pin To Net: NetName=+12V Pin=U17-15
+Added Pin To Net: NetName=NetC70_2 Pin=U18-1
+Added Pin To Net: NetName=NetR93_2 Pin=U18-4
+Added Pin To Net: NetName=NetR91_2 Pin=U18-6
+Added Pin To Net: NetName=OUT_L4 Pin=U18-8
+Added Pin To Net: NetName=OUT_L4 Pin=U18-9
+Added Pin To Net: NetName=OUT_L4 Pin=U18-10
+Added Pin To Net: NetName=OUT_L3 Pin=U18-12
+Added Pin To Net: NetName=OUT_L3 Pin=U18-13
+Added Pin To Net: NetName=OUT_L3 Pin=U18-14
+Added Pin To Net: NetName=+12V Pin=U18-15
+Added Pin To Net: NetName=MCU_OSC_IN Pin=X1-1
+Added Pin To Net: NetName=GND Pin=X1-2
+Added Pin To Net: NetName=MCU_OSC_OUT Pin=X1-3
+Added Pin To Net: NetName=GND Pin=X1-4
+Added Pin To Net: NetName=MCU_DSEL_L1_2 Pin=R81-1
+Added Pin To Net: NetName=MCU_DSEL_L1_2 Pin=U3-36
+Added Net: Name=MCU_DSEL_L1_2
+Added Pin To Net: NetName=MCU_DSEL_L3_4 Pin=R89-1
+Added Pin To Net: NetName=MCU_DSEL_L3_4 Pin=U3-41
+Added Net: Name=MCU_DSEL_L3_4
+Added Pin To Net: NetName=MCU_IN_H1 Pin=R17-1
+Added Pin To Net: NetName=MCU_IN_H1 Pin=U3-26
+Added Net: Name=MCU_IN_H1
+Added Pin To Net: NetName=MCU_IN_H2 Pin=R27-1
+Added Pin To Net: NetName=MCU_IN_H2 Pin=U3-27
+Added Net: Name=MCU_IN_H2
+Added Pin To Net: NetName=MCU_IN_H3 Pin=R18-1
+Added Pin To Net: NetName=MCU_IN_H3 Pin=U3-28
+Added Net: Name=MCU_IN_H3
+Added Pin To Net: NetName=MCU_IN_L1 Pin=R82-1
+Added Pin To Net: NetName=MCU_IN_L1 Pin=U3-37
+Added Net: Name=MCU_IN_L1
+Added Pin To Net: NetName=MCU_IN_L2 Pin=R83-1
+Added Pin To Net: NetName=MCU_IN_L2 Pin=U3-38
+Added Net: Name=MCU_IN_L2
+Added Pin To Net: NetName=MCU_IN_L3 Pin=R90-1
+Added Pin To Net: NetName=MCU_IN_L3 Pin=U3-39
+Added Net: Name=MCU_IN_L3
+Added Pin To Net: NetName=MCU_IN_L4 Pin=R91-1
+Added Pin To Net: NetName=MCU_IN_L4 Pin=U3-40
+Added Net: Name=MCU_IN_L4
+Added Pin To Net: NetName=MCU_IN_M1 Pin=R33-1
+Added Pin To Net: NetName=MCU_IN_M1 Pin=U3-29
+Added Net: Name=MCU_IN_M1
+Added Pin To Net: NetName=MCU_IN_M2 Pin=R39-1
+Added Pin To Net: NetName=MCU_IN_M2 Pin=U3-35
+Added Net: Name=MCU_IN_M2
+Added Pin To Net: NetName=MCU_IS_H1 Pin=C33-1
+Added Pin To Net: NetName=MCU_IS_H1 Pin=R19-1
+Added Pin To Net: NetName=MCU_IS_H1 Pin=U3-14
+Added Net: Name=MCU_IS_H1
+Added Pin To Net: NetName=MCU_IS_H2 Pin=C39-1
+Added Pin To Net: NetName=MCU_IS_H2 Pin=R28-1
+Added Pin To Net: NetName=MCU_IS_H2 Pin=U3-15
+Added Net: Name=MCU_IS_H2
+Added Pin To Net: NetName=MCU_IS_H3 Pin=C35-1
+Added Pin To Net: NetName=MCU_IS_H3 Pin=R21-1
+Added Pin To Net: NetName=MCU_IS_H3 Pin=U3-16
+Added Net: Name=MCU_IS_H3
+Added Pin To Net: NetName=MCU_IS_L1_2 Pin=C69-1
+Added Pin To Net: NetName=MCU_IS_L1_2 Pin=R84-1
+Added Pin To Net: NetName=MCU_IS_L1_2 Pin=U3-22
+Added Net: Name=MCU_IS_L1_2
+Added Pin To Net: NetName=MCU_IS_L3_4 Pin=C74-1
+Added Pin To Net: NetName=MCU_IS_L3_4 Pin=R92-1
+Added Pin To Net: NetName=MCU_IS_L3_4 Pin=U3-23
+Added Net: Name=MCU_IS_L3_4
+Added Pin To Net: NetName=MCU_IS_M1 Pin=C43-1
+Added Pin To Net: NetName=MCU_IS_M1 Pin=R34-1
+Added Pin To Net: NetName=MCU_IS_M1 Pin=U3-20
+Added Net: Name=MCU_IS_M1
+Added Pin To Net: NetName=MCU_IS_M2 Pin=C47-1
+Added Pin To Net: NetName=MCU_IS_M2 Pin=R40-1
+Added Pin To Net: NetName=MCU_IS_M2 Pin=U3-21
+Added Net: Name=MCU_IS_M2
+Added Pin To Net: NetName=MCU_USB_VBUS Pin=R119-2
+Added Pin To Net: NetName=MCU_USB_VBUS Pin=R122-1
+Added Pin To Net: NetName=MCU_USB_VBUS Pin=R123-2
+Added Pin To Net: NetName=MCU_USB_VBUS Pin=U3-42
+Added Net: Name=MCU_USB_VBUS
+Added Pin To Net: NetName=MCU_USBD_N Pin=D14-1
+Added Pin To Net: NetName=MCU_USBD_N Pin=R118-1
+Added Pin To Net: NetName=MCU_USBD_N Pin=U3-44
+Added Net: Name=MCU_USBD_N
+Added Pin To Net: NetName=MCU_USBD_P Pin=D14-2
+Added Pin To Net: NetName=MCU_USBD_P Pin=R117-1
+Added Pin To Net: NetName=MCU_USBD_P Pin=R119-1
+Added Pin To Net: NetName=MCU_USBD_P Pin=U3-45
+Added Net: Name=MCU_USBD_P
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=U1-1
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=L1-1
+Added Pin To Net: NetName=NetC2_2 Pin=U1-6
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetC22_1 Pin=C22-1
+Added Pin To Net: NetName=NetC22_1 Pin=U3-30
+Added Net: Name=NetC22_1
+Added Pin To Net: NetName=NetC29_2 Pin=C29-2
+Added Pin To Net: NetName=NetC29_2 Pin=R13-1
+Added Pin To Net: NetName=NetC29_2 Pin=U5-1
+Added Net: Name=NetC29_2
+Added Pin To Net: NetName=NetC33_2 Pin=C33-2
+Added Pin To Net: NetName=NetC33_2 Pin=D5-A
+Added Pin To Net: NetName=NetC33_2 Pin=R23-1
+Added Net: Name=NetC33_2
+Added Pin To Net: NetName=NetC35_2 Pin=C35-2
+Added Pin To Net: NetName=NetC35_2 Pin=D6-A
+Added Pin To Net: NetName=NetC35_2 Pin=R24-1
+Added Net: Name=NetC35_2
+Added Pin To Net: NetName=NetC37_2 Pin=C37-2
+Added Pin To Net: NetName=NetC37_2 Pin=R25-1
+Added Pin To Net: NetName=NetC37_2 Pin=U7-1
+Added Net: Name=NetC37_2
+Added Pin To Net: NetName=NetC39_2 Pin=C39-2
+Added Pin To Net: NetName=NetC39_2 Pin=D7-A
+Added Pin To Net: NetName=NetC39_2 Pin=R30-1
+Added Net: Name=NetC39_2
+Added Pin To Net: NetName=NetC41_2 Pin=C41-2
+Added Pin To Net: NetName=NetC41_2 Pin=R31-1
+Added Pin To Net: NetName=NetC41_2 Pin=U8-1
+Added Net: Name=NetC41_2
+Added Pin To Net: NetName=NetC45_2 Pin=C45-2
+Added Pin To Net: NetName=NetC45_2 Pin=R37-1
+Added Pin To Net: NetName=NetC45_2 Pin=U9-1
+Added Net: Name=NetC45_2
+Added Pin To Net: NetName=NetC47_2 Pin=C47-2
+Added Pin To Net: NetName=NetC47_2 Pin=D9-A
+Added Pin To Net: NetName=NetC47_2 Pin=R42-1
+Added Net: Name=NetC47_2
+Added Pin To Net: NetName=NetC65_2 Pin=C65-2
+Added Pin To Net: NetName=NetC65_2 Pin=R79-1
+Added Pin To Net: NetName=NetC65_2 Pin=U17-1
+Added Net: Name=NetC65_2
+Added Pin To Net: NetName=NetC69_2 Pin=C69-2
+Added Pin To Net: NetName=NetC69_2 Pin=D12-A
+Added Pin To Net: NetName=NetC69_2 Pin=R86-1
+Added Net: Name=NetC69_2
+Added Pin To Net: NetName=NetD9_C Pin=D9-C
+Added Pin To Net: NetName=NetD9_C Pin=R40-2
+Added Pin To Net: NetName=NetD9_C Pin=R41-1
+Added Net: Name=NetD9_C
+Added Pin To Net: NetName=NetD15_A Pin=D15-A
+Added Pin To Net: NetName=NetD15_A Pin=L1-2
+Added Pin To Net: NetName=NetD15_A Pin=R1-2
+Added Net: Name=NetD15_A
+Added Pin To Net: NetName=NetDL14_A1 Pin=DL14-A1
+Added Pin To Net: NetName=NetDL14_A1 Pin=R112-1
+Added Net: Name=NetDL14_A1
+Added Pin To Net: NetName=NetDL14_A2 Pin=DL14-A2
+Added Pin To Net: NetName=NetDL14_A2 Pin=R111-1
+Added Net: Name=NetDL14_A2
+Added Pin To Net: NetName=NetDL15_A Pin=DL15-A
+Added Pin To Net: NetName=NetDL15_A Pin=R113-1
+Added Net: Name=NetDL15_A
+Added Pin To Net: NetName=NetDL16_A Pin=DL16-A
+Added Pin To Net: NetName=NetDL16_A Pin=R114-1
+Added Net: Name=NetDL16_A
+Added Pin To Net: NetName=NetDL17_A Pin=DL17-A
+Added Pin To Net: NetName=NetDL17_A Pin=R115-1
+Added Net: Name=NetDL17_A
+Added Pin To Net: NetName=NetDL18_A Pin=DL18-A
+Added Pin To Net: NetName=NetDL18_A Pin=R116-1
+Added Net: Name=NetDL18_A
+Added Pin To Net: NetName=NetJ3_A5 Pin=J3-A5
+Added Pin To Net: NetName=NetJ3_A5 Pin=R120-2
+Added Pin To Net: NetName=NetJ3_A5 Pin=TP22-1
+Added Net: Name=NetJ3_A5
+Added Pin To Net: NetName=NetJ3_A6 Pin=J3-A6
+Added Pin To Net: NetName=NetJ3_A6 Pin=J3-B6
+Added Pin To Net: NetName=NetJ3_A6 Pin=R117-2
+Added Net: Name=NetJ3_A6
+Added Pin To Net: NetName=NetJ3_A7 Pin=J3-A7
+Added Pin To Net: NetName=NetJ3_A7 Pin=J3-B7
+Added Pin To Net: NetName=NetJ3_A7 Pin=R118-2
+Added Net: Name=NetJ3_A7
+Added Pin To Net: NetName=NetJ3_A8 Pin=J3-A8
+Added Pin To Net: NetName=NetJ3_A8 Pin=TP21-1
+Added Net: Name=NetJ3_A8
+Added Pin To Net: NetName=NetJ3_B5 Pin=J3-B5
+Added Pin To Net: NetName=NetJ3_B5 Pin=R121-2
+Added Pin To Net: NetName=NetJ3_B5 Pin=TP23-1
+Added Net: Name=NetJ3_B5
+Added Pin To Net: NetName=NetJ3_B8 Pin=J3-B8
+Added Pin To Net: NetName=NetJ3_B8 Pin=TP20-1
+Added Net: Name=NetJ3_B8
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_1 Pin=SW1-2
+Added Net: Name=NetR7_1
+Added Pin To Net: NetName=NetR12_2 Pin=R12-2
+Added Pin To Net: NetName=NetR12_2 Pin=U4-8
+Added Net: Name=NetR12_2
+Added Pin To Net: NetName=NetR16_1 Pin=R16-1
+Added Pin To Net: NetName=NetR16_1 Pin=TP9-1
+Added Pin To Net: NetName=NetR16_1 Pin=U6-3
+Added Net: Name=NetR16_1
+Added Pin To Net: NetName=NetR18_2 Pin=R18-2
+Added Pin To Net: NetName=NetR18_2 Pin=U6-2
+Added Net: Name=NetR18_2
+Added Pin To Net: NetName=NetR20_2 Pin=R20-2
+Added Pin To Net: NetName=NetR20_2 Pin=R23-2
+Added Pin To Net: NetName=NetR20_2 Pin=U5-4
+Added Net: Name=NetR20_2
+Added Pin To Net: NetName=NetR22_2 Pin=R22-2
+Added Pin To Net: NetName=NetR22_2 Pin=R24-2
+Added Pin To Net: NetName=NetR22_2 Pin=U6-4
+Added Net: Name=NetR22_2
+Added Pin To Net: NetName=NetR26_1 Pin=R26-1
+Added Pin To Net: NetName=NetR26_1 Pin=TP10-1
+Added Pin To Net: NetName=NetR26_1 Pin=U7-3
+Added Net: Name=NetR26_1
+Added Pin To Net: NetName=NetR27_2 Pin=R27-2
+Added Pin To Net: NetName=NetR27_2 Pin=U7-2
+Added Net: Name=NetR27_2
+Added Pin To Net: NetName=NetR29_2 Pin=R29-2
+Added Pin To Net: NetName=NetR29_2 Pin=R30-2
+Added Pin To Net: NetName=NetR29_2 Pin=U7-4
+Added Net: Name=NetR29_2
+Added Pin To Net: NetName=NetR33_2 Pin=R33-2
+Added Pin To Net: NetName=NetR33_2 Pin=U8-2
+Added Net: Name=NetR33_2
+Added Pin To Net: NetName=NetR38_1 Pin=R38-1
+Added Pin To Net: NetName=NetR38_1 Pin=TP12-1
+Added Pin To Net: NetName=NetR38_1 Pin=U9-3
+Added Net: Name=NetR38_1
+Added Pin To Net: NetName=NetR41_2 Pin=R41-2
+Added Pin To Net: NetName=NetR41_2 Pin=R42-2
+Added Pin To Net: NetName=NetR41_2 Pin=U9-4
+Added Net: Name=NetR41_2
+Added Pin To Net: NetName=NetR43_2 Pin=R43-2
+Added Pin To Net: NetName=NetR43_2 Pin=R47-1
+Added Pin To Net: NetName=NetR43_2 Pin=U10-4
+Added Net: Name=NetR43_2
+Added Pin To Net: NetName=NetR44_2 Pin=R44-2
+Added Pin To Net: NetName=NetR44_2 Pin=R48-1
+Added Pin To Net: NetName=NetR44_2 Pin=U11-4
+Added Net: Name=NetR44_2
+Added Pin To Net: NetName=NetR51_2 Pin=R51-2
+Added Pin To Net: NetName=NetR51_2 Pin=R53-2
+Added Pin To Net: NetName=NetR51_2 Pin=U10-3
+Added Net: Name=NetR51_2
+Added Pin To Net: NetName=NetR52_2 Pin=R52-2
+Added Pin To Net: NetName=NetR52_2 Pin=R54-2
+Added Pin To Net: NetName=NetR52_2 Pin=U11-3
+Added Net: Name=NetR52_2
+Added Pin To Net: NetName=NetR55_1 Pin=R55-1
+Added Pin To Net: NetName=NetR55_1 Pin=R61-1
+Added Pin To Net: NetName=NetR55_1 Pin=U12-1
+Added Net: Name=NetR55_1
+Added Pin To Net: NetName=NetR55_2 Pin=R55-2
+Added Pin To Net: NetName=NetR55_2 Pin=R59-1
+Added Pin To Net: NetName=NetR55_2 Pin=U12-4
+Added Net: Name=NetR55_2
+Added Pin To Net: NetName=NetR56_1 Pin=R56-1
+Added Pin To Net: NetName=NetR56_1 Pin=R62-1
+Added Pin To Net: NetName=NetR56_1 Pin=U13-1
+Added Net: Name=NetR56_1
+Added Pin To Net: NetName=NetR63_2 Pin=R63-2
+Added Pin To Net: NetName=NetR63_2 Pin=R65-2
+Added Pin To Net: NetName=NetR63_2 Pin=U12-3
+Added Net: Name=NetR63_2
+Added Pin To Net: NetName=NetR64_2 Pin=R64-2
+Added Pin To Net: NetName=NetR64_2 Pin=R66-2
+Added Pin To Net: NetName=NetR64_2 Pin=U13-3
+Added Net: Name=NetR64_2
+Added Pin To Net: NetName=NetR73_1 Pin=R73-1
+Added Pin To Net: NetName=NetR73_1 Pin=TP16-1
+Added Pin To Net: NetName=NetR73_1 Pin=U15-32
+Added Net: Name=NetR73_1
+Added Pin To Net: NetName=NetR74_1 Pin=R74-1
+Added Pin To Net: NetName=NetR74_1 Pin=TP15-1
+Added Pin To Net: NetName=NetR74_1 Pin=U15-28
+Added Net: Name=NetR74_1
+Added Pin To Net: NetName=NetR75_1 Pin=R75-1
+Added Pin To Net: NetName=NetR75_1 Pin=U15-26
+Added Net: Name=NetR75_1
+Added Pin To Net: NetName=NetR77_2 Pin=R77-2
+Added Pin To Net: NetName=NetR77_2 Pin=U15-24
+Added Net: Name=NetR77_2
+Added Pin To Net: NetName=NetR78_2 Pin=R78-2
+Added Pin To Net: NetName=NetR78_2 Pin=U15-23
+Added Net: Name=NetR78_2
+Added Pin To Net: NetName=NetR80_1 Pin=R80-1
+Added Pin To Net: NetName=NetR80_1 Pin=TP18-1
+Added Pin To Net: NetName=NetR80_1 Pin=U17-3
+Added Net: Name=NetR80_1
+Added Pin To Net: NetName=NetR81_2 Pin=R81-2
+Added Pin To Net: NetName=NetR81_2 Pin=U17-5
+Added Net: Name=NetR81_2
+Added Pin To Net: NetName=NetR82_2 Pin=R82-2
+Added Pin To Net: NetName=NetR82_2 Pin=U17-2
+Added Net: Name=NetR82_2
+Added Pin To Net: NetName=NetR88_1 Pin=R88-1
+Added Pin To Net: NetName=NetR88_1 Pin=TP19-1
+Added Pin To Net: NetName=NetR88_1 Pin=U18-3
+Added Net: Name=NetR88_1
+Added Pin To Net: NetName=NetR89_2 Pin=R89-2
+Added Pin To Net: NetName=NetR89_2 Pin=U18-5
+Added Net: Name=NetR89_2
+Added Pin To Net: NetName=NetR90_2 Pin=R90-2
+Added Pin To Net: NetName=NetR90_2 Pin=U18-2
+Added Net: Name=NetR90_2
+Added Pin To Net: NetName=STATUS_IN_D1 Pin=R113-2
+Added Pin To Net: NetName=STATUS_IN_D1 Pin=U15-19
+Added Net: Name=STATUS_IN_D1
+Added Pin To Net: NetName=STATUS_IN_D2 Pin=R114-2
+Added Pin To Net: NetName=STATUS_IN_D2 Pin=U15-20
+Added Net: Name=STATUS_IN_D2
+Added Pin To Net: NetName=STATUS_IN_D3 Pin=R115-2
+Added Pin To Net: NetName=STATUS_IN_D3 Pin=U15-21
+Added Net: Name=STATUS_IN_D3
+Added Pin To Net: NetName=STATUS_IN_D4 Pin=R116-2
+Added Pin To Net: NetName=STATUS_IN_D4 Pin=U15-22
+Added Net: Name=STATUS_IN_D4
+Added Pin To Net: NetName=VBUS Pin=D16-A
+Added Pin To Net: NetName=VBUS Pin=J3-A4-B9
+Added Pin To Net: NetName=VBUS Pin=J3-B4-A9
+Added Pin To Net: NetName=VBUS Pin=R122-2
+Added Net: Name=VBUS
+Added Class: Name=LED_STATUS_INPUT
+Added Class: Name=LED_STATUS_OUTPUTS
+Added Class: Name=USB
+Added Differential Pair: Name=MCU_USBD
+Added Member To Class: ClassName=PWR Member=Component C1 CAP
+Added Member To Class: ClassName=PWR Member=Component C2 CAP
+Added Member To Class: ClassName=PWR Member=Component C3 CAP
+Added Member To Class: ClassName=PWR Member=Component C4 CAP
+Added Member To Class: ClassName=PWR Member=Component C5 CAP
+Added Member To Class: ClassName=PWR Member=Component C6 CAP
+Added Member To Class: ClassName=PWR Member=Component C7 CAP
+Added Member To Class: ClassName=PWR Member=Component C8 CAP
+Added Member To Class: ClassName=MCU Member=Component C9 CAP
+Added Member To Class: ClassName=MCU Member=Component C10 CAP
+Added Member To Class: ClassName=MCU Member=Component C11 CAP
+Added Member To Class: ClassName=MCU Member=Component C12 CAP
+Added Member To Class: ClassName=MCU Member=Component C13 CAP
+Added Member To Class: ClassName=MCU Member=Component C14 CAP
+Added Member To Class: ClassName=MCU Member=Component C15 CAP
+Added Member To Class: ClassName=MCU Member=Component C16 CAP
+Added Member To Class: ClassName=MCU Member=Component C17 CAP
+Added Member To Class: ClassName=MCU Member=Component C18 CAP
+Added Member To Class: ClassName=MCU Member=Component C19 CAP
+Added Member To Class: ClassName=MCU Member=Component C20 CAP
+Added Member To Class: ClassName=MCU Member=Component C21 CAP
+Added Member To Class: ClassName=MCU Member=Component C22 CAP
+Added Member To Class: ClassName=MCU Member=Component C23 CAP
+Added Member To Class: ClassName=MCU Member=Component C24 CAP
+Added Member To Class: ClassName=CAN Member=Component C25 CAP
+Added Member To Class: ClassName=CAN Member=Component C26 CAP
+Added Member To Class: ClassName=CAN Member=Component C27 CAP
+Added Member To Class: ClassName=CAN Member=Component C28 CAP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component C29 CAP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component C30 CAP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component C31 CAP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component C32 CAP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component C33 CAP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component C34 CAP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component C35 CAP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component C36 CAP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component C37 CAP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component C38 CAP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component C39 CAP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component C40 CAP
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component C41 CAP
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component C42 CAP
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component C43 CAP
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component C44 CAP
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component C45 CAP
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component C46 CAP
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component C47 CAP
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component C48 CAP
+Added Member To Class: ClassName=SENSOR_INP Member=Component C49 CAP
+Added Member To Class: ClassName=SENSOR_INP Member=Component C50 CAP
+Added Member To Class: ClassName=SENSOR_INP Member=Component C51 CAP
+Added Member To Class: ClassName=SENSOR_INP Member=Component C52 CAP
+Added Member To Class: ClassName=SENSOR_INP Member=Component C53 CAP
+Added Member To Class: ClassName=SENSOR_INP Member=Component C54 CAP
+Added Member To Class: ClassName=SENSOR_INP Member=Component C55 CAP
+Added Member To Class: ClassName=SENSOR_INP Member=Component C56 CAP
+Added Member To Class: ClassName=DIGITAL_INP Member=Component C57 CAP
+Added Member To Class: ClassName=DIGITAL_INP Member=Component C58 CAP
+Added Member To Class: ClassName=DIGITAL_INP Member=Component C59 CAP
+Added Member To Class: ClassName=DIGITAL_INP Member=Component C60 CAP
+Added Member To Class: ClassName=I2C Member=Component C61 CAP
+Added Member To Class: ClassName=I2C Member=Component C62 CAP
+Added Member To Class: ClassName=I2C Member=Component C63 CAP
+Added Member To Class: ClassName=I2C Member=Component C64 CAP
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component C65 CAP
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component C66 CAP
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component C67 CAP
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component C68 CAP
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component C69 CAP
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component C70 CAP
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component C71 CAP
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component C72 CAP
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component C73 CAP
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component C74 CAP
+Added Member To Class: ClassName=PWR Member=Component D1 Diode_Schottky
+Added Member To Class: ClassName=PWR Member=Component D2 Diode
+Added Member To Class: ClassName=MCU Member=Component D3 Diode_Schottky
+Added Member To Class: ClassName=CAN Member=Component D4 ESD_Diode
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component D5 Diode_Schottky
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component D6 Diode_Schottky
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component D7 Diode_Schottky
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component D8 Diode_Schottky
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component D9 Diode_Schottky
+Added Member To Class: ClassName=SENSOR_INP Member=Component D10 Diode TVS
+Added Member To Class: ClassName=DIGITAL_INP Member=Component D11 Diode TVS
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component D12 Diode_Schottky
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component D13 Diode_Schottky
+Added Member To Class: ClassName=PWR Member=Component D15 Diode_Schottky
+Added Member To Class: ClassName=PWR Member=Component DL1 Led_Green
+Added Member To Class: ClassName=PWR Member=Component DL2 Led_Green
+Added Member To Class: ClassName=MCU Member=Component DL3 Led_Green
+Added Member To Class: ClassName=I2C Member=Component DL4 LED_Red
+Added Member To Class: ClassName=I2C Member=Component DL5 LED_Yellow_Blue
+Added Member To Class: ClassName=MCU Member=Component J1 Connector
+Added Member To Class: ClassName=CONNECTOR Member=Component J2 Connector
+Added Member To Class: ClassName=PWR Member=Component L1 IND
+Added Member To Class: ClassName=MCU Member=Component L2 IND
+Added Member To Class: ClassName=CAN Member=Component L3 IND
+Added Member To Class: ClassName=CAN Member=Component L4 IND
+Added Member To Class: ClassName=PWR Member=Component MP1 Connector
+Added Member To Class: ClassName=PWR Member=Component MP2 Connector
+Added Member To Class: ClassName=PWR Member=Component R1 Res
+Added Member To Class: ClassName=PWR Member=Component R2 Res
+Added Member To Class: ClassName=PWR Member=Component R3 Res
+Added Member To Class: ClassName=PWR Member=Component R4 Res
+Added Member To Class: ClassName=PWR Member=Component R5 Res
+Added Member To Class: ClassName=MCU Member=Component R6 Res
+Added Member To Class: ClassName=MCU Member=Component R7 Res
+Added Member To Class: ClassName=MCU Member=Component R8 Res
+Added Member To Class: ClassName=MCU Member=Component R9 Res
+Added Member To Class: ClassName=CAN Member=Component R10 Res
+Added Member To Class: ClassName=CAN Member=Component R11 Res
+Added Member To Class: ClassName=CAN Member=Component R12 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R13 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R14 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R15 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R16 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R17 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R18 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R19 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R20 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R21 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R22 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R23 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R24 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R25 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R26 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R27 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R28 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R29 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component R30 Res
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component R31 Res
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component R32 Res
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component R33 Res
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component R34 Res
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component R35 Res
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component R36 Res
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component R37 Res
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component R38 Res
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component R39 Res
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component R40 Res
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component R41 Res
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component R42 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R43 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R44 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R45 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R46 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R47 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R48 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R49 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R50 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R51 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R52 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R53 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R54 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R55 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R56 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R57 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R58 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R59 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R60 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R61 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R62 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R63 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R64 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R65 Res
+Added Member To Class: ClassName=SENSOR_INP Member=Component R66 Res
+Added Member To Class: ClassName=DIGITAL_INP Member=Component R67 Res
+Added Member To Class: ClassName=DIGITAL_INP Member=Component R68 Res
+Added Member To Class: ClassName=DIGITAL_INP Member=Component R69 Res
+Added Member To Class: ClassName=DIGITAL_INP Member=Component R70 Res
+Added Member To Class: ClassName=I2C Member=Component R71 Res
+Added Member To Class: ClassName=I2C Member=Component R72 Res
+Added Member To Class: ClassName=I2C Member=Component R73 Res
+Added Member To Class: ClassName=I2C Member=Component R74 Res
+Added Member To Class: ClassName=I2C Member=Component R75 Res
+Added Member To Class: ClassName=I2C Member=Component R76 Res
+Added Member To Class: ClassName=I2C Member=Component R77 Res
+Added Member To Class: ClassName=I2C Member=Component R78 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R79 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R80 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R81 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R82 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R83 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R84 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R85 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R86 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R87 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R88 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R89 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R90 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R91 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R92 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R93 Res
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component R94 Res
+Added Member To Class: ClassName=MCU Member=Component SW1 Switch SPDT
+Added Member To Class: ClassName=MCU Member=Component TP1 TP
+Added Member To Class: ClassName=MCU Member=Component TP2 TP
+Added Member To Class: ClassName=MCU Member=Component TP3 TP
+Added Member To Class: ClassName=MCU Member=Component TP4 TP
+Added Member To Class: ClassName=MCU Member=Component TP5 TP
+Added Member To Class: ClassName=CAN Member=Component TP6 TP
+Added Member To Class: ClassName=CAN Member=Component TP7 TP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component TP8 TP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component TP9 TP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component TP10 TP
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component TP11 TP
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component TP12 TP
+Added Member To Class: ClassName=I2C Member=Component TP13 TP
+Added Member To Class: ClassName=I2C Member=Component TP14 TP
+Added Member To Class: ClassName=I2C Member=Component TP15 TP
+Added Member To Class: ClassName=I2C Member=Component TP16 TP
+Added Member To Class: ClassName=I2C Member=Component TP17 TP
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component TP18 TP
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component TP19 TP
+Added Member To Class: ClassName=PWR Member=Component U1 DC DC
+Added Member To Class: ClassName=PWR Member=Component U2 TLV75530PDBVR
+Added Member To Class: ClassName=MCU Member=Component U3 STM32F446RET6
+Added Member To Class: ClassName=CAN Member=Component U4 TJA1051TK/3,118
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component U5 BTS7002-1EPP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component U6 BTS7002-1EPP
+Added Member To Class: ClassName=HIGH_CURR_MOS Member=Component U7 BTS7002-1EPP
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component U8 BTS70041EPZXUMA1
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component U9 BTS70041EPZXUMA1
+Added Member To Class: ClassName=SENSOR_INP Member=Component U10 TLV900
+Added Member To Class: ClassName=SENSOR_INP Member=Component U11 TLV900
+Added Member To Class: ClassName=SENSOR_INP Member=Component U12 TLV900
+Added Member To Class: ClassName=SENSOR_INP Member=Component U13 TLV900
+Added Member To Class: ClassName=I2C Member=Component U14 MB85RC04V
+Added Member To Class: ClassName=I2C Member=Component U15 PCAL6524HEAZ
+Added Member To Class: ClassName=I2C Member=Component U16 MCP9808-E/MS
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component U17 BTS70082EPZXUMA1
+Added Member To Class: ClassName=LOW_CURR_MOS Member=Component U18 BTS70802EPAXUMA1
+Added Member To Class: ClassName=MCU Member=Component X1 ABM8AIG-8.000MHZ-1Z-T
+Added Rule: Name=Schematic Supply Nets_6
