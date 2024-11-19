@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=V1
 
 [Preferences]
 PrefsVaultGUID=
@@ -354,6 +355,14 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OJBAYAGI
+
+[ProjectVariant1]
+UniqueId=3bb284fe-8f94-413a-8714-c4203e4da658
+Description=V1
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
 
 [Configuration1]
 Name=Sources
@@ -1247,7 +1256,7 @@ Type150=2
 Type151=2
 Type152=1
 Type153=1
-Type154=0
+Type154=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1296,22 +1305,10 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=My_LIB.SchLib
-ComponentDesignItemID0=IND
-ComponentSymbolReference0=IND
+ComponentDesignItemID0=TLV75530PDBVR
+ComponentSymbolReference0=TLV75530PDBVR
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=My_LIB.SchLib
-ComponentDesignItemID1=LED_Red_Green
-ComponentSymbolReference1=LED_Red_Green
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=My_LIB.SchLib
-ComponentDesignItemID2=Resistor
-ComponentSymbolReference2=Resistor
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
 FullReplace=0
 UpdateDesignatorLock=0
 UpdatePartIDLock=1
@@ -1339,45 +1336,13 @@ ParameterName5=Manufacturer
 ParameterUpdate5=1
 ParameterName6=PartNumber
 ParameterUpdate6=1
-ParameterName7=SMD/PTH
+ParameterName7=Value
 ParameterUpdate7=1
-ParameterName8=Value
-ParameterUpdate8=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=BOURNS-SRN5040
+ModelName0=SOT95P280X145-5N
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=BOURNS-SRU1048
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=BOURNS-SRU8028
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=INDC1608X09N
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=RESC1005X04N
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=RESC1608X06M
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=RESC2012X06N
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=RESC3216X07N
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=RESC3225X07N
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=RESC6432X07N
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=WURTH-SBTW_3528
-ModelUpdate10=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
