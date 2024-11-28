@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=CAN_P Pin=J2-17
+Removed Pin From Net: NetName=CAN_N Pin=J2-18
+Removed Pin From Net: NetName=IGNITION Pin=R3-2
+Removed Pin From Net: NetName=IGNITION Pin=U1-4
+Change Component Footprint: Designator=U15 Old Footprint=FP-SOT1426-1-IPC_A New Footprint=FP-SOT1426-1-IPC_A
+Added Component: Designator=R126(RESC1608X06M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CRCW060310K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD/PTH"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CAN_P Pin=J2-19
+Added Pin To Net: NetName=CAN_N Pin=J2-20
+Added Pin To Net: NetName=IGNITION Pin=R126-1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetR3_2 Pin=R126-2
+Added Pin To Net: NetName=NetR3_2 Pin=U1-4
+Added Net: Name=NetR3_2
+Added Member To Class: ClassName=PWR Member=Component R126 Res
