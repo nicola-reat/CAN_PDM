@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=U14 Old Footprint=FP-SOT1426-1-IPC_A New Footprint=FP-SOT1426-1-IPC_A
+Add Net: Net with name "MCU_IN_M2" already exists

@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=CAN_P Pin=J2-20
+Added Pin To Net: NetName=CAN_P Pin=J2-6

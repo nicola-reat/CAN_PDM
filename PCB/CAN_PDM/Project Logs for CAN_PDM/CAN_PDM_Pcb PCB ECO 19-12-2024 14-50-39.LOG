@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=MCU_IN_M2 Pin=R32-2
+Add Net: Net with name "MCU_IN_M2" already exists
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3
+Added Rule: Name=Schematic Supply Nets_4
+Added Rule: Name=Schematic Supply Nets_5

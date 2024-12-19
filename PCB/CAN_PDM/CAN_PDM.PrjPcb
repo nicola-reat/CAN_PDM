@@ -204,6 +204,23 @@ GenerateClassCluster=0
 DocumentUniqueId=WOJVZRRX
 
 [Document10]
+DocumentPath=HIGH_CURR_MOS2.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=13
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YCSEWABM
+
+[Document11]
 DocumentPath=MID_CURR_MOS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -220,7 +237,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZAMCBNIP
 
-[Document11]
+[Document12]
 DocumentPath=LOW_CURR_MOS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -237,7 +254,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CZPDACGL
 
-[Document12]
+[Document13]
 DocumentPath=SENSOR_INP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -254,7 +271,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZNVKZIKV
 
-[Document13]
+[Document14]
 DocumentPath=DIGITAL_INP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -271,7 +288,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OBAPKUVJ
 
-[Document14]
+[Document15]
 DocumentPath=I2C.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -288,7 +305,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OYAUKYII
 
-[Document15]
+[Document16]
 DocumentPath=LED_STATUS_OUTPUTS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -305,7 +322,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FQIHHERE
 
-[Document16]
+[Document17]
 DocumentPath=LED_STATUS_INPUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -322,7 +339,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BOJFNCBZ
 
-[Document17]
+[Document18]
 DocumentPath=CONNECTOR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -339,8 +356,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HKERSAWE
 
-[Document18]
-DocumentPath=CAN_PDM.PcbDoc
+[Document19]
+DocumentPath=CAN_PDM_Pcb.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -354,14 +371,30 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=OJBAYAGI
+DocumentUniqueId=BIFYCUTX
 
 [ProjectVariant1]
 UniqueId=3bb284fe-8f94-413a-8714-c4203e4da658
 Description=V1
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
+VariationCount=16
+Variation1=Designator=R60|UniqueId=\QNXYXCHH|Kind=1|AlternatePart=
+Variation2=Designator=R76|UniqueId=\DRMJVCBG|Kind=1|AlternatePart=
+Variation3=Designator=R61|UniqueId=\RWJIGAGZ|Kind=1|AlternatePart=
+Variation4=Designator=R77|UniqueId=\MDGABVOL|Kind=1|AlternatePart=
+Variation5=Designator=R48|UniqueId=\ZKAJOODS|Kind=1|AlternatePart=
+Variation6=Designator=R64|UniqueId=\IFTQGMXJ|Kind=1|AlternatePart=
+Variation7=Designator=R49|UniqueId=\NHWVWYXW|Kind=1|AlternatePart=
+Variation8=Designator=R65|UniqueId=\WFHXIOGF|Kind=1|AlternatePart=
+Variation9=Designator=R66|UniqueId=\VARTNMAV|Kind=1|AlternatePart=
+Variation10=Designator=R50|UniqueId=\KYMTTEMK|Kind=1|AlternatePart=
+Variation11=Designator=R51|UniqueId=\OFPXSOQJ|Kind=1|AlternatePart=
+Variation12=Designator=R67|UniqueId=\OFKYPYHL|Kind=1|AlternatePart=
+Variation13=Designator=R84|UniqueId=\DUJNDNFI|Kind=1|AlternatePart=
+Variation14=Designator=R85|UniqueId=\BEZDSWOV|Kind=1|AlternatePart=
+Variation15=Designator=R92|UniqueId=\WDGFWKJI|Kind=1|AlternatePart=
+Variation16=Designator=R93|UniqueId=\CHBSXOMD|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Configuration1]
