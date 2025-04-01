@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=R20 Old Footprint=RESC3216X07N New Footprint=RESC2012X06N
+Change Component Footprint: Designator=R26 Old Footprint=RESC3216X07N New Footprint=RESC2012X06N
+Change component parameters: Designator = "R20" ("R20"); Footprint = "RESC3216X07N"; UniqueID = "\HJSNZUNN" ("\HJSNZUNN")
+Change component parameters (AddParameter): Name = "Case"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R26" ("R26"); Footprint = "RESC3216X07N"; UniqueID = "\LSRDOIII" ("\LSRDOIII")
+Change component parameters (AddParameter): Name = "Case"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"

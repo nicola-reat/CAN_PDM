@@ -1,0 +1,20 @@
+Change Component Footprint: Designator=R34 Old Footprint=RESC3216X07N New Footprint=RESC2012X06N
+Change Component Footprint: Designator=R40 Old Footprint=RESC3216X07N New Footprint=RESC2012X06N
+Change Component Footprint: Designator=R105 Old Footprint=RESC3216X07N New Footprint=RESC2012X06N
+Change Component Footprint: Designator=R116 Old Footprint=RESC3216X07N New Footprint=RESC2012X06N
+Change component parameters: Designator = "R34" ("R34"); Footprint = "RESC3216X07N"; UniqueID = "\ZEPKIDIP" ("\ZEPKIDIP")
+Change component parameters (AddParameter): Name = "Case"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R40" ("R40"); Footprint = "RESC3216X07N"; UniqueID = "\FZTNMOBE" ("\FZTNMOBE")
+Change component parameters (AddParameter): Name = "Case"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R105" ("R105"); Footprint = "RESC3216X07N"; UniqueID = "\NMWLLCKX" ("\NMWLLCKX")
+Change component parameters (AddParameter): Name = "Case"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R116" ("R116"); Footprint = "RESC3216X07N"; UniqueID = "\TRAZRFPJ" ("\TRAZRFPJ")
+Change component parameters (AddParameter): Name = "Case"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
