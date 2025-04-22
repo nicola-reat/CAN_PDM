@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=+12V Pin=R7-1
+Change Component Comment : Designator=TP1 Old Comment=BOOT0 New Comment=TP
+Change Component Comment : Designator=TP8 Old Comment=DEN New Comment=TP
+Change Component Comment : Designator=TP9 Old Comment=DEN New Comment=TP
+Change Component Comment : Designator=TP10 Old Comment=DEN New Comment=TP
+Change Component Comment : Designator=TP11 Old Comment=DEN New Comment=TP
+Change Component Comment : Designator=TP23 Old Comment=DEN New Comment=TP
+Change Component Comment : Designator=TP15 Old Comment=INT New Comment=TP
+Change Component Comment : Designator=TP5 Old Comment=MCU_RST New Comment=TP
+Change Component Comment : Designator=TP14 Old Comment=RST_I/O New Comment=TP
+Change Component Comment : Designator=TP13 Old Comment=SCL New Comment=TP
+Change Component Comment : Designator=TP12 Old Comment=SDA New Comment=TP
+Change Component Comment : Designator=TP3 Old Comment=SWCLK New Comment=TP
+Change Component Comment : Designator=TP2 Old Comment=SWDIO New Comment=TP
+Change Component Comment : Designator=TP4 Old Comment=SWO New Comment=TP
+Added Pin To Net: NetName=NetC1_1 Pin=R7-1
+Change Net Name : Old Net Name=NetC1_1 New Net Name=+12VPRT
+Added Rule: Name=Schematic Supply Nets_1
