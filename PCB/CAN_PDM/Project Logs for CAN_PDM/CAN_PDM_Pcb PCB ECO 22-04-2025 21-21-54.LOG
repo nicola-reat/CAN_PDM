@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetR101_2 Pin=U14-23
+Removed Pin From Net: NetName=NetR100_2 Pin=U14-24
+Change Component Comment : Designator=TP16 Old Comment=OTEMP New Comment=TP
+Added Pin To Net: NetName=NetR100_2 Pin=U14-23
+Added Pin To Net: NetName=NetR101_2 Pin=U14-24
+Added Member To Class: ClassName=PWR Member=Component MP1 Connector
+Added Member To Class: ClassName=MCU Member=Component U3 STM32F446RET6

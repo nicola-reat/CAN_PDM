@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=MCU_IN_M2 Pin=U3-35
+Removed Pin From Net: NetName=MCU_DSEL_L1_2 Pin=U3-36
+Removed Pin From Net: NetName=MCU_IN_L1 Pin=U3-37
+Removed Pin From Net: NetName=MCU_IN_L2 Pin=U3-38
+Removed Pin From Net: NetName=MCU_IN_L3 Pin=U3-39
+Added Pin To Net: NetName=MCU_IN_H3 Pin=R155-1
+Added Pin To Net: NetName=MCU_IN_H1 Pin=U3-35
+Added Pin To Net: NetName=MCU_IN_H2 Pin=U3-36
+Added Pin To Net: NetName=MCU_IN_H3 Pin=U3-37
+Added Pin To Net: NetName=MCU_IN_M1 Pin=U3-38
+Added Pin To Net: NetName=MCU_IN_M2 Pin=U3-39

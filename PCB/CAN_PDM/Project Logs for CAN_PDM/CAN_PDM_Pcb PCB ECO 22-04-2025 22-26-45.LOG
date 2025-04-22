@@ -1,0 +1,6 @@
+Added Component: Designator=TP6(TP_c200)
+Added Component: Designator=TP7(TP_c200)
+Added Pin To Net: NetName=5V Pin=TP6-1
+Added Pin To Net: NetName=+3V3 Pin=TP7-1
+Added Member To Class: ClassName=PWR Member=Component TP6 P5V
+Added Member To Class: ClassName=PWR Member=Component TP7 P3V

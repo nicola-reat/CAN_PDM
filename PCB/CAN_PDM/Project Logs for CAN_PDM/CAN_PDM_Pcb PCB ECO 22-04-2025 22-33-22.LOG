@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=STATUS_CAN_RX Pin=U3-33
+Removed Pin From Net: NetName=STATUS_CAN_TX Pin=U3-34
+Added Pin To Net: NetName=STATUS_CAN_TX Pin=U3-33
+Added Pin To Net: NetName=STATUS_CAN_RX Pin=U3-34

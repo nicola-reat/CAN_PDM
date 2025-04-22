@@ -1,0 +1,14 @@
+Change Component Footprint: Designator=C63 Old Footprint=CAPC2012X14N New Footprint=CAPC1608X09M
+Change Component Footprint: Designator=C68 Old Footprint=CAPC2012X14N New Footprint=CAPC1608X09M
+Change component parameters: Designator = "C63" ("C63"); Footprint = "CAPC2012X14N"; UniqueID = "\IQMMXGXX" ("\IQMMXGXX")
+Change component parameters (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C68" ("C68"); Footprint = "CAPC2012X14N"; UniqueID = "\LAQIPZGH" ("\LAQIPZGH")
+Change component parameters (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"

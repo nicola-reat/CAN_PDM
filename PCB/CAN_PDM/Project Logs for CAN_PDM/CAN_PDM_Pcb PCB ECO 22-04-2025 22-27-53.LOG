@@ -1,0 +1,3 @@
+Added Component: Designator=TP24(TP_c200)
+Added Pin To Net: NetName=GND Pin=TP24-1
+Added Member To Class: ClassName=PWR Member=Component TP24 GND

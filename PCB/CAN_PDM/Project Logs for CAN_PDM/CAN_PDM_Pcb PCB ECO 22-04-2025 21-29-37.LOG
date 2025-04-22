@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=STATUS_OUT_H3_ERR Pin=U14-13
+Removed Pin From Net: NetName=STATUS_OUT_H3_OK Pin=U14-14
+Added Pin To Net: NetName=STATUS_OUT_M2_ERR Pin=U14-13
+Added Pin To Net: NetName=STATUS_OUT_M2_OK Pin=U14-14

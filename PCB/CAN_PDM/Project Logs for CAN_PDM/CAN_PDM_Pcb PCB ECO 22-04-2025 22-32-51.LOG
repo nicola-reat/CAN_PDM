@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=STATUS_CAN_TX Pin=U3-2
+Removed Pin From Net: NetName=STATUS_CAN_RX Pin=U3-53
+Change Component Comment : Designator=TP7 Old Comment=P3V3 New Comment=P3V
+Added Pin To Net: NetName=STATUS_CAN_RX Pin=U3-33
+Added Pin To Net: NetName=STATUS_CAN_TX Pin=U3-34
