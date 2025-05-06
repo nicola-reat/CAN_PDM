@@ -1,0 +1,12 @@
+Added Component: Designator=C71(CAPC1608X09M)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "Voltage"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12V Pin=C71-1
+Added Pin To Net: NetName=NetC71_2 Pin=C71-2
+Added Member To Class: ClassName=HIGH_CURR_MOS2 Member=Component C71 CAP
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component R34 Res
+Added Member To Class: ClassName=MID_CURR_MOS Member=Component R40 Res
+Added Member To Class: ClassName=HIGH_CURR_MOS2 Member=Component R153 Res
