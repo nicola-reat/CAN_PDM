@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=OUT_L2 Pin=J2-25
+Removed Pin From Net: NetName=OUT_L1 Pin=J2-26
+Change Component Comment : Designator=TP1 Old Comment=BOOT New Comment=TP
+Added Pin To Net: NetName=OUT_L1 Pin=J2-25
+Added Pin To Net: NetName=OUT_L2 Pin=J2-26

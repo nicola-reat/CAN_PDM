@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=NetR21_1 Pin=TP8-1
+Removed Pin From Net: NetName=NetR27_1 Pin=TP9-1
+Removed Pin From Net: NetName=NetR35_1 Pin=TP10-1
+Removed Pin From Net: NetName=NetR41_1 Pin=TP11-1
+Removed Pin From Net: NetName=NetR106_1 Pin=TP17-1
+Removed Pin From Net: NetName=NetR117_1 Pin=TP18-1
+Removed Pin From Net: NetName=NetR154_1 Pin=TP23-1
+Removed Member From Class: ClassName=HIGH_CURR_MOS Member=TP8
+Removed Member From Class: ClassName=HIGH_CURR_MOS Member=TP9
+Removed Member From Class: ClassName=MID_CURR_MOS Member=TP10
+Removed Member From Class: ClassName=MID_CURR_MOS Member=TP11
+Removed Member From Class: ClassName=LOW_CURR_MOS Member=TP17
+Removed Member From Class: ClassName=LOW_CURR_MOS Member=TP18
+Removed Member From Class: ClassName=HIGH_CURR_MOS2 Member=TP23
+Change Component Comment : Designator=TP1 Old Comment=BOOT New Comment=BOOT0
+Change Component Comment : Designator=TP21 Old Comment=Test_Point New Comment=CC1
+Change Component Comment : Designator=TP22 Old Comment=Test_Point New Comment=CC2
+Change Component Comment : Designator=TP20 Old Comment=Test_Point New Comment=SBU1
+Change Component Comment : Designator=TP19 Old Comment=Test_Point New Comment=SBU2
+Change Component Comment : Designator=TP3 Old Comment=TP New Comment=CLK
+Change Component Comment : Designator=TP2 Old Comment=TP New Comment=DIO
+Change Component Comment : Designator=TP5 Old Comment=TP New Comment=RST
+Change Component Comment : Designator=TP4 Old Comment=TP New Comment=SWO
