@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetR35_1 Pin=TP10-1
+Removed Pin From Net: NetName=NetR41_1 Pin=TP11-1
+Removed Pin From Net: NetName=NetR106_1 Pin=TP17-1
+Removed Pin From Net: NetName=NetR117_1 Pin=TP18-1
+Removed Pin From Net: NetName=NetR154_1 Pin=TP23-1
+Removed Member From Class: ClassName=MID_CURR_MOS Member=TP10
+Removed Member From Class: ClassName=MID_CURR_MOS Member=TP11
+Removed Member From Class: ClassName=LOW_CURR_MOS Member=TP17
+Removed Member From Class: ClassName=LOW_CURR_MOS Member=TP18
+Removed Member From Class: ClassName=HIGH_CURR_MOS2 Member=TP23
