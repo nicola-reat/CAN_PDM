@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: CAN_PDM_Pcb.PcbDoc   06/05/2025  21:40:13
+NCDrill File Report For: CAN_PDM_Pcb.PcbDoc   12/05/2025  22:01:00
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -8,7 +8,7 @@ ASCII SlotHoles File : CAN_PDM_Pcb-SlotHoles.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.3mm (12mil)                                             Round             393       PTH        836.49mm (32.93inch)
+T1      0.3mm (12mil)                                             Round             547       PTH        1590.86mm (62.63inch)
 T2      0.6mm (24mil)                                             Slot              4         PTH        38.14mm (1.50inch)
 T3      1.3mm (51mil)                                             Round             23        PTH        65.05mm (2.56inch)
 T4      1.3mm (51mil)                                             Slot              5         PTH        65.70mm (2.59inch)
@@ -18,6 +18,6 @@ T7      2.3mm (91mil)                                             Round         
 T8      4.1mm (161mil)                                            Round             2         NPTH       50.80mm (2.00inch)
 T9      5mm (197mil)            +0.1mm (4mil)                     Round             4         NPTH       356.01mm (14.02inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              453
+Totals                                                                              607
 
 Total Processing Time (hh:mm:ss) : 00:00:00

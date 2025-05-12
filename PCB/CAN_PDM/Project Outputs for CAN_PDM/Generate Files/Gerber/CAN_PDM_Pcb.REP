@@ -2,17 +2,15 @@
 FileName = CAN_PDM_Pcb.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Paste
-      File : CAN_PDM_Pcb.GBP
+Generating : Bottom Overlay
+      File : CAN_PDM_Pcb.GBO
 
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
+    D11
+    D12
 *************************************************************
 
 *************************************************************
@@ -71,27 +69,43 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : CAN_PDM_Pcb.GBS
+Generating : Top Overlay
+      File : CAN_PDM_Pcb.GTO
 
-    Adding Layer      : Bottom Solder
+    Adding Layer      : Top Overlay
 
-    Adding Layer      : Bottom Layer
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Int2 (PWR-3V3)
+      File : CAN_PDM_Pcb.G2
+
+    Adding Layer      : Int2 (PWR-3V3)
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D59
-    D96
-    D97
-    D98
-    D99
-    D100
+    D10
     D101
     D102
     D103
-    D104
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
 *************************************************************
 
 *************************************************************
@@ -106,11 +120,11 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D28
-    D29
-    D30
-    D55
-    D56
+    D40
+    D41
+    D42
+    D43
+    D44
     D59
     D60
     D61
@@ -160,33 +174,25 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : CAN_PDM_Pcb.GBO
+Generating : Int1 (GND-PWR)
+      File : CAN_PDM_Pcb.G1
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Int1 (GND-PWR)
 
-
-Used DCodes :
-    D11
-    D12
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : CAN_PDM_Pcb.GTO
-
-    Adding Layer      : Top Overlay
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
     D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
+    D101
+    D102
+    D103
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
 *************************************************************
 
 *************************************************************
@@ -199,59 +205,34 @@ Generating : Bottom Layer
 
 
 Used DCodes :
+    D10
+    D101
     D102
     D103
-    D104
     D105
     D106
+    D109
     D110
     D111
     D112
     D113
     D114
     D115
+    D116
 *************************************************************
 
 *************************************************************
-Generating : Int2 (PWR)
-      File : CAN_PDM_Pcb.G2
+Generating : Bottom Paste
+      File : CAN_PDM_Pcb.GBP
 
-    Adding Layer      : Int2 (PWR)
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D102
-    D103
-    D104
-    D110
-    D111
-    D112
-    D113
-    D114
-    D115
-*************************************************************
-
-*************************************************************
-Generating : Int1 (GND)
-      File : CAN_PDM_Pcb.G1
-
-    Adding Layer      : Int1 (GND)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D102
-    D103
-    D104
-    D110
-    D111
-    D112
-    D113
-    D114
-    D115
 *************************************************************
 
 *************************************************************
@@ -266,7 +247,7 @@ Generating : Top Layer
 Used DCodes :
     D10
     D11
-    D13
+    D15
     D16
     D19
     D20
@@ -308,10 +289,10 @@ Used DCodes :
     D56
     D57
     D58
-    D69
+    D81
+    D101
     D102
     D103
-    D104
     D105
     D106
     D107
@@ -322,7 +303,30 @@ Used DCodes :
     D112
     D113
     D114
-    D115
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : CAN_PDM_Pcb.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D60
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
 *************************************************************
 
 *************************************************************
@@ -331,6 +335,6 @@ Generating : Profile
 
 
 Used DCodes :
-    D116
+    D117
 *************************************************************
 
