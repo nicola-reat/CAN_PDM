@@ -2,15 +2,17 @@
 FileName = CAN_PDM_Pcb.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Overlay
-      File : CAN_PDM_Pcb.GBO
+Generating : Bottom Paste
+      File : CAN_PDM_Pcb.GBP
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D11
-    D12
 *************************************************************
 
 *************************************************************
@@ -69,43 +71,27 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : CAN_PDM_Pcb.GTO
+Generating : Bottom Solder
+      File : CAN_PDM_Pcb.GBS
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Bottom Solder
 
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-*************************************************************
-
-*************************************************************
-Generating : Int2 (PWR-3V3)
-      File : CAN_PDM_Pcb.G2
-
-    Adding Layer      : Int2 (PWR-3V3)
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
+    D60
+    D96
+    D97
+    D98
+    D99
+    D100
     D101
     D102
     D103
-    D109
-    D110
-    D111
-    D112
-    D113
-    D114
+    D104
 *************************************************************
 
 *************************************************************
@@ -174,25 +160,33 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Int1 (GND-PWR)
-      File : CAN_PDM_Pcb.G1
+Generating : Bottom Overlay
+      File : CAN_PDM_Pcb.GBO
 
-    Adding Layer      : Int1 (GND-PWR)
+    Adding Layer      : Bottom Overlay
 
-    Adding Layer      : Multi-Layer
+
+Used DCodes :
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : CAN_PDM_Pcb.GTO
+
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
     D10
-    D101
-    D102
-    D103
-    D109
-    D110
-    D111
-    D112
-    D113
-    D114
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
 *************************************************************
 
 *************************************************************
@@ -222,17 +216,47 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : CAN_PDM_Pcb.GBP
+Generating : Int2 (PWR-3V3)
+      File : CAN_PDM_Pcb.G2
 
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
+    Adding Layer      : Int2 (PWR-3V3)
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D10
+    D101
+    D102
+    D103
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+*************************************************************
+
+*************************************************************
+Generating : Int1 (GND-PWR)
+      File : CAN_PDM_Pcb.G1
+
+    Adding Layer      : Int1 (GND-PWR)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D101
+    D102
+    D103
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
 *************************************************************
 
 *************************************************************
@@ -303,30 +327,6 @@ Used DCodes :
     D112
     D113
     D114
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : CAN_PDM_Pcb.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D60
-    D96
-    D97
-    D98
-    D99
-    D100
-    D101
-    D102
-    D103
-    D104
 *************************************************************
 
 *************************************************************
