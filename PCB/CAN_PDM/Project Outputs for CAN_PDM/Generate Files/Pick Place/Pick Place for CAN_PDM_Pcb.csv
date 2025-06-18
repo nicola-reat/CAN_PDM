@@ -1,16 +1,18 @@
 Altium Designer Pick and Place Locations
-C:\Work\CAN_PDM\PCB\CAN_PDM\Project Outputs for CAN_PDM\Generate Files\Pick Place\Pick Place for CAN_PDM_Pcb.csv
+C:\Users\Reatn\Desktop\Progetti\CAN_PDM\PCB\CAN_PDM\Project Outputs for CAN_PDM\Generate Files\Pick Place\Pick Place for CAN_PDM_Pcb.csv
 
 ========================================================================================================================
 File Design Information:
 
-Date:       13/05/25
-Time:       10:28
-Revision:   5268b7cf3aaa005ef6e432c24521af6061959b1d
+Date:       12/06/25
+Time:       13:12
+Revision:   fd3b85cc20a6127878d2ea471b74a2f5bfde07c2
 Variant:    No variations
 Units used: mm
 
 "Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"TP9","GND","BottomLayer","TP_c200","57.8000","91.3000","180",""
+"TP8","3V3","BottomLayer","TP_c200","53.3000","91.3000","180",""
 "C71","CAP","TopLayer","CAPC1608X09M","61.2000","39.8000","90",""
 "R40","Res","TopLayer","RESC2012X06N","82.1000","43.2000","90",""
 "R34","Res","TopLayer","RESC2012X06N","74.1000","43.2000","90",""
@@ -39,8 +41,8 @@ Units used: mm
 "U4","TJA1051TK/3,118","TopLayer","SON65P300X300X100-9N-D","11.0376","25.2900","0","CAN HIGH-SPEED CAN TRANSCEIVER 3.3V / 5V Pin VIO"
 "U2","TLV75530PDBVR","TopLayer","SOT95P280X145-5N","26.3000","66.2000","90","LDO Voltage Regulators 500-mA high-PSRR low-IQ low-dropout voltage regulator with enable"
 "U1","DC DC","TopLayer","SOT95P280X145-6N","10.4000","58.7500","270","4-V to 36-V, 600-mA synchronous step-down converter"
-"TP22","CC2","BottomLayer","TP_c200","11.6000","89.9000","0","Test Poin"
-"TP21","CC1","BottomLayer","TP_c200","12.0000","97.6000","0","Test Poin"
+"TP22","CC2","BottomLayer","TP_c200","8.6250","82.9750","0","Test Poin"
+"TP21","CC1","BottomLayer","TP_c200","2.6750","84.6500","0","Test Poin"
 "TP20","SBU1","BottomLayer","TP_c200","13.4000","85.3000","0","Test Poin"
 "TP19","SBU2","BottomLayer","TP_c200","21.8000","85.7000","0","Test Poin"
 "TP16","T_ALLERT","BottomLayer","TP_c200","72.1000","48.5000","180",""
@@ -66,10 +68,10 @@ Units used: mm
 "R148","","TopLayer","RESC1608X06M","22.4000","89.3000","90","Resistor"
 "R147","CRCW06030000Z0EAC","TopLayer","RESC1608X06M","18.6000","89.3000","90","CRCW06030000Z0EAC"
 "R146","CRCW06030000Z0EAC","TopLayer","RESC1608X06M","16.7000","89.3000","90","CRCW06030000Z0EAC"
-"R145","Res","TopLayer","RESC1608X06M","111.1000","70.3000","180",""
-"R144","Res","TopLayer","RESC1608X06M","111.1000","74.3000","180",""
+"R145","Res","TopLayer","RESC1608X06M","111.1000","67.9000","180",""
+"R144","Res","TopLayer","RESC1608X06M","111.1000","73.1000","180",""
 "R143","Res","TopLayer","RESC1608X06M","111.1000","78.3000","180",""
-"R142","Res","TopLayer","RESC1608X06M","111.1000","83.3000","180",""
+"R142","Res","TopLayer","RESC1608X06M","111.1000","83.5000","180",""
 "R141","Res","TopLayer","RESC1608X06M","96.4000","89.0000","270",""
 "R140","Res","TopLayer","RESC1608X06M","94.6000","89.0000","270",""
 "R139","Res","TopLayer","RESC1608X06M","91.2000","89.0000","270",""
@@ -191,8 +193,8 @@ Units used: mm
 "R20","Res","TopLayer","RESC2012X06N","43.4000","43.2000","90",""
 "R19","Res","TopLayer","RESC1608X06M","31.5000","78.3000","270",""
 "R18","Res","TopLayer","RESC1608X06M","30.0000","78.3000","270",""
-"R17","Res","TopLayer","RESC1608X06M","27.3000","81.4000","180",""
-"R16","Res","TopLayer","RESC1608X06M","24.4000","82.6000","270",""
+"R17","Res","TopLayer","RESC1608X06M","28.9250","80.9000","0",""
+"R16","Res","TopLayer","RESC1608X06M","24.1000","81.4000","270",""
 "R15","Res","TopLayer","RESC1608X06M","10.8376","28.1900","0",""
 "R14","Res","TopLayer","RESC1608X06M","31.9000","51.1000","0",""
 "R13","Res","TopLayer","RESC1608X06M","15.7000","25.0000","90",""
@@ -216,8 +218,8 @@ Units used: mm
 "J3","USB4105-GF-A","TopLayer","GCT-USB4105-GF-A","19.2000","96.1875","180","USB Connectors USB Type C,2.0, Rec,SMT, 0.95mmTH Shell Stakes,G/F,RA,Top Mnt,T&R"
 "J2","Connector","TopLayer","MOLEX_0477450100","60.0000","19.8500","0","Connector Header Board Edge, Through Hole, Right Angle 28 position"
 "J1","Connector","TopLayer","SAMTEC_FTSH-105-X-X-DV-007-P-X","17.9000","15.7000","0",""
-"DL19","Led_Green","TopLayer","LED0603","115.3000","70.3000","180",""
-"DL18","Led_Green","TopLayer","LED0603","115.3000","74.3000","180",""
+"DL19","Led_Green","TopLayer","LED0603","115.3000","67.9000","180",""
+"DL18","Led_Green","TopLayer","LED0603","115.3000","73.1000","180",""
 "DL17","Led_Green","TopLayer","LED0603","115.3000","78.3000","180",""
 "DL16","Led_Green","TopLayer","LED0603","115.3000","83.5000","180",""
 "DL15","LED_Red_Green","TopLayer","WURTH-SBTW_3528","95.4000","94.7000","270","Led Red - Green 3528"

@@ -1,0 +1,6 @@
+Added Component: Designator=TP8(TP_c200)
+Added Component: Designator=TP9(TP_c200)
+Added Pin To Net: NetName=+3V3 Pin=TP8-1
+Added Pin To Net: NetName=GND Pin=TP9-1
+Added Member To Class: ClassName=MCU Member=Component TP8 3V3
+Added Member To Class: ClassName=MCU Member=Component TP9 GND
