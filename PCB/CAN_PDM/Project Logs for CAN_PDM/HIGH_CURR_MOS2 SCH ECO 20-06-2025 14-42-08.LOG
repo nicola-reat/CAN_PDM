@@ -1,0 +1,13 @@
+Removed Parameter SMD/PTH:SMD from Part C72
+Removed Parameter SMD/PTH:SMD from Part R152
+Removed Parameter SMD/PTH:SMD from Part R154
+Change Value of Parameter Manufacturer in Part R152 Old=Vishay New=YAGEO
+Change Value of Parameter PartNumber in Part R152 Old=CRCW060310K0FKEA New=AC0603FR-0710KL
+Change Value of Parameter Manufacturer in Part R154 Old=Vishay New=YAGEO
+Change Value of Parameter PartNumber in Part R154 Old=CRCW06034K70FKEB New= RC0603FR-074K7L
+Change Value of Parameter Manufacturer in Part R155 Old=Vishay New=YAGEO
+Change Value of Parameter PartNumber in Part R155 Old=CRCW06034K70FKEB New= RC0603FR-074K7L
+Change Value of Parameter Manufacturer in Part R156 Old=Vishay New=YAGEO
+Change Value of Parameter PartNumber in Part R156 Old=CRCW06034K70FKEB New= RC0603FR-074K7L
+Change Value of Parameter Manufacturer in Part R157 Old=Vishay New=YAGEO
+Change Value of Parameter PartNumber in Part R157 Old=CRCW06034K70FKEB New= RC0603FR-074K7L

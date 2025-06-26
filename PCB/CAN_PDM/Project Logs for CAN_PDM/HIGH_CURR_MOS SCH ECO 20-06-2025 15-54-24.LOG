@@ -1,0 +1,11 @@
+Change Value of Parameter Manufacturer in Part R20 Old= New=Vishay
+Change Value of Parameter PartNumber in Part R22 Old= RC0603FR-074K7L New=RC0603FR-074K7L
+Change Value of Parameter PartNumber in Part R23 Old= RC0603FR-074K7L New=RC0603FR-074K7L
+Change Value of Parameter PartNumber in Part R24 Old= RC0603FR-074K7L New=RC0603FR-074K7L
+Change Value of Parameter Manufacturer in Part R26 Old= New=Vishay
+Change Value of Parameter PartNumber in Part R27 Old= RC0603FR-074K7L New=RC0603FR-074K7L
+Change Value of Parameter PartNumber in Part R28 Old= RC0603FR-074K7L New=RC0603FR-074K7L
+Change Value of Parameter PartNumber in Part R29 Old= RC0603FR-074K7L New=RC0603FR-074K7L
+Change Value of Parameter PartNumber in Part R30 Old= RC0603FR-074K7L New=RC0603FR-074K7L
+Added Parameter PartNumber=CRCW080547R0FKEA to Part R20
+Added Parameter PartNumber=CRCW080547R0FKEA to Part R26

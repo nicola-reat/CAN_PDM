@@ -378,7 +378,7 @@ UniqueId=3bb284fe-8f94-413a-8714-c4203e4da658
 Description=V1
 AllowFabrication=0
 ParameterCount=0
-VariationCount=16
+VariationCount=20
 Variation1=Designator=R60|UniqueId=\QNXYXCHH|Kind=1|AlternatePart=
 Variation2=Designator=R76|UniqueId=\DRMJVCBG|Kind=1|AlternatePart=
 Variation3=Designator=R61|UniqueId=\RWJIGAGZ|Kind=1|AlternatePart=
@@ -395,233 +395,249 @@ Variation13=Designator=R84|UniqueId=\DUJNDNFI|Kind=1|AlternatePart=
 Variation14=Designator=R85|UniqueId=\BEZDSWOV|Kind=1|AlternatePart=
 Variation15=Designator=R92|UniqueId=\WDGFWKJI|Kind=1|AlternatePart=
 Variation16=Designator=R93|UniqueId=\CHBSXOMD|Kind=1|AlternatePart=
+Variation17=Designator=C46|UniqueId=\OUBHBCKG|Kind=1|AlternatePart=
+Variation18=Designator=C50|UniqueId=\KKNVEGAM|Kind=1|AlternatePart=
+Variation19=Designator=C49|UniqueId=\IRQWZLEE|Kind=1|AlternatePart=
+Variation20=Designator=C45|UniqueId=\PEMVZJMC|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for CAN_PDM\BOM\Bill of Materials-CAN_PDM_Pcb(V1).xlsx
+DocumentPath=Project Outputs for CAN_PDM\BOM\Bill of Materials-CAN_PDM(V1).xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Free Documents\BOM\Bill of Materials-CAN_PDM_Pcb(V1).xlsx
+DocumentPath=Project Outputs for CAN_PDM\BOM\Bill of Materials-CAN_PDM_Pcb(V1).xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for CAN_PDM\BOM\Bill of Materials-CAN_PDM_Pcb.xlsx
+DocumentPath=Project Outputs for Free Documents\BOM\Bill of Materials-CAN_PDM_Pcb(V1).xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\NC Drill\CAN_PDM_Pcb-RoundHoles.TXT
+DocumentPath=Project Outputs for CAN_PDM\BOM\Bill of Materials-CAN_PDM_Pcb.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\NC Drill\CAN_PDM_Pcb-SlotHoles.TXT
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\NC Drill\CAN_PDM_Pcb-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\NC Drill\CAN_PDM_Pcb.DRR
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\NC Drill\CAN_PDM_Pcb-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\AutoCAD PCB\CAN_PDM_Pcb.DWG
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\NC Drill\CAN_PDM_Pcb.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.EXTREP
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\AutoCAD PCB\CAN_PDM_Pcb.DWG
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.G1
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.G2
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.G1
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GBL
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.G2
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GBO
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GBP
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GBS
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GM
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GTL
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GM
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GTO
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GTP
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GTS
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\NC Drill\CAN_PDM_Pcb.LDP
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.REP
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\NC Drill\CAN_PDM_Pcb.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\CAN_PDM_Pcb.REP
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Gerber\CAN_PDM_Pcb.REP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\comp_+_bot\components
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\CAN_PDM_Pcb.REP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\comp_+_top\components
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\comp_+_bot\components
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\eda\data
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for CAN_PDM\Design Rule Check - CAN_PDM_Pcb.html
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\bottom_layer\features
+DocumentPath=Project Outputs for CAN_PDM\Design Rule Check - CAN_PDM_Pcb.html
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\bottom_layer\features
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\bottom_paste\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\bottom_overlay\features
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\bottom_solder\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\bottom_paste\features
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\bottom_surface_finish\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\bottom_solder\features
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\bottom_surface_finish\features
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\comp_+_top\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\comp_+_bot\features
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\dielectric_1\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\comp_+_top\features
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\dielectric_2\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\dielectric_1\features
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\dielectric_3\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\dielectric_2\features
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\dielectric_4\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\dielectric_3\features
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\dielectric_5\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\dielectric_4\features
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\dielectric_5\features
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\features
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\int1__gnd-pwr_\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\features
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\int1__gnd_\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\int1__gnd-pwr_\features
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\int2__pwr-3v3_\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\int1__gnd_\features
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\int2__pwr_\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\int2__pwr-3v3_\features
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\top_layer\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\int2__pwr_\features
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\top_overlay\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\top_layer\features
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\top_paste\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\top_overlay\features
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\top_solder\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\top_paste\features
 DItemRevisionGUID=
 
 [GeneratedDocument49]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\top_surface_finish\features
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\top_solder\features
 DItemRevisionGUID=
 
 [GeneratedDocument50]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\matrix\matrix
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\top_surface_finish\features
 DItemRevisionGUID=
 
 [GeneratedDocument51]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\matrix\matrix
 DItemRevisionGUID=
 
 [GeneratedDocument52]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\Pick Place\Pick Place for CAN_PDM_Pcb.csv
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\netlists\cadnet\netlist
 DItemRevisionGUID=
 
 [GeneratedDocument53]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\Pick Place\Pick Place for CAN_PDM_Pcb.txt
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Pick Place\Pick Place for CAN_PDM_Pcb(V1).csv
 DItemRevisionGUID=
 
 [GeneratedDocument54]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\profile
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Pick Place\Pick Place for CAN_PDM_Pcb(V1).txt
 DItemRevisionGUID=
 
 [GeneratedDocument55]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\stephdr
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Pick Place\Pick Place for CAN_PDM_Pcb.csv
 DItemRevisionGUID=
 
 [GeneratedDocument56]
-DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\Pick Place\Pick Place for CAN_PDM_Pcb.txt
 DItemRevisionGUID=
 
 [GeneratedDocument57]
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
+DItemRevisionGUID=
+
+[GeneratedDocument60]
 DocumentPath=Project Outputs for CAN_PDM\Generate Files\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\tools
 DItemRevisionGUID=
 
@@ -951,6 +967,20 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Reatn\Desktop\Progetti\ALTIUM_MY_LIB\Template\BOM\BOM_NR_DEVS.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=PartNumber=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Designator=120|Quantity=120|Manufacturer=100|PartNumber=100
+Configuration1_Name7=VisibleOrder_Flat
+Configuration1_Item7=Designator=120|Quantity=120|Manufacturer=100|PartNumber=100
 OutputType2=BOM_ReportCompare
 OutputName2=BOM Compare
 OutputDocumentPath2=

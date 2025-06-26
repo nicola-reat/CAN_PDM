@@ -1,0 +1,25 @@
+Removed Parameter SMD/PTH:SMD from Part C1
+Removed Parameter SMD/PTH:SMD from Part C2
+Removed Parameter SMD/PTH:SMD from Part C3
+Removed Parameter SMD/PTH:SMD from Part C4
+Removed Parameter SMD/PTH:SMD from Part C5
+Removed Parameter SMD/PTH:SMD from Part C6
+Removed Parameter SMD/PTH:SMD from Part C7
+Removed Parameter SMD/PTH:SMD from Part C8
+Removed Parameter SMD/PTH:SMD from Part D3
+Removed Parameter SMD/PTH:SMD from Part DL1
+Removed Parameter SMD/PTH:SMD from Part DL2
+Removed Parameter SMD/PTH:SMD from Part R1
+Removed Parameter SMD/PTH:SMD from Part R2
+Removed Parameter SMD/PTH:SMD from Part R3
+Removed Parameter SMD/PTH:SMD from Part R4
+Removed Parameter SMD/PTH:SMD from Part R5
+Removed Parameter SMD/PTH:SMD from Part R6
+Change Value of Parameter Manufacturer in Part R3 Old=Vishay New=YAGEO
+Change Value of Parameter PartNumber in Part R3 Old=CRCW060310K0FKEA New=AC0603FR-0710KL
+Change Value of Parameter Manufacturer in Part R4 Old=Vishay New=YAGEO
+Change Value of Parameter PartNumber in Part R4 Old=CRCW060310K0FKEA New=AC0603FR-0710KL
+Change Value of Parameter Manufacturer in Part R7 Old=Vishay New=YAGEO
+Change Value of Parameter PartNumber in Part R7 Old=CRCW06030000Z0EAC New=RC0603JR-070RL
+Change Value of Parameter PartNumber in Part U2 Old=TLV75530PDBVR New=TLV75533PDBVR
+Change Value of Parameter Value in Part U2 Old=TLV75530PDBVR New=TLV75533PDBVR

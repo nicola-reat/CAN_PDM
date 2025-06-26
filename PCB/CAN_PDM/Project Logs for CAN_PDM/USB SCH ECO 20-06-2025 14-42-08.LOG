@@ -1,0 +1,6 @@
+Removed Parameter SMD/PTH:SMD from Part R146
+Removed Parameter SMD/PTH:SMD from Part R147
+Change Value of Parameter Manufacturer in Part R146 Old=Vishay New=YAGEO
+Change Value of Parameter PartNumber in Part R146 Old=CRCW06030000Z0EAC New=RC0603JR-070RL
+Change Value of Parameter Manufacturer in Part R147 Old=Vishay New=YAGEO
+Change Value of Parameter PartNumber in Part R147 Old=CRCW06030000Z0EAC New=RC0603JR-070RL

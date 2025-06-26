@@ -1,0 +1,16 @@
+Change Value of Parameter Manufacturer in Part C9 Old=KEMET New=Samsung Electro-Mechanics
+Change Value of Parameter PartNumber in Part C9 Old=GCJ31CR71A106MA13L New=CL31B106KBHNNNE
+Change Value of Parameter Voltage in Part C9 Old=10V New=50V
+Change Value of Parameter Manufacturer in Part C11 Old=KEMET New=Samsung Electro-Mechanics
+Change Value of Parameter PartNumber in Part C11 Old=GCJ31CR71A106MA13L New=CL31B106KBHNNNE
+Change Value of Parameter Voltage in Part C11 Old=10V New=50V
+Change Value of Parameter Manufacturer in Part C13 Old=KEMET New=Samsung Electro-Mechanics
+Change Value of Parameter PartNumber in Part C13 Old=GCJ31CR71A106MA13L New=CL31B106KBHNNNE
+Change Value of Parameter Voltage in Part C13 Old=10V New=50V
+Change Value of Parameter Manufacturer in Part C15 Old=KEMET New=Samsung Electro-Mechanics
+Change Value of Parameter PartNumber in Part C15 Old=GCJ31CR71A106MA13L New=CL31B106KBHNNNE
+Change Value of Parameter Voltage in Part C15 Old=10V New=50V
+Change Value of Parameter Manufacturer in Part C19 Old=Murata New=YAGEO
+Change Value of Parameter PartNumber in Part C19 Old=GCM1885C2A270FA16D New=CC0603FRNPO0BN270
+Change Value of Parameter Manufacturer in Part C20 Old=Murata New=YAGEO
+Change Value of Parameter PartNumber in Part C20 Old=GCM1885C2A270FA16D New=CC0603FRNPO0BN270
