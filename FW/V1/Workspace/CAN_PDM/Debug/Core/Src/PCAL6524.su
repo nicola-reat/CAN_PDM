@@ -1,0 +1,5 @@
+../Core/Src/PCAL6524.c:20:6:PCAL6524_SetPinDirection	40	static
+../Core/Src/PCAL6524.c:40:6:PCAL6524_SetPortDirection_io	40	static
+../Core/Src/PCAL6524.c:54:6:PCAL6524_WritePin	40	static
+../Core/Src/PCAL6524.c:72:6:PCAL6524_WritePort	40	static
+../Core/Src/PCAL6524.c:87:9:PCAL6524_ReadPin	40	static

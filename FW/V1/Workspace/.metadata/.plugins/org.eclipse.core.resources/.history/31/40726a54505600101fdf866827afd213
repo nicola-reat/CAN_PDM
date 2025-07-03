@@ -1,0 +1,17 @@
+/*
+ * PCAL6524.c
+ *
+ *  Created on: Jul 1, 2025
+ *      Author: nicola.reat
+ */
+
+
+#include "pcal6524.h"
+
+// Create and initialize a PCAL6524 I/O expander instance
+// - Uses the I2C1 peripheral for communication
+// - Device address is 0x22 (ADDR pin tied to GND), shifted left by 1 to match HAL format (0x44)
+PCAL6524 expander = {
+    .hi2c = &hi2c1,
+    .i2c_addr = 0x22 << 1  // I2C address = 0x44
+};
