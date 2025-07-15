@@ -1,0 +1,20 @@
+/*
+ * settings.c
+ *
+ *  Created on: Jul 15, 2025
+ *      Author: Reatn
+ */
+
+#include "settings.h"
+
+static BoardStatus_t boardStatus = BOARD_OK; //Initialize board status to OK at startup
+
+//Function to set board Status
+void Board_SetStatus(BoardStatus_t status) {
+    boardStatus = status;
+}
+
+//Function to get board Status
+BoardStatus_t Board_GetStatus(void) {
+    return boardStatus;
+}

@@ -1,0 +1,10 @@
+23:00:59 **** Incremental Build of configuration Debug for project Can_Pdm_FW ****
+make -j20 all 
+arm-none-eabi-size  Can_Pdm_FW.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38336	    272	  25136	  63744	   f900	Can_Pdm_FW.elf
+Finished building: default.size.stdout
+ 
+
+23:01:00 Build Finished. 0 errors, 0 warnings. (took 182ms)
+

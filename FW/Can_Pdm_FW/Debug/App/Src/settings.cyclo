@@ -1,0 +1,2 @@
+../App/Src/settings.c:13:6:Board_SetStatus	1
+../App/Src/settings.c:18:15:Board_GetStatus	1

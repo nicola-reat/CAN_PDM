@@ -25,7 +25,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "settings.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -47,14 +47,14 @@
 /* USER CODE BEGIN Variables */
 
 /* USER CODE END Variables */
-osThreadId defaultTaskHandle;
+osThreadId BoardStatusTaskHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
 
 /* USER CODE END FunctionPrototypes */
 
-void StartDefaultTask(void const * argument);
+void StartBoardStatusTask(void const * argument);
 
 extern void MX_USB_DEVICE_Init(void);
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
@@ -102,9 +102,9 @@ void MX_FREERTOS_Init(void) {
   /* USER CODE END RTOS_QUEUES */
 
   /* Create the thread(s) */
-  /* definition and creation of defaultTask */
-  osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
-  defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
+  /* definition and creation of BoardStatusTask */
+  osThreadDef(BoardStatusTask, StartBoardStatusTask, osPriorityNormal, 0, 128);
+  BoardStatusTaskHandle = osThreadCreate(osThread(BoardStatusTask), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -112,24 +112,71 @@ void MX_FREERTOS_Init(void) {
 
 }
 
-/* USER CODE BEGIN Header_StartDefaultTask */
+/* USER CODE BEGIN Header_StartBoardStatusTask */
 /**
-  * @brief  Function implementing the defaultTask thread.
+  * @brief  Function implementing the BoardStatusTask thread.
   * @param  argument: Not used
   * @retval None
   */
-/* USER CODE END Header_StartDefaultTask */
-void StartDefaultTask(void const * argument)
+/* USER CODE END Header_StartBoardStatusTask */
+void StartBoardStatusTask(void const * argument)
 {
   /* init code for USB_DEVICE */
   MX_USB_DEVICE_Init();
-  /* USER CODE BEGIN StartDefaultTask */
+  /* USER CODE BEGIN StartBoardStatusTask */
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+	BoardStatus_t Board_Status = Board_GetStatus(); //Get Status of board
+	switch (Board_Status) {
+		case BOARD_OK:
+			HAL_GPIO_TogglePin(LD_STATUS_GPIO_Port, LD_STATUS_Pin);
+			osDelay(1000);
+			break;
+
+		case BOARD_KO_CAN: //Blink 2 times
+		    for (int x = 0; x < 4; ++x) {
+		        HAL_GPIO_TogglePin(LD_STATUS_GPIO_Port, LD_STATUS_Pin);
+		        osDelay(300);
+		    }
+		    HAL_GPIO_WritePin(LD_STATUS_GPIO_Port, LD_STATUS_Pin, GPIO_PIN_RESET); //Turn Off led
+		    osDelay(1000); //1sec delay
+		    break;
+
+		case BOARD_KO_ADC: //Blink 4 times
+				    for (int x = 0; x < 8; ++x) {
+				        HAL_GPIO_TogglePin(LD_STATUS_GPIO_Port, LD_STATUS_Pin);
+				        osDelay(300);
+				    }
+				    HAL_GPIO_WritePin(LD_STATUS_GPIO_Port, LD_STATUS_Pin, GPIO_PIN_RESET); //Turn Off led
+				    osDelay(1000); //1sec delay
+				    break;
+
+		case BOARD_KO_I2C: //Blink 6 times
+				    for (int x = 0; x < 12; ++x) {
+				        HAL_GPIO_TogglePin(LD_STATUS_GPIO_Port, LD_STATUS_Pin);
+				        osDelay(300);
+				    }
+				    HAL_GPIO_WritePin(LD_STATUS_GPIO_Port, LD_STATUS_Pin, GPIO_PIN_RESET); //Turn Off led
+				    osDelay(1000); //1sec delay
+				    break;
+
+		case BOARD_KO_TEMP: //Blink 8 times
+				    for (int x = 0; x < 16; ++x) {
+				        HAL_GPIO_TogglePin(LD_STATUS_GPIO_Port, LD_STATUS_Pin);
+				        osDelay(300);
+				    }
+				    HAL_GPIO_WritePin(LD_STATUS_GPIO_Port, LD_STATUS_Pin, GPIO_PIN_RESET); //Turn Off led
+				    osDelay(1000); //1sec delay
+				    break;
+		default:
+			HAL_GPIO_WritePin(LD_STATUS_GPIO_Port, LD_STATUS_Pin, GPIO_PIN_RESET); //Turn Off led
+			osDelay(1000);
+			break;
+	}
+	osDelay(1); //Prevent cpu blocking
   }
-  /* USER CODE END StartDefaultTask */
+  /* USER CODE END StartBoardStatusTask */
 }
 
 /* Private application code --------------------------------------------------*/
