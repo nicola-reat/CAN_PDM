@@ -1,0 +1,35 @@
+/*
+ * can_ids.h
+ *
+ *  Created on: Jul 25, 2025
+ *      Author: nicola.reat
+ */
+
+#ifndef INC_CAN_IDS_H_
+#define INC_CAN_IDS_H_
+
+/**
+ * @brief  Board CAN ID mapping
+ *
+ * Each board is assigned a unique BOARD_ID (starting from 1).
+ * The board uses a fixed number of CAN IDs for commands and status.
+ *
+ * This logic maps the CAN ID space for each board:
+ *  - TX_BASE_ID = 0x100 + (BOARD_ID - 1) * 0x10  → for outgoing messages (status)
+ *  - RX_BASE_ID = 0x200 + (BOARD_ID - 1) * 0x10  → for incoming messages (commands switch)
+ *
+ * Example with 9 channels per board:
+ *  - BOARD_ID 1 → TX: 0x100–0x108, RX: 0x200–0x208
+ *  - BOARD_ID 2 → TX: 0x110–0x118, RX: 0x210–0x218
+ *  - BOARD_ID 3 → TX: 0x120–0x128, RX: 0x220–0x228
+ *
+ */
+
+#define BOARD_ID 1
+
+#define TX_BASE_ID (0x100 + ((BOARD_ID - 1) * 0x10))
+#define RX_BASE_ID (0x200 + ((BOARD_ID - 1) * 0x10))
+
+
+
+#endif /* INC_CAN_IDS_H_ */

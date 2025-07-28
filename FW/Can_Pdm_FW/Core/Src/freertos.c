@@ -26,6 +26,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "settings.h"
+#include "profet.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -45,13 +47,13 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
-
+osThreadId ProfetMonitorStatusTaskHandle ;
 /* USER CODE END Variables */
 osThreadId BoardStatusTaskHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
-
+void StartProfetMonitorStatusTask(void const * argument); //Profet Monitor Status Task
 /* USER CODE END FunctionPrototypes */
 
 void StartBoardStatusTask(void const * argument);
@@ -108,6 +110,9 @@ void MX_FREERTOS_Init(void) {
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
+  /* definition and creation of ProfetMonitorStatusTask */
+  osThreadDef(ProfetMonitorStatusTask, StartProfetMonitorStatusTask, osPriorityNormal, 0, 128);
+  ProfetMonitorStatusTaskHandle = osThreadCreate(osThread(ProfetMonitorStatusTask), NULL);
   /* USER CODE END RTOS_THREADS */
 
 }
@@ -173,6 +178,7 @@ void StartBoardStatusTask(void const * argument)
 			HAL_GPIO_WritePin(LD_STATUS_GPIO_Port, LD_STATUS_Pin, GPIO_PIN_RESET); //Turn Off led
 			osDelay(1000);
 			break;
+
 	}
 	osDelay(1); //Prevent cpu blocking
   }
@@ -181,5 +187,23 @@ void StartBoardStatusTask(void const * argument)
 
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
+/* USER CODE BEGIN Header_StartProfetMonitorStatusTask */
+/**
+  * @brief  Function implementing the ProfetMonitorStatusTask thread.
+  * @param  argument: Not used
+  * @retval None
+  */
+/* USER CODE END Header_StartProfetMonitorStatusTask */
+void StartProfetMonitorStatusTask(void const * argument)
+{
 
+  /* USER CODE BEGIN StartProfetMonitorStatusTask */
+  /* Infinite loop */
+  for(;;)
+  {
+	Profet_UpdateAllCurrents(); //Update all profet current
+	osDelay(200); //Prevent cpu blocking
+  }
+  /* USER CODE END StartProfetMonitorStatusTask */
+}
 /* USER CODE END Application */

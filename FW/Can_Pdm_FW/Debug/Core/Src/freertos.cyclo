@@ -1,3 +1,4 @@
-../Core/Src/freertos.c:69:6:vApplicationGetIdleTaskMemory	1
-../Core/Src/freertos.c:83:6:MX_FREERTOS_Init	1
-../Core/Src/freertos.c:122:6:StartBoardStatusTask	10
+../Core/Src/freertos.c:71:6:vApplicationGetIdleTaskMemory	1
+../Core/Src/freertos.c:85:6:MX_FREERTOS_Init	1
+../Core/Src/freertos.c:127:6:StartBoardStatusTask	10
+../Core/Src/freertos.c:197:6:StartProfetMonitorStatusTask	1

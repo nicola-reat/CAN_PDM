@@ -46,12 +46,58 @@ void MX_GPIO_Init(void)
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOH_CLK_ENABLE();
+  __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
-  __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
+  __HAL_RCC_GPIOD_CLK_ENABLE();
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, MCU_IN_L2_Pin|MCU_DSEL_L1_2_Pin|MCU_IN_L1_Pin|MCU_IN_L3_Pin
+                          |STATUS_CAN_TX_Pin|STATUS_CAN_RX_Pin|MCU_IN_H1_Pin|MCU_IN_H2_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOC, MCU_IN_H3_Pin|MCU_IN_M1_Pin|MCU_IN_M2_Pin|MCU_IN_L4_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(MCU_DSEL_L3_4_GPIO_Port, MCU_DSEL_L3_4_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(LD_STATUS_GPIO_Port, LD_STATUS_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pins : MCU_IN_L2_Pin MCU_DSEL_L1_2_Pin MCU_IN_L1_Pin MCU_IN_L3_Pin
+                           STATUS_CAN_TX_Pin STATUS_CAN_RX_Pin MCU_IN_H1_Pin MCU_IN_H2_Pin */
+  GPIO_InitStruct.Pin = MCU_IN_L2_Pin|MCU_DSEL_L1_2_Pin|MCU_IN_L1_Pin|MCU_IN_L3_Pin
+                          |STATUS_CAN_TX_Pin|STATUS_CAN_RX_Pin|MCU_IN_H1_Pin|MCU_IN_H2_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : MCU_IN_H3_Pin MCU_IN_M1_Pin MCU_IN_M2_Pin MCU_IN_L4_Pin */
+  GPIO_InitStruct.Pin = MCU_IN_H3_Pin|MCU_IN_M1_Pin|MCU_IN_M2_Pin|MCU_IN_L4_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : MCU_DSEL_L3_4_Pin */
+  GPIO_InitStruct.Pin = MCU_DSEL_L3_4_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(MCU_DSEL_L3_4_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : MCU_DIG1_Pin */
+  GPIO_InitStruct.Pin = MCU_DIG1_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(MCU_DIG1_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : MCU_DIG2_Pin MCU_DIG3_Pin MCU_DIG4_Pin */
+  GPIO_InitStruct.Pin = MCU_DIG2_Pin|MCU_DIG3_Pin|MCU_DIG4_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
   /*Configure GPIO pin : LD_STATUS_Pin */
   GPIO_InitStruct.Pin = LD_STATUS_Pin;

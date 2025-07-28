@@ -1,0 +1,5 @@
+../Core/Src/adc.c:31:6:MX_ADC1_Init	24	static
+../Core/Src/adc.c:177:6:HAL_ADC_MspInit	48	static
+../Core/Src/adc.c:241:6:HAL_ADC_MspDeInit	16	static
+../Core/Src/adc.c:281:6:Start_Dma	8	static
+../Core/Src/adc.c:286:10:ADC_ReadChannelRaw	16	static

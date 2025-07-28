@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Can_Pdm_FW/App/Src/profect.c&apos; to &apos;profet.c&apos;" description="Rename resource &apos;profect.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="App/Src/profect.c" name="profet.c" stamp="1753446098628" updateReferences="true"/>
+</session>

@@ -5,12 +5,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../App/Src/profet.c \
 ../App/Src/settings.c 
 
 OBJS += \
+./App/Src/profet.o \
 ./App/Src/settings.o 
 
 C_DEPS += \
+./App/Src/profet.d \
 ./App/Src/settings.d 
 
 
@@ -21,7 +24,7 @@ App/Src/%.o App/Src/%.su App/Src/%.cyclo: ../App/Src/%.c App/Src/subdir.mk
 clean: clean-App-2f-Src
 
 clean-App-2f-Src:
-	-$(RM) ./App/Src/settings.cyclo ./App/Src/settings.d ./App/Src/settings.o ./App/Src/settings.su
+	-$(RM) ./App/Src/profet.cyclo ./App/Src/profet.d ./App/Src/profet.o ./App/Src/profet.su ./App/Src/settings.cyclo ./App/Src/settings.d ./App/Src/settings.o ./App/Src/settings.su
 
 .PHONY: clean-App-2f-Src
 

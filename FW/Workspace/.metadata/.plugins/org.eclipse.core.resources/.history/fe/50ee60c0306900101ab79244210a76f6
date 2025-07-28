@@ -1,0 +1,34 @@
+/*
+ * profet.h
+ *
+ *  Created on: Jul 17, 2025
+ *      Author: nicola.reat
+ */
+
+#ifndef INC_PROFET_H_
+#define INC_PROFET_H_
+
+#include "main.h"      // for GPIO_TypeDef, uint16_t, hadc, ecc.
+#include <stdbool.h>   // for bool
+#include <stdint.h>    // for uint32_t, ecc.
+#include "adc.h"	   // for adc conversion
+
+typedef enum {
+	PROFET_BTS7002_1EPP, //21A
+    PROFET_BTS7004_1EPZ,  //15A
+    PROFET_BTS7008_2EPZ   //7.5A x2
+} ProfetModel_t;
+
+typedef struct {
+    ProfetModel_t model; //Model of profet
+    GPIO_TypeDef* inPort; //Profet In Port
+    uint16_t inPin; //Profet In Pin
+    float kilis; //KILIS for convert current
+    float rSense; //External sensing resistor
+    bool enabled; //True if profet is ON
+    bool faultLatched; //True if profet is in fault
+    float current_mA; //Current read in mA
+} ProfetChannel_t;
+
+
+#endif /* INC_PROFET_H_ */
