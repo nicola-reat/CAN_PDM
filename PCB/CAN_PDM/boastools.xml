@@ -29,9 +29,7 @@
         <checkbox parameter="[Footprint]" checked="True" visible="True" />
         <checkbox parameter="Case" checked="False" visible="False" />
         <checkbox parameter="Manufacturer" checked="False" visible="False" />
-        <checkbox parameter="Part Number" checked="False" visible="False" />
         <checkbox parameter="PartNumber" checked="True" visible="True" />
-        <checkbox parameter="SMD/PTH" checked="False" visible="False" />
         <checkbox parameter="Voltage" checked="False" visible="False" />
       </param>
       <param name="CustomFabrication" value="false" />

@@ -30,7 +30,7 @@
 /* USER CODE BEGIN Includes */
 #include "settings.h"
 #include "profet.h"
-
+#include "can_handler.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -40,7 +40,9 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+CAN_TxHeaderTypeDef   TxHeader;
+uint8_t               TxData[8];
+uint32_t              TxMailbox;
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -101,13 +103,19 @@ int main(void)
   MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
 
-  HAL_Delay(2000);
-  Profet_SetState(&profet_Hout1, 1);
+  //HAL_Delay(2000);
+  //Profet_SetState(&profet_Hout1, 1);
   Start_Dma();
+  //InitCanQueue();
+
+  HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);
   /* USER CODE END 2 */
 
   /* Call init function for freertos objects (in cmsis_os2.c) */
   MX_FREERTOS_Init();
+
+
+
 
   /* Start scheduler */
   osKernelStart();
@@ -121,11 +129,11 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
-    /* USER CODE BEGIN 3 */
-
-	  }
   /* USER CODE END 3 */
 }
+}
+
+
 
 /**
   * @brief System Clock Configuration

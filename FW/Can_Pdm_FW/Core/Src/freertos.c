@@ -27,7 +27,7 @@
 /* USER CODE BEGIN Includes */
 #include "settings.h"
 #include "profet.h"
-
+#include "can_handler.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -47,12 +47,14 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
+osThreadId BlinkTxRxCankHandle ;
 osThreadId ProfetMonitorStatusTaskHandle ;
 /* USER CODE END Variables */
 osThreadId BoardStatusTaskHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
+void StartBlinkTxRxCanTask(void const * argument); //Blink led rx tx can
 void StartProfetMonitorStatusTask(void const * argument); //Profet Monitor Status Task
 /* USER CODE END FunctionPrototypes */
 
@@ -110,6 +112,9 @@ void MX_FREERTOS_Init(void) {
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
+  /* definition and creation of BlinkTxRxCanTask */
+  osThreadDef(BlinkTxRxCanTask, StartBlinkTxRxCanTask, osPriorityNormal, 0, 128);
+  BlinkTxRxCankHandle = osThreadCreate(osThread(BlinkTxRxCanTask), NULL);
   /* definition and creation of ProfetMonitorStatusTask */
   osThreadDef(ProfetMonitorStatusTask, StartProfetMonitorStatusTask, osPriorityNormal, 0, 128);
   ProfetMonitorStatusTaskHandle = osThreadCreate(osThread(ProfetMonitorStatusTask), NULL);
@@ -206,4 +211,22 @@ void StartProfetMonitorStatusTask(void const * argument)
   }
   /* USER CODE END StartProfetMonitorStatusTask */
 }
+
+void StartBlinkTxRxCanTask(void const * argument)
+{
+    for(;;)
+    {
+        if (can_rx_flag)
+        {
+            can_rx_flag = false;
+
+            HAL_GPIO_WritePin(STATUS_CAN_RX_GPIO_Port, STATUS_CAN_RX_Pin, GPIO_PIN_SET);
+            osDelay(50);
+            HAL_GPIO_WritePin(STATUS_CAN_RX_GPIO_Port, STATUS_CAN_RX_Pin, GPIO_PIN_RESET);
+        }
+
+        osDelay(1);  // Evita blocco CPU
+    }
+}
+
 /* USER CODE END Application */

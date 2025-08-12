@@ -51,7 +51,8 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
  ../App/inc/settings.h ../App/inc/profet.h ../Core/Inc/adc.h \
- ../Core/Inc/main.h
+ ../Core/Inc/main.h ../App/inc/can_handler.h ../Core/Inc/can.h \
+ ../App/inc/can_ids.h
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../Core/Inc/FreeRTOSConfig.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
@@ -108,3 +109,6 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
 ../App/inc/profet.h:
 ../Core/Inc/adc.h:
 ../Core/Inc/main.h:
+../App/inc/can_handler.h:
+../Core/Inc/can.h:
+../App/inc/can_ids.h:

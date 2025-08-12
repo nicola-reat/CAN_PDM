@@ -9,6 +9,7 @@
 #define INC_SETTINGS_H_
 
 
+
 // Status for Board
 typedef enum {
     BOARD_OK = 0, //Everythings is ok

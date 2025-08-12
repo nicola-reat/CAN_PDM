@@ -1,3 +1,4 @@
+"./App/Src/can_handler.o"
 "./App/Src/profet.o"
 "./App/Src/settings.o"
 "./Core/Src/adc.o"

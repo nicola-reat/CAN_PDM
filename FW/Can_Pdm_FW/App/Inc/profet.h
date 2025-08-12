@@ -36,7 +36,6 @@ extern ProfetChannel_t profet_Hout2;
 extern ProfetChannel_t profet_Hout3;
 extern ProfetChannel_t profet_Mout1;
 extern ProfetChannel_t profet_Mout2;
-extern ProfetChannel_t profet_Mout3;
 extern ProfetChannel_t profet_Lout1;
 extern ProfetChannel_t profet_Lout2;
 extern ProfetChannel_t profet_Lout3;
