@@ -1,0 +1,5 @@
+../PDM_Drivers/profet.c:37:6:Profet_SetState	16	static
+../PDM_Drivers/profet.c:76:6:Profet_UpdateCurrent	32	static
+../PDM_Drivers/profet.c:94:7:Profet_GetTotalCurrent_mA	16	static
+../PDM_Drivers/profet.c:111:6:Profet_CheckFaults	24	static
+../PDM_Drivers/profet.c:179:6:Profet_ResetFault	16	static

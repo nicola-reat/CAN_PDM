@@ -1,0 +1,6 @@
+../PDM_Drivers/io_expander.c:94:6:IOExpander_Init	16	static
+../PDM_Drivers/io_expander.c:105:6:IOExpander_SetLed	16	static
+../PDM_Drivers/io_expander.c:118:6:IOExpander_ToggleLed	16	static
+../PDM_Drivers/io_expander.c:131:6:IOExpander_GetLed	16	static
+../PDM_Drivers/io_expander.c:142:16:IOExpander_GetFaultBlinkCount	16	static
+../PDM_Drivers/io_expander.c:167:6:IOExpander_Update	24	static

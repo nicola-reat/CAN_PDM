@@ -1,0 +1,3 @@
+../PDM_Drivers/adc_manager.c:28:10:ADC_GetRawValue	1
+../PDM_Drivers/adc_manager.c:47:7:ADC_GetVoltage	1
+../PDM_Drivers/adc_manager.c:67:7:ADC_GetBatteryVoltage	1

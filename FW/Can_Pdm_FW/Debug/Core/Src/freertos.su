@@ -1,5 +1,0 @@
-../Core/Src/freertos.c:73:6:vApplicationGetIdleTaskMemory	24	static
-../Core/Src/freertos.c:87:6:MX_FREERTOS_Init	104	static
-../Core/Src/freertos.c:132:6:StartBoardStatusTask	40	static
-../Core/Src/freertos.c:202:6:StartProfetMonitorStatusTask	16	static
-../Core/Src/freertos.c:215:6:StartBlinkTxRxCanTask	16	static

@@ -1,0 +1,12 @@
+../PDM_Drivers/can_manager.c:28:6:CAN_Manager_Init	48	static
+../PDM_Drivers/can_manager.c:58:6:HAL_CAN_RxFifo0MsgPendingCallback	16	static
+../PDM_Drivers/can_manager.c:74:6:CAN_ProcessMessage	24	static
+../PDM_Drivers/can_manager.c:164:6:CAN_SendPDMStatus	56	static
+../PDM_Drivers/can_manager.c:201:6:CAN_SendHighOutputsStatus	56	static
+../PDM_Drivers/can_manager.c:285:6:CAN_SendHighOutputsFaults	48	static
+../PDM_Drivers/can_manager.c:309:6:CAN_SendMediumOutputsStatus	56	static
+../PDM_Drivers/can_manager.c:376:6:CAN_SendMediumOutputsFaults	48	static
+../PDM_Drivers/can_manager.c:399:6:CAN_SendLowOutputs1Status	56	static
+../PDM_Drivers/can_manager.c:466:6:CAN_SendLow1OutputsFaults	48	static
+../PDM_Drivers/can_manager.c:489:6:CAN_SendLowOutputs2Status	56	static
+../PDM_Drivers/can_manager.c:558:6:CAN_SendLow2OutputsFaults	48	static

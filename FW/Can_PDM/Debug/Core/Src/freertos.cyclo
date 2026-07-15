@@ -1,0 +1,8 @@
+../Core/Src/freertos.c:80:6:vApplicationGetIdleTaskMemory	1
+../Core/Src/freertos.c:94:6:MX_FREERTOS_Init	1
+../Core/Src/freertos.c:148:6:StartDefaultTask	1
+../Core/Src/freertos.c:163:6:StartAcquisitionTask	2
+../Core/Src/freertos.c:183:6:StartTelemetryTask	1
+../Core/Src/freertos.c:204:6:StartPowerManagerTask	29
+../Core/Src/freertos.c:371:6:StartCanLedTask	3
+../Core/Src/freertos.c:394:6:StartOutputLedTask	1

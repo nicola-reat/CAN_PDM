@@ -1,0 +1,48 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (14.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../PDM_Drivers/adc_manager.c \
+../PDM_Drivers/can_manager.c \
+../PDM_Drivers/io_expander.c \
+../PDM_Drivers/keypad_manager.c \
+../PDM_Drivers/mcp9808.c \
+../PDM_Drivers/pcal6524.c \
+../PDM_Drivers/pdm_config.c \
+../PDM_Drivers/profet.c 
+
+OBJS += \
+./PDM_Drivers/adc_manager.o \
+./PDM_Drivers/can_manager.o \
+./PDM_Drivers/io_expander.o \
+./PDM_Drivers/keypad_manager.o \
+./PDM_Drivers/mcp9808.o \
+./PDM_Drivers/pcal6524.o \
+./PDM_Drivers/pdm_config.o \
+./PDM_Drivers/profet.o 
+
+C_DEPS += \
+./PDM_Drivers/adc_manager.d \
+./PDM_Drivers/can_manager.d \
+./PDM_Drivers/io_expander.d \
+./PDM_Drivers/keypad_manager.d \
+./PDM_Drivers/mcp9808.d \
+./PDM_Drivers/pcal6524.d \
+./PDM_Drivers/pdm_config.d \
+./PDM_Drivers/profet.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+PDM_Drivers/%.o PDM_Drivers/%.su PDM_Drivers/%.cyclo: ../PDM_Drivers/%.c PDM_Drivers/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-PDM_Drivers
+
+clean-PDM_Drivers:
+	-$(RM) ./PDM_Drivers/adc_manager.cyclo ./PDM_Drivers/adc_manager.d ./PDM_Drivers/adc_manager.o ./PDM_Drivers/adc_manager.su ./PDM_Drivers/can_manager.cyclo ./PDM_Drivers/can_manager.d ./PDM_Drivers/can_manager.o ./PDM_Drivers/can_manager.su ./PDM_Drivers/io_expander.cyclo ./PDM_Drivers/io_expander.d ./PDM_Drivers/io_expander.o ./PDM_Drivers/io_expander.su ./PDM_Drivers/keypad_manager.cyclo ./PDM_Drivers/keypad_manager.d ./PDM_Drivers/keypad_manager.o ./PDM_Drivers/keypad_manager.su ./PDM_Drivers/mcp9808.cyclo ./PDM_Drivers/mcp9808.d ./PDM_Drivers/mcp9808.o ./PDM_Drivers/mcp9808.su ./PDM_Drivers/pcal6524.cyclo ./PDM_Drivers/pcal6524.d ./PDM_Drivers/pcal6524.o ./PDM_Drivers/pcal6524.su ./PDM_Drivers/pdm_config.cyclo ./PDM_Drivers/pdm_config.d ./PDM_Drivers/pdm_config.o ./PDM_Drivers/pdm_config.su ./PDM_Drivers/profet.cyclo ./PDM_Drivers/profet.d ./PDM_Drivers/profet.o ./PDM_Drivers/profet.su
+
+.PHONY: clean-PDM_Drivers
+

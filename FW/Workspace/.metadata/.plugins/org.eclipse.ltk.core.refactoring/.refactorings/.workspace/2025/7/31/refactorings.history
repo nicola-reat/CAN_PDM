@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;Can_Pdm_FW&apos;" deleteContents="false" description="Delete resource &apos;Can_Pdm_FW&apos;" element1="/Can_Pdm_FW" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1753734459695"/>
-</session>
