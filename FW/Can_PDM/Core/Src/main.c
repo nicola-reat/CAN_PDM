@@ -23,7 +23,7 @@
 #include "can.h"
 #include "dma.h"
 #include "i2c.h"
-#include "usb_otg.h"
+#include "usb_device.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -99,7 +99,6 @@ int main(void)
   MX_ADC1_Init();
   MX_CAN1_Init();
   MX_I2C1_Init();
-  MX_USB_OTG_FS_HCD_Init();
   /* USER CODE BEGIN 2 */
   HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adcRaw, 12);
   CAN_Manager_Init();

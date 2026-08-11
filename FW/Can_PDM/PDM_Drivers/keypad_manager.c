@@ -14,53 +14,89 @@ void Keypad_Init(void)
      * Configure keypad button mapping
      * =========================================================================
      */
-
+    if (PDM_ID == PDM_1)
+    {
+    // mapping PDM1
     //High outputs
-    keypadButtons[0].keyNumber = 1;
+    keypadButtons[0].keyNumber = 8;
     keypadButtons[0].channel = &profet_H1;
 
-    keypadButtons[1].keyNumber = 2;
+    keypadButtons[1].keyNumber = 14;
     keypadButtons[1].channel = &profet_H2;
 
-    keypadButtons[2].keyNumber = 3;
+    keypadButtons[2].keyNumber = 10 ;
     keypadButtons[2].channel = &profet_H3;
 
     //Medium outputs
-    keypadButtons[3].keyNumber = 4;
+    keypadButtons[3].keyNumber = 3;
     keypadButtons[3].channel = &profet_M1;
 
-    keypadButtons[4].keyNumber = 5;
+    keypadButtons[4].keyNumber = 2;
     keypadButtons[4].channel = &profet_M2;
 
     //Low outputs
-    keypadButtons[5].keyNumber = 6;
+    keypadButtons[5].keyNumber = 1;
     keypadButtons[5].channel = &profet_L1;
 
-    keypadButtons[6].keyNumber = 7;
+    keypadButtons[6].keyNumber = 30;
     keypadButtons[6].channel = &profet_L2;
 
-    keypadButtons[7].keyNumber = 8;
+    keypadButtons[7].keyNumber = 30 ;
     keypadButtons[7].channel = &profet_L3;
 
-    keypadButtons[8].keyNumber = 9;
+    keypadButtons[8].keyNumber = 30;
+    keypadButtons[8].channel = &profet_L4;
+    }else{
+    // mapping PDM2
+    //High outputs
+    keypadButtons[0].keyNumber = 6;
+    keypadButtons[0].channel = &profet_H1;
+
+    keypadButtons[1].keyNumber = 7;
+    keypadButtons[1].channel = &profet_H2;
+
+    keypadButtons[2].keyNumber = 30 ;
+    keypadButtons[2].channel = &profet_H3;
+
+    //Medium outputs
+    keypadButtons[3].keyNumber = 13;
+    keypadButtons[3].channel = &profet_M1;
+
+    keypadButtons[4].keyNumber = 30;
+    keypadButtons[4].channel = &profet_M2;
+
+    //Low outputs
+    keypadButtons[5].keyNumber = 1;
+    keypadButtons[5].channel = &profet_L1;
+
+    keypadButtons[6].keyNumber = 5;
+    keypadButtons[6].channel = &profet_L2;
+
+    keypadButtons[7].keyNumber = 30 ;
+    keypadButtons[7].channel = &profet_L3;
+
+    keypadButtons[8].keyNumber = 30;
     keypadButtons[8].channel = &profet_L4;
 
-    /*
-     * =========================================================================
-     * Reset all keypad LEDs
-     * =========================================================================
-     */
-
-    for(uint8_t i = 0; i < 9; i++)
-    {
-        //Turn LED OFF
-        Keypad_SendLEDCommand( keypadButtons[i].keyNumber,KEYPAD_LED_OFF,KEYPAD_LED_MODE_OFF);
-        //Save initial LED state
-        keypadButtons[i].lastLedState = KEYPAD_LED_OFF;
-        //Save initial LED mode
-        keypadButtons[i].lastLedMode = KEYPAD_LED_MODE_OFF;
     }
-    Keypad_SetBrightness(100);
+    /*
+         * =========================================================================
+         * Reset all keypad LEDs
+         * =========================================================================
+         */
+
+        for(uint8_t i = 0; i < 9; i++)
+        {
+            //Turn LED OFF
+            Keypad_SendLEDCommand(keypadButtons[i].keyNumber,KEYPAD_LED_OFF,KEYPAD_LED_MODE_OFF);
+            //Save initial LED state
+            keypadButtons[i].lastLedState = KEYPAD_LED_OFF;
+            //Save initial LED mode
+            keypadButtons[i].lastLedMode = KEYPAD_LED_MODE_OFF;
+            //Initialize LED refresh timer
+            keypadButtons[i].lastLedUpdate = HAL_GetTick();
+            Keypad_SetBrightness(100); //Set brightness 100
+        }
 }
 
 //Keypad activate infineon
@@ -130,11 +166,14 @@ void Keypad_ProcessMessage(uint8_t keyNumber,
     HAL_CAN_AddTxMessage(&hcan1,&txHeader,txData,&txMailbox);
 }
 
-//Update Led if there is a fault
+ //Keypad Update LED
  void Keypad_UpdateLEDs(void)
  {
      uint8_t newLedState;
      uint8_t newLedMode;
+
+     //Get current system time
+     uint32_t now = HAL_GetTick();
 
      //Process all keypad buttons
      for(uint8_t i = 0; i < 9; i++)
@@ -151,7 +190,6 @@ void Keypad_ProcessMessage(uint8_t keyNumber,
          if(button->channel->faultType == FAULT_OPEN_LOAD)
          {
              newLedState = KEYPAD_LED_YELLOW;
-
              newLedMode = KEYPAD_LED_MODE_BLINK;
          }
 
@@ -159,8 +197,6 @@ void Keypad_ProcessMessage(uint8_t keyNumber,
          else if(button->channel->faultType == FAULT_OVERCURRENT)
          {
              newLedState = KEYPAD_LED_AMBER_ORANGE;
-
-
              newLedMode = KEYPAD_LED_MODE_BLINK;
          }
 
@@ -168,7 +204,6 @@ void Keypad_ProcessMessage(uint8_t keyNumber,
          else if(button->channel->faultType == FAULT_SHORT_CIRCUIT)
          {
              newLedState = KEYPAD_LED_RED;
-
              newLedMode = KEYPAD_LED_MODE_BLINK;
          }
 
@@ -176,7 +211,6 @@ void Keypad_ProcessMessage(uint8_t keyNumber,
          else if(button->channel->faultType == FAULT_THERMAL)
          {
              newLedState = KEYPAD_LED_CYAN;
-
              newLedMode = KEYPAD_LED_MODE_BLINK;
          }
 
@@ -184,7 +218,6 @@ void Keypad_ProcessMessage(uint8_t keyNumber,
          else if(button->channel->enabled)
          {
              newLedState = KEYPAD_LED_GREEN;
-
              newLedMode = KEYPAD_LED_MODE_ON;
          }
 
@@ -192,13 +225,12 @@ void Keypad_ProcessMessage(uint8_t keyNumber,
          else
          {
              newLedState = KEYPAD_LED_GREEN;
-
              newLedMode = KEYPAD_LED_MODE_OFF;
          }
 
          /*
           * =========================================================================
-          * Send LED update only if changed
+          * Send LED update if state changed
           * =========================================================================
           */
 
@@ -216,6 +248,29 @@ void Keypad_ProcessMessage(uint8_t keyNumber,
 
              //Save current LED mode
              button->lastLedMode = newLedMode;
+
+             //Save time of last update
+             button->lastLedUpdate = now;
+         }
+
+         /*
+          * =========================================================================
+          * Periodic LED refresh
+          * =========================================================================
+          *
+          * Resend the current LED state periodically.
+          * This prevents the keypad from remaining in the wrong state
+          * if a previous CAN frame was lost.
+          *
+          */
+
+         else if((now - button->lastLedUpdate) >= 100)
+         {
+             //Resend current LED command
+             Keypad_SendLEDCommand(button->keyNumber,newLedState,newLedMode);
+
+             //Update refresh timestamp
+             button->lastLedUpdate = now;
          }
      }
  }

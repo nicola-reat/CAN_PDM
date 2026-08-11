@@ -1,5 +1,5 @@
-../PDM_Drivers/profet.c:37:6:Profet_SetState	8
-../PDM_Drivers/profet.c:76:6:Profet_UpdateCurrent	1
-../PDM_Drivers/profet.c:94:7:Profet_GetTotalCurrent_mA	2
-../PDM_Drivers/profet.c:111:6:Profet_CheckFaults	12
-../PDM_Drivers/profet.c:179:6:Profet_ResetFault	1
+../PDM_Drivers/profet.c:39:6:Profet_SetState	8
+../PDM_Drivers/profet.c:78:6:Profet_UpdateCurrent	1
+../PDM_Drivers/profet.c:101:7:Profet_GetTotalCurrent_mA	2
+../PDM_Drivers/profet.c:141:6:Profet_CheckFaults	16
+../PDM_Drivers/profet.c:308:6:Profet_ResetFault	1

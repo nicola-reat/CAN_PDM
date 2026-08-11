@@ -75,10 +75,11 @@ typedef struct
     float startupMaxCurrent_mA; //Inrush Current
     uint32_t startupTime_ms; //Startup time
     float shortCircuitCurrent_mA; //Short Circuit current detect
-    float openLoadThreshold_mA;
+    float openLoadThreshold_mA; //OpenLoad Threshold
+    uint32_t openLoadTimestamp; //OpenLoad timestamp
+    uint32_t shortCircuitTimestamp; //ShortCircuit timestamp
 } ProfetChannel_t;
 
-//Extern for define in keypad
 extern ProfetChannel_t profet_H1;
 extern ProfetChannel_t profet_H2;
 extern ProfetChannel_t profet_H3;
@@ -90,6 +91,8 @@ extern ProfetChannel_t profet_L1;
 extern ProfetChannel_t profet_L2;
 extern ProfetChannel_t profet_L3;
 extern ProfetChannel_t profet_L4;
+
+extern ProfetChannel_t* profetChannels[];
 
 
 /*

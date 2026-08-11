@@ -1,5 +1,5 @@
 #include "pdm_config.h"
-
+#include "profet.h"
 
 //Battery Sense
 float Batt_Sense = 0.0f;
@@ -81,10 +81,10 @@ ProfetChannel_t profet_H1 =
 	.maxCurrent_mA = 21000.0f,
     .enabled = false,
 	.faultType = FAULT_NONE,
-	.startupMaxCurrent_mA = 21000.0f,
-	.startupTime_ms = 500,
-	.shortCircuitCurrent_mA = 21000.0f,
-	.openLoadThreshold_mA = 500.0f,
+	.startupMaxCurrent_mA = 81000.0f,
+	.startupTime_ms = 1500,
+	.shortCircuitCurrent_mA = 50000.0f,
+	.openLoadThreshold_mA = 1000.0f,
 	.priority = PDM_PRIORITY_HIGH
 };
 
@@ -103,10 +103,10 @@ ProfetChannel_t profet_H2 =
 	.maxCurrent_mA = 21000.0f,
     .enabled = false,
 	.faultType = FAULT_NONE,
-	.startupMaxCurrent_mA = 23000.0f,
-	.startupTime_ms = 500,
-	.shortCircuitCurrent_mA = 23000.0f,
-	.openLoadThreshold_mA = 500.0f,
+	.startupMaxCurrent_mA = 81000.0f,
+	.startupTime_ms = 1500,
+	.shortCircuitCurrent_mA = 50000.0f,
+	.openLoadThreshold_mA = 1000.0f,
 	.priority = PDM_PRIORITY_HIGH
 };
 
@@ -125,9 +125,9 @@ ProfetChannel_t profet_H3 =
 	.maxCurrent_mA = 21000.0f,
     .enabled = false,
 	.faultType = FAULT_NONE,
-	.startupMaxCurrent_mA = 21000.0f,
-	.startupTime_ms = 500,
-	.shortCircuitCurrent_mA = 21000.0f,
+	.startupMaxCurrent_mA = 41000.0f,
+	.startupTime_ms = 1500,
+	.shortCircuitCurrent_mA = 50000.0f,
 	.openLoadThreshold_mA = 500.0f,
 	.priority = PDM_PRIORITY_HIGH
 };
@@ -159,9 +159,9 @@ ProfetChannel_t profet_M1 =
 	.maxCurrent_mA = 15000.0f,
     .enabled = false,
 	.faultType = FAULT_NONE,
-	.startupMaxCurrent_mA = 10000.0f,
-	.startupTime_ms = 100,
-	.shortCircuitCurrent_mA = 15000.0f,
+	.startupMaxCurrent_mA = 40000.0f,
+	.startupTime_ms = 3000,
+	.shortCircuitCurrent_mA = 40000.0f,
 	.openLoadThreshold_mA = 500.0f,
 	.priority = PDM_PRIORITY_MEDIUM
 };
@@ -182,9 +182,9 @@ ProfetChannel_t profet_M2 =
 	.maxCurrent_mA = 15000.0f,
     .enabled = false,
 	.faultType = FAULT_NONE,
-	.startupMaxCurrent_mA = 10000.0f,
-	.startupTime_ms = 100,
-	.shortCircuitCurrent_mA = 15000.0f,
+	.startupMaxCurrent_mA = 40000.0f,
+	.startupTime_ms = 3000,
+	.shortCircuitCurrent_mA = 40000.0f,
 	.openLoadThreshold_mA = 500.0f,
 	.priority = PDM_PRIORITY_MEDIUM
 };
@@ -220,8 +220,8 @@ ProfetChannel_t profet_L1 =
 	.maxCurrent_mA = 7500.0f,
     .enabled = false,
 	.faultType = FAULT_NONE,
-	.startupMaxCurrent_mA = 10000.0f,
-	.startupTime_ms = 100,
+	.startupMaxCurrent_mA = 15000.0f,
+	.startupTime_ms = 500,
 	.shortCircuitCurrent_mA = 15000.0f,
 	.openLoadThreshold_mA = 500.0f,
 	.priority = PDM_PRIORITY_LOW
@@ -243,8 +243,8 @@ ProfetChannel_t profet_L2 =
 	.maxCurrent_mA = 7500.0f,
     .enabled = false,
 	.faultType = FAULT_NONE,
-	.startupMaxCurrent_mA = 10000.0f,
-	.startupTime_ms = 100,
+	.startupMaxCurrent_mA = 15000.0f,
+	.startupTime_ms = 500,
 	.shortCircuitCurrent_mA = 15000.0f,
 	.openLoadThreshold_mA = 500.0f,
 	.priority = PDM_PRIORITY_LOW
@@ -266,8 +266,8 @@ ProfetChannel_t profet_L3 =
 	.maxCurrent_mA = 7500.0f,
     .enabled = false,
 	.faultType = FAULT_NONE,
-	.startupMaxCurrent_mA = 10000.0f,
-	.startupTime_ms = 100,
+	.startupMaxCurrent_mA = 15000.0f,
+	.startupTime_ms = 500,
 	.shortCircuitCurrent_mA = 15000.0f,
 	.openLoadThreshold_mA = 500.0f,
 	.priority = PDM_PRIORITY_LOW
@@ -289,8 +289,8 @@ ProfetChannel_t profet_L4 =
 	.maxCurrent_mA = 7500.0f,
     .enabled = false,
 	.faultType = FAULT_NONE,
-	.startupMaxCurrent_mA = 10000.0f,
-	.startupTime_ms = 100,
+	.startupMaxCurrent_mA = 15000.0f,
+	.startupTime_ms = 500,
 	.shortCircuitCurrent_mA = 15000.0f,
 	.openLoadThreshold_mA = 500.0f,
 	.priority = PDM_PRIORITY_LOW

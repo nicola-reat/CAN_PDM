@@ -13,6 +13,7 @@ typedef struct
     bool lastState;
     uint8_t lastLedMode;
     uint8_t lastLedState;
+    uint32_t lastLedUpdate;
 } KeypadButton_t;
 
 

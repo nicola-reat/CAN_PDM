@@ -1,6 +1,5 @@
 PDM_Drivers/mcp9808.o: ../PDM_Drivers/mcp9808.c ../PDM_Drivers/mcp9808.h \
- ../Core/Inc/i2c.h ../Core/Inc/main.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+ ../Core/Inc/main.h ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
@@ -33,12 +32,13 @@ PDM_Drivers/mcp9808.o: ../PDM_Drivers/mcp9808.c ../PDM_Drivers/mcp9808.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
- C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/can_manager.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+ C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/can_manager.h \
+ C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/pdm_config.h ../Core/Inc/i2c.h \
  ../Core/Inc/main.h
 ../PDM_Drivers/mcp9808.h:
-../Core/Inc/i2c.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -73,7 +73,10 @@ PDM_Drivers/mcp9808.o: ../PDM_Drivers/mcp9808.c ../PDM_Drivers/mcp9808.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h:
-C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/can_manager.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h:
+C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/can_manager.h:
+C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/pdm_config.h:
+../Core/Inc/i2c.h:
 ../Core/Inc/main.h:

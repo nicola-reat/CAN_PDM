@@ -3,6 +3,7 @@
 
 #include "main.h"
 #include <stdbool.h>
+#include "pdm_config.h"
 
 //Can rx tx led activity
 extern volatile bool canTxActivity;
@@ -14,16 +15,32 @@ extern volatile bool canRxActivity;
  * ============================================================================
  */
 
-#define CAN_ID_PDM_COMMAND        				0x200
-#define CAN_ID_PDM_STATUS      	  				0x100
-#define CAN_ID_PDM_H_FAULT_STATUS      			0x101
-#define CAN_ID_PDM_M_FAULT_STATUS      			0x102
-#define CAN_ID_PDM_L1_FAULT_STATUS      		0x103
-#define CAN_ID_PDM_L2_FAULT_STATUS      		0x104
-#define CAN_ID_PDM_H_OUTPUTS      				0x110
-#define CAN_ID_PDM_M_OUTPUTS      				0x111
-#define CAN_ID_PDM_L_OUTPUTS1     				0x112
-#define CAN_ID_PDM_L_OUTPUTS2     				0x113
+#if PDM_ID == PDM_1
+	#define CAN_ID_PDM_COMMAND          0x200
+	#define CAN_ID_PDM_STATUS           0x300
+	#define CAN_ID_PDM_H_FAULT_STATUS   0x301
+	#define CAN_ID_PDM_M_FAULT_STATUS   0x302
+	#define CAN_ID_PDM_L1_FAULT_STATUS  0x303
+	#define CAN_ID_PDM_L2_FAULT_STATUS  0x304
+	#define CAN_ID_PDM_H_OUTPUTS        0x310
+	#define CAN_ID_PDM_M_OUTPUTS        0x311
+	#define CAN_ID_PDM_L_OUTPUTS1       0x312
+	#define CAN_ID_PDM_L_OUTPUTS2       0x313
+
+#elif PDM_ID == PDM_2
+
+    #define CAN_ID_PDM_COMMAND          0x200
+	#define CAN_ID_PDM_STATUS           0x400
+	#define CAN_ID_PDM_H_FAULT_STATUS   0x401
+	#define CAN_ID_PDM_M_FAULT_STATUS   0x402
+	#define CAN_ID_PDM_L1_FAULT_STATUS  0x403
+	#define CAN_ID_PDM_L2_FAULT_STATUS  0x404
+	#define CAN_ID_PDM_H_OUTPUTS        0x410
+	#define CAN_ID_PDM_M_OUTPUTS        0x411
+	#define CAN_ID_PDM_L_OUTPUTS1       0x412
+	#define CAN_ID_PDM_L_OUTPUTS2       0x413
+
+#endif
 
 /*
  * ============================================================================

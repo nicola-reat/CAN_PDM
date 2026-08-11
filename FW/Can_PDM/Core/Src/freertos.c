@@ -68,6 +68,7 @@ void StartOutputLedTask(void const * argument); //Task for outputs led
 
 void StartDefaultTask(void const * argument);
 
+extern void MX_USB_DEVICE_Init(void);
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
 /* GetIdleTaskMemory prototype (linked to static allocation support) */
@@ -147,6 +148,8 @@ void MX_FREERTOS_Init(void) {
 /* USER CODE END Header_StartDefaultTask */
 void StartDefaultTask(void const * argument)
 {
+  /* init code for USB_DEVICE */
+  MX_USB_DEVICE_Init();
   /* USER CODE BEGIN StartDefaultTask */
   /* Infinite loop */
   for(;;)
@@ -164,11 +167,18 @@ void StartAcquisitionTask(void const * argument)
 {
     for(;;)
     {
-        //Update battery voltage
+        // Update battery voltage
         Batt_Sense = ADC_GetBatteryVoltage();
-        //Update pdm temperature
-        Pdm_Temp = MCP9808_ReadTemperature();
-        //Update all PROFET currents
+
+        // Update PDM temperature
+        float temperature;
+
+        if (MCP9808_ReadTemperature(&temperature) == HAL_OK)
+        {
+            Pdm_Temp = temperature;
+        }
+
+        // Update all PROFET currents
         for(uint8_t i = 0; i < 9; i++)
         {
             Profet_UpdateCurrent(profetChannels[i]);

@@ -41,9 +41,11 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
- C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/can_manager.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+ C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/can_manager.h \
+ C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/pdm_config.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
@@ -52,13 +54,13 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
- C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/adc_manager.h \
- C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/pdm_config.h \
- C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/profet.h \
- C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/adc_manager.h \
- C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/mcp9808.h \
- C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/keypad_manager.h \
- C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/io_expander.h
+ C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/adc_manager.h \
+ C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/pdm_config.h \
+ C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/mcp9808.h \
+ C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/keypad_manager.h \
+ C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/profet.h \
+ C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/adc_manager.h \
+ C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/io_expander.h
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../Core/Inc/FreeRTOSConfig.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
@@ -102,9 +104,11 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h:
-C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/can_manager.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h:
+C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/can_manager.h:
+C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/pdm_config.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
@@ -113,10 +117,10 @@ C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/can_manager.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
-C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/adc_manager.h:
-C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/pdm_config.h:
-C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/profet.h:
-C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/adc_manager.h:
-C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/mcp9808.h:
-C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/keypad_manager.h:
-C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/io_expander.h:
+C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/adc_manager.h:
+C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/pdm_config.h:
+C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/mcp9808.h:
+C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/keypad_manager.h:
+C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/profet.h:
+C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/adc_manager.h:
+C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/io_expander.h:

@@ -33,11 +33,12 @@ PDM_Drivers/can_manager.o: ../PDM_Drivers/can_manager.c \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
- C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/can_manager.h \
- ../Core/Inc/can.h ../Core/Inc/main.h ../PDM_Drivers/profet.h \
- ../PDM_Drivers/adc_manager.h ../PDM_Drivers/pdm_config.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+ C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/can_manager.h \
+ ../PDM_Drivers/pdm_config.h ../Core/Inc/can.h ../Core/Inc/main.h \
+ ../PDM_Drivers/profet.h ../PDM_Drivers/adc_manager.h \
  ../PDM_Drivers/keypad_manager.h ../Core/Inc/gpio.h
 ../PDM_Drivers/can_manager.h:
 ../Core/Inc/main.h:
@@ -74,13 +75,14 @@ PDM_Drivers/can_manager.o: ../PDM_Drivers/can_manager.c \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h:
-C:/Users/Reatn/Desktop/Progetti/CAN_PDM/FW/Can_PDM/PDM_Drivers/can_manager.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h:
+C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/can_manager.h:
+../PDM_Drivers/pdm_config.h:
 ../Core/Inc/can.h:
 ../Core/Inc/main.h:
 ../PDM_Drivers/profet.h:
 ../PDM_Drivers/adc_manager.h:
-../PDM_Drivers/pdm_config.h:
 ../PDM_Drivers/keypad_manager.h:
 ../Core/Inc/gpio.h:

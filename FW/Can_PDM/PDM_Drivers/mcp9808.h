@@ -1,6 +1,9 @@
-#ifndef MCP9808_H
-#define MCP9808_H
+#ifndef INC_MCP9808_H_
+#define INC_MCP9808_H_
 
-float MCP9808_ReadTemperature(void);
+#include "main.h"
+#include <stdbool.h>
 
-#endif
+HAL_StatusTypeDef MCP9808_ReadTemperature(float *temperature);
+
+#endif /* INC_MCP9808_H_ */

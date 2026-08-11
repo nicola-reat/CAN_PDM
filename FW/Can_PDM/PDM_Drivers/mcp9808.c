@@ -1,30 +1,32 @@
 #include "mcp9808.h"
 #include "i2c.h"
 
-#define MCP9808_ADDR    (0x18 << 1)
-#define MCP9808_TEMP_REG 0x05
+#define MCP9808_ADDR        (0x18 << 1)
+#define MCP9808_TEMP_REG    0x05
 
-float MCP9808_ReadTemperature(void)
+HAL_StatusTypeDef MCP9808_ReadTemperature(float *temperature)
 {
     uint8_t rxData[2];
-
     uint16_t rawTemp;
+    HAL_StatusTypeDef status;
 
-    float temperature;
+    // Read temperature register
+    status = HAL_I2C_Mem_Read(&hi2c1,MCP9808_ADDR,MCP9808_TEMP_REG,I2C_MEMADD_SIZE_8BIT,rxData,2,10);
 
-    //Read temperature register
-    HAL_I2C_Mem_Read(&hi2c1,MCP9808_ADDR,MCP9808_TEMP_REG,I2C_MEMADD_SIZE_8BIT,rxData,2,100);
+    // I2C communication error
+    if (status != HAL_OK)
+    {
+        return status;
+    }
 
-    //Combine bytes
-    rawTemp = (rxData[0] << 8) | rxData[1];
+    // Combine bytes
+    rawTemp = ((uint16_t)rxData[0] << 8) | rxData[1];
 
-    //Clear flags bits
+    // Clear sign and flag bits
     rawTemp &= 0x0FFF;
 
-    //Convert to temperature
-    temperature = rawTemp & 0x0FFF;
+    // Convert to Celsius
+    *temperature = rawTemp / 16.0f;
 
-    temperature /= 16.0f;
-
-    return temperature;
+    return HAL_OK;
 }
