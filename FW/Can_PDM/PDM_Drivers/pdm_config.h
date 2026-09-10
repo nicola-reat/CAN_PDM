@@ -8,7 +8,7 @@
 #define PDM_1 1
 #define PDM_2 2
 
-#define PDM_ID PDM_1 //Change pdm here
+#define PDM_ID PDM_2 //Change pdm here
 
 #if PDM_ID == PDM_1
 #define PDM_CAN_ADDRESS 0x30

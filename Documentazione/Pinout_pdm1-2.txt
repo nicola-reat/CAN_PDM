@@ -18,6 +18,7 @@ OUT4 -->Ventole interne (x2) M1 --> KEYPAD: 13
 OUT5 -->
 OUT6 -->Luci posteriori dx sx (L1) --> KEYPAD: 1
 OUT7 -->Frecce posteriori SOS EMERGENZA (L2) --> KEYPAD: 5
-OUT8 -->
+OUT8 -->Stop Posteriori (L3)
 OUT9 -->
+
 

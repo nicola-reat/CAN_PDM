@@ -34209,7 +34209,7 @@ void CAN_SendPDMStatus(){
 	uint8_t txData[8];
 	uint32_t txMailbox;
 	txHeader.StdId = CAN_ID_PDM_STATUS; //Standard 11-bit ID
- 800c566:	f44f 7340 	mov.w	r3, #768	@ 0x300
+ 800c566:	f44f 6380 	mov.w	r3, #1024	@ 0x400
  800c56a:	60fb      	str	r3, [r7, #12]
 	txHeader.IDE = CAN_ID_STD; //Standard frame (not extended)
  800c56c:	2300      	movs	r3, #0
@@ -34344,7 +34344,7 @@ void CAN_SendHighOutputsStatus(void)
     uint8_t txData[8];
     uint32_t txMailbox;
     txHeader.StdId = CAN_ID_PDM_H_OUTPUTS;
- 800c662:	f44f 7344 	mov.w	r3, #784	@ 0x310
+ 800c662:	f44f 6382 	mov.w	r3, #1040	@ 0x410
  800c666:	613b      	str	r3, [r7, #16]
     txHeader.IDE = CAN_ID_STD;
  800c668:	2300      	movs	r3, #0
@@ -34554,7 +34554,7 @@ void CAN_SendHighOutputsFaults(void)
     uint32_t txMailbox;
 
     txHeader.StdId = CAN_ID_PDM_H_FAULT_STATUS;
- 800c7e0:	f240 3301 	movw	r3, #769	@ 0x301
+ 800c7e0:	f240 4301 	movw	r3, #1025	@ 0x401
  800c7e4:	613b      	str	r3, [r7, #16]
     txHeader.IDE = CAN_ID_STD;
  800c7e6:	2300      	movs	r3, #0
@@ -34622,7 +34622,7 @@ void CAN_SendMediumOutputsStatus(void)
     uint8_t txData[8];
     uint32_t txMailbox;
     txHeader.StdId = CAN_ID_PDM_M_OUTPUTS;
- 800c84a:	f240 3311 	movw	r3, #785	@ 0x311
+ 800c84a:	f240 4311 	movw	r3, #1041	@ 0x411
  800c84e:	613b      	str	r3, [r7, #16]
     txHeader.IDE = CAN_ID_STD;
  800c850:	2300      	movs	r3, #0
@@ -34796,7 +34796,7 @@ void CAN_SendMediumOutputsFaults(void)
     uint32_t txMailbox;
 
     txHeader.StdId = CAN_ID_PDM_M_FAULT_STATUS;
- 800c974:	f240 3302 	movw	r3, #770	@ 0x302
+ 800c974:	f240 4302 	movw	r3, #1026	@ 0x402
  800c978:	613b      	str	r3, [r7, #16]
     txHeader.IDE = CAN_ID_STD;
  800c97a:	2300      	movs	r3, #0
@@ -34860,7 +34860,7 @@ void CAN_SendLowOutputs1Status(void)
     uint8_t txData[8];
     uint32_t txMailbox;
     txHeader.StdId = CAN_ID_PDM_L_OUTPUTS1;
- 800c9d6:	f240 3312 	movw	r3, #786	@ 0x312
+ 800c9d6:	f240 4312 	movw	r3, #1042	@ 0x412
  800c9da:	613b      	str	r3, [r7, #16]
     txHeader.IDE = CAN_ID_STD;
  800c9dc:	2300      	movs	r3, #0
@@ -35034,7 +35034,7 @@ void CAN_SendLow1OutputsFaults(void)
     uint32_t txMailbox;
 
     txHeader.StdId = CAN_ID_PDM_L1_FAULT_STATUS;
- 800cb00:	f240 3303 	movw	r3, #771	@ 0x303
+ 800cb00:	f240 4303 	movw	r3, #1027	@ 0x403
  800cb04:	613b      	str	r3, [r7, #16]
     txHeader.IDE = CAN_ID_STD;
  800cb06:	2300      	movs	r3, #0
@@ -35098,7 +35098,7 @@ void CAN_SendLowOutputs2Status(void)
     uint8_t txData[8];
     uint32_t txMailbox;
     txHeader.StdId = CAN_ID_PDM_L_OUTPUTS2;
- 800cb62:	f240 3313 	movw	r3, #787	@ 0x313
+ 800cb62:	f240 4313 	movw	r3, #1043	@ 0x413
  800cb66:	613b      	str	r3, [r7, #16]
     txHeader.IDE = CAN_ID_STD;
  800cb68:	2300      	movs	r3, #0
@@ -35274,7 +35274,7 @@ void CAN_SendLow2OutputsFaults(void)
     uint32_t txMailbox;
 
     txHeader.StdId = CAN_ID_PDM_L2_FAULT_STATUS;
- 800cc8c:	f44f 7341 	mov.w	r3, #772	@ 0x304
+ 800cc8c:	f240 4304 	movw	r3, #1028	@ 0x404
  800cc90:	613b      	str	r3, [r7, #16]
     txHeader.IDE = CAN_ID_STD;
  800cc92:	2300      	movs	r3, #0
@@ -35683,32 +35683,32 @@ void Keypad_Init(void)
  800cee4:	b590      	push	{r4, r7, lr}
  800cee6:	b083      	sub	sp, #12
  800cee8:	af00      	add	r7, sp, #0
-     */
-    if (PDM_ID == PDM_1)
-    {
-    // mapping PDM1
+    keypadButtons[8].keyNumber = 30;
+    keypadButtons[8].channel = &profet_L4;
+    }else{
+    // mapping PDM2
     //High outputs
-    keypadButtons[0].keyNumber = 8;
+    keypadButtons[0].keyNumber = 6;
  800ceea:	4b38      	ldr	r3, [pc, #224]	@ (800cfcc <Keypad_Init+0xe8>)
- 800ceec:	2208      	movs	r2, #8
+ 800ceec:	2206      	movs	r2, #6
  800ceee:	701a      	strb	r2, [r3, #0]
     keypadButtons[0].channel = &profet_H1;
  800cef0:	4b36      	ldr	r3, [pc, #216]	@ (800cfcc <Keypad_Init+0xe8>)
  800cef2:	4a37      	ldr	r2, [pc, #220]	@ (800cfd0 <Keypad_Init+0xec>)
  800cef4:	605a      	str	r2, [r3, #4]
 
-    keypadButtons[1].keyNumber = 14;
+    keypadButtons[1].keyNumber = 7;
  800cef6:	4b35      	ldr	r3, [pc, #212]	@ (800cfcc <Keypad_Init+0xe8>)
- 800cef8:	220e      	movs	r2, #14
+ 800cef8:	2207      	movs	r2, #7
  800cefa:	741a      	strb	r2, [r3, #16]
     keypadButtons[1].channel = &profet_H2;
  800cefc:	4b33      	ldr	r3, [pc, #204]	@ (800cfcc <Keypad_Init+0xe8>)
  800cefe:	4a35      	ldr	r2, [pc, #212]	@ (800cfd4 <Keypad_Init+0xf0>)
  800cf00:	615a      	str	r2, [r3, #20]
 
-    keypadButtons[2].keyNumber = 10 ;
+    keypadButtons[2].keyNumber = 30 ;
  800cf02:	4b32      	ldr	r3, [pc, #200]	@ (800cfcc <Keypad_Init+0xe8>)
- 800cf04:	220a      	movs	r2, #10
+ 800cf04:	221e      	movs	r2, #30
  800cf06:	f883 2020 	strb.w	r2, [r3, #32]
     keypadButtons[2].channel = &profet_H3;
  800cf0a:	4b30      	ldr	r3, [pc, #192]	@ (800cfcc <Keypad_Init+0xe8>)
@@ -35716,18 +35716,18 @@ void Keypad_Init(void)
  800cf0e:	625a      	str	r2, [r3, #36]	@ 0x24
 
     //Medium outputs
-    keypadButtons[3].keyNumber = 3;
+    keypadButtons[3].keyNumber = 13;
  800cf10:	4b2e      	ldr	r3, [pc, #184]	@ (800cfcc <Keypad_Init+0xe8>)
- 800cf12:	2203      	movs	r2, #3
+ 800cf12:	220d      	movs	r2, #13
  800cf14:	f883 2030 	strb.w	r2, [r3, #48]	@ 0x30
     keypadButtons[3].channel = &profet_M1;
  800cf18:	4b2c      	ldr	r3, [pc, #176]	@ (800cfcc <Keypad_Init+0xe8>)
  800cf1a:	4a30      	ldr	r2, [pc, #192]	@ (800cfdc <Keypad_Init+0xf8>)
  800cf1c:	635a      	str	r2, [r3, #52]	@ 0x34
 
-    keypadButtons[4].keyNumber = 2;
+    keypadButtons[4].keyNumber = 30;
  800cf1e:	4b2b      	ldr	r3, [pc, #172]	@ (800cfcc <Keypad_Init+0xe8>)
- 800cf20:	2202      	movs	r2, #2
+ 800cf20:	221e      	movs	r2, #30
  800cf22:	f883 2040 	strb.w	r2, [r3, #64]	@ 0x40
     keypadButtons[4].channel = &profet_M2;
  800cf26:	4b29      	ldr	r3, [pc, #164]	@ (800cfcc <Keypad_Init+0xe8>)
@@ -35744,9 +35744,9 @@ void Keypad_Init(void)
  800cf36:	4a2b      	ldr	r2, [pc, #172]	@ (800cfe4 <Keypad_Init+0x100>)
  800cf38:	655a      	str	r2, [r3, #84]	@ 0x54
 
-    keypadButtons[6].keyNumber = 30;
+    keypadButtons[6].keyNumber = 5;
  800cf3a:	4b24      	ldr	r3, [pc, #144]	@ (800cfcc <Keypad_Init+0xe8>)
- 800cf3c:	221e      	movs	r2, #30
+ 800cf3c:	2205      	movs	r2, #5
  800cf3e:	f883 2060 	strb.w	r2, [r3, #96]	@ 0x60
     keypadButtons[6].channel = &profet_L2;
  800cf42:	4b22      	ldr	r3, [pc, #136]	@ (800cfcc <Keypad_Init+0xe8>)
@@ -36042,7 +36042,7 @@ void Keypad_ProcessMessage(uint8_t keyNumber,
  800d0fa:	46bd      	mov	sp, r7
  800d0fc:	bd80      	pop	{r7, pc}
  800d0fe:	bf00      	nop
- 800d100:	18ef2130 	.word	0x18ef2130
+ 800d100:	18ef2131 	.word	0x18ef2131
  800d104:	20000444 	.word	0x20000444
 
 0800d108 <Keypad_UpdateLEDs>:
@@ -36373,7 +36373,7 @@ void Keypad_SetBrightness(uint8_t percent)
  800d284:	bd80      	pop	{r7, pc}
  800d286:	bf00      	nop
  800d288:	51eb851f 	.word	0x51eb851f
- 800d28c:	18ef2130 	.word	0x18ef2130
+ 800d28c:	18ef2131 	.word	0x18ef2131
  800d290:	20000444 	.word	0x20000444
 
 0800d294 <MCP9808_ReadTemperature>:
