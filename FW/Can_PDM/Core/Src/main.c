@@ -104,7 +104,7 @@ int main(void)
   CAN_Manager_Init();
   Keypad_Init();
   IOExpander_Init();
-
+  MCP9808_Init(MCP9808_UPPER_TEMP_LIMIT, MCP9808_CRITICAL_TEMP_LIMIT); //Init mcp9808 and set limit temp for alert led
 
 
   /* USER CODE END 2 */

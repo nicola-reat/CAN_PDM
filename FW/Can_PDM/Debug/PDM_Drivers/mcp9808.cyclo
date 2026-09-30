@@ -1,1 +1,7 @@
-../PDM_Drivers/mcp9808.c:7:19:MCP9808_ReadTemperature	2
+../PDM_Drivers/mcp9808.c:28:19:MCP9808_Init	6
+../PDM_Drivers/mcp9808.c:132:19:MCP9808_CheckId	5
+../PDM_Drivers/mcp9808.c:185:19:MCP9808_ReadTemperature	3
+../PDM_Drivers/mcp9808.c:245:19:MCP9808_SetResolution	1
+../PDM_Drivers/mcp9808.c:260:19:MCP9808_SetUpperLimit	1
+../PDM_Drivers/mcp9808.c:296:19:MCP9808_SetCriticalLimit	1
+../PDM_Drivers/mcp9808.c:330:19:MCP9808_GetStatus	2

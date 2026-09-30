@@ -1,13 +1,14 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [CAN_PDM_Pcb.PcbDoc]
-   Generated File[CAN_PDM_Pcb-RoundHoles.TXT]
-   Generated File[CAN_PDM_Pcb-SlotHoles.TXT]
-   Generated File[CAN_PDM_Pcb.LDP]
-   Generated File[CAN_PDM_Pcb.DRR]
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 16:04:13 On 20/06/2025
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [V1] of Project [CAN_PDM.PrjPcb]
+   Generated File[Bill of Materials-CAN_PDM(V1).xlsx]
 
 
-Files Generated   : 4
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 15:33:02 On 20/06/2025
+Finished Output Generation At 16:04:17 On 20/06/2025

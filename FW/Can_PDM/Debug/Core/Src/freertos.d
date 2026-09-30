@@ -56,7 +56,8 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
  C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/adc_manager.h \
  C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/pdm_config.h \
- C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/mcp9808.h \
+ C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/mcp9808.h ../Core/Inc/i2c.h \
+ ../Core/Inc/main.h \
  C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/keypad_manager.h \
  C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/profet.h \
  C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/adc_manager.h \
@@ -120,6 +121,8 @@ C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/pdm_config.h:
 C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/adc_manager.h:
 C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/pdm_config.h:
 C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/mcp9808.h:
+../Core/Inc/i2c.h:
+../Core/Inc/main.h:
 C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/keypad_manager.h:
 C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/profet.h:
 C:/Git/CAN_PDM/FW/Can_PDM/PDM_Drivers/adc_manager.h:
