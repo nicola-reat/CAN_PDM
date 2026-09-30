@@ -130,7 +130,7 @@ The key-to-output mapping is different for each board and is listed in the CAN d
 
 Transmitted messages: PDM status (heartbeat, state, total current, battery voltage, temperature), status and current of every output group, and fault codes for every output. Received messages: the output command and the keypad key frames.
 
-The complete reference, with byte layouts and conversion formulas, is in [`FW/Doc/`](FW/Doc/). Ready-to-use DBC files for [SavvyCAN](https://www.savvycan.com/) are in [`FW/dbc database/`](FW/Dbc%20Database/).
+The complete reference, with byte layouts and conversion formulas, is in [`FW/Doc/`](FW/Doc/). Ready-to-use DBC files for [SavvyCAN](https://www.savvycan.com/) are in [`FW/dbc database/`](FW/Dbc_Database/).
 
 ## Running two boards
 
