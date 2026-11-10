@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/banner.svg" alt="CAN PDM – Power Distribution Module for motorsport" width="100%">
+  <img src="Docs/images/banner.svg" alt="CAN PDM – Power Distribution Module for motorsport" width="100%">
 </p>
 
 <p align="center">
@@ -29,22 +29,22 @@
 ---
 
 <p align="center">
-  <img src="docs/images/pcb_top.png" alt="CAN PDM – top copper and silkscreen" width="49%">
-  <img src="docs/images/pcb_bottom.png" alt="CAN PDM – bottom copper, seen from below" width="49%">
+  <img src="Docs/images/pcb_top.png" alt="CAN PDM – top copper and silkscreen" width="49%">
+  <img src="Docs/images/pcb_bottom.png" alt="CAN PDM – bottom copper, seen from below" width="49%">
   <br>
   <sub>Top and bottom layers of the V1 board, rendered from the Altium production outputs.</sub>
 </p>
 
 <!--
   📸 Real photos go here. Suggested files:
-  docs/images/board_assembled.jpg   – assembled board, top view
-  docs/images/installed_front.jpg   – PDM_1 installed in the car
-  docs/images/installed_rear.jpg    – PDM_2 installed in the car
-  docs/images/keypad.jpg            – Blink Marine keypad on the dash
+  Docs/images/board_assembled.jpg   – assembled board, top view
+  Docs/images/installed_front.jpg   – PDM_1 installed in the car
+  Docs/images/installed_rear.jpg    – PDM_2 installed in the car
+  Docs/images/keypad.jpg            – Blink Marine keypad on the dash
 
 <p align="center">
-  <img src="docs/images/board_assembled.jpg" width="49%">
-  <img src="docs/images/installed_front.jpg" width="49%">
+  <img src="Docs/images/board_assembled.jpg" width="49%">
+  <img src="Docs/images/installed_front.jpg" width="49%">
 </p>
 -->
 
@@ -98,7 +98,7 @@ A key press goes out on the bus and reaches both PDMs. Each board checks its own
 
 </td>
 <td width="45%">
-<img src="docs/images/cover.png" alt="Enclosure cover, 3D model">
+<img src="Docs/images/cover.png" alt="Enclosure cover, 3D model">
 <p align="center"><sub>Enclosure cover (<code>3D/Cover.stl</code>)</sub></p>
 </td>
 </tr>
