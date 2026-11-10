@@ -1,221 +1,309 @@
-# CAN PDM – Power Distribution Module
- 
-A CAN-controlled power distribution module (PDM) designed for a race car. It replaces fuses, relays and dashboard switches with nine protected, current-monitored high-side outputs that are switched from a Blink Marine keypad over CAN.
- 
-This repository contains everything needed to understand, build and modify the module: firmware, CAN documentation and DBC files, the Altium PCB project with thermal simulations, and the 3D models of the enclosure and bus bar.
- 
-| MCU | Supply | Outputs | CAN | Firmware |
-|:---:|:---:|:---:|:---:|:---:|
-| STM32F446RET6 | 12 V | 9 protected channels | 500 kbit/s | STM32 HAL |
- 
-## Table of contents
- 
-1. [What it does](#what-it-does)
-2. [System overview](#system-overview)
-3. [Outputs](#outputs)
-4. [Protection](#protection)
-5. [Keypad control](#keypad-control)
-6. [On-board LEDs](#on-board-leds)
-7. [CAN interface](#can-interface)
-8. [Running two boards](#running-two-boards)
-9. [Repository structure](#repository-structure)
-10. [Hardware](#hardware)
-11. [Firmware](#firmware)
+<p align="center">
+  <img src="docs/images/banner.svg" alt="CAN PDM – Power Distribution Module for motorsport" width="100%">
+</p>
+
+<p align="center">
+  <img alt="MCU" src="https://img.shields.io/badge/MCU-STM32F446RET6-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white">
+  <img alt="RTOS" src="https://img.shields.io/badge/RTOS-FreeRTOS-5aa02c?style=for-the-badge">
+  <img alt="CAN" src="https://img.shields.io/badge/CAN-250%20kbit%2Fs-d6a04a?style=for-the-badge">
+  <img alt="PCB" src="https://img.shields.io/badge/PCB-Altium%20Designer-A5915F?style=for-the-badge&logo=altiumdesigner&logoColor=white">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge">
+</p>
+
+<p align="center">
+  <b>A CAN-controlled power distribution module built for a race car.</b><br>
+  It replaces fuses, relays and dashboard switches with nine protected, current-monitored outputs<br>
+  switched from a Blink Marine keypad – and tells you exactly what every load is doing.
+</p>
+
+<p align="center">
+  <a href="#-features">Features</a> •
+  <a href="#-hardware">Hardware</a> •
+  <a href="#-outputs">Outputs</a> •
+  <a href="#%EF%B8%8F-protection">Protection</a> •
+  <a href="#-can-interface">CAN</a> •
+  <a href="#-firmware">Firmware</a> •
+  <a href="#-roadmap">Roadmap</a>
+</p>
+
 ---
- 
-## What it does
- 
-The PDM sits between the battery and the car's electrical loads: fuel pumps, fans, heating, cabin fans, lights and most other consumers. Each load is fed through its own Infineon PROFET smart high-side switch. The microcontroller switches the outputs, measures the current of every channel, and reacts to faults before wiring or loads are damaged.
- 
-- **Switches nine outputs** on request, from the keypad or from a CAN command frame.
-- **Measures current** on every output, plus battery voltage and board temperature.
-- **Detects faults** per channel: overcurrent, short circuit, open load and thermal.
-- **Sheds load by priority** when the board gets too hot or the battery voltage drops: low-priority outputs go first, then medium, and everything at the critical level.
-- **Gives feedback on the keypad**: each button LED shows whether its output is on or off, and blinks in a fault-specific color when the output has failed.
-- **Gives feedback on the board**: nine bicolor LEDs, one per output, show the output state and blink in a fault-specific pattern.
-- **Reports everything over CAN**: status, currents and fault codes are transmitted every 100 ms for a dashboard or data logger.
-## System overview
- 
+
+<p align="center">
+  <img src="docs/images/pcb_top.png" alt="CAN PDM – top copper and silkscreen" width="49%">
+  <img src="docs/images/pcb_bottom.png" alt="CAN PDM – bottom copper, seen from below" width="49%">
+  <br>
+  <sub>Top and bottom layers of the V1 board, rendered from the Altium production outputs.</sub>
+</p>
+
+<!--
+  📸 Real photos go here. Suggested files:
+  docs/images/board_assembled.jpg   – assembled board, top view
+  docs/images/installed_front.jpg   – PDM_1 installed in the car
+  docs/images/installed_rear.jpg    – PDM_2 installed in the car
+  docs/images/keypad.jpg            – Blink Marine keypad on the dash
+
+<p align="center">
+  <img src="docs/images/board_assembled.jpg" width="49%">
+  <img src="docs/images/installed_front.jpg" width="49%">
+</p>
+-->
+
+## ✨ Features
+
+|   |   |
+|---|---|
+| ⚡ **9 smart outputs** | 3 high, 2 medium and 4 low-current channels on Infineon PROFET+2 high-side switches |
+| 📈 **Current on every channel** | Measured through the PROFET current-sense output, plus battery voltage and board temperature |
+| 🛡️ **Per-channel faults** | Overcurrent, short circuit and open load, with a separate inrush limit at switch-on |
+| 🌡️ **Load shedding** | Outputs switched off by priority on over-temperature or under-voltage, with hysteresis and automatic recovery |
+| 🎛️ **Keypad control** | Blink Marine CAN keypad: toggle outputs, reset faults, colour-coded LED feedback |
+| 💡 **On-board diagnostics** | One bicolour LED per output with blink codes, plus CAN TX/RX LEDs |
+| 📡 **Full telemetry** | Status, currents and fault codes on CAN every 100 ms, DBC files for SavvyCAN included |
+| 🔁 **Two boards, one bus** | Identical hardware; `PDM_ID` gives each board its own CAN identity |
+
+## 🧭 System overview
+
 ```mermaid
 flowchart LR
-    BAT["12 V battery"] --> PDM1["PDM_1"]
-    BAT --> PDM2["PDM_2"]
-    KP["Blink Marine keypad"] --- CAN(["CAN bus, 500 kbit/s"])
+    BAT["🔋 12 V battery"] --> PDM1["PDM_1<br/>front"]
+    BAT --> PDM2["PDM_2<br/>rear"]
+    KP["🎛️ Blink Marine keypad"] --- CAN(["CAN bus · 250 kbit/s"])
     CAN --- PDM1
     CAN --- PDM2
-    CAN --- LOG["Dashboard / logger / SavvyCAN"]
-    PDM1 --> LOADS1["Pumps, fans, heating, lights..."]
-    PDM2 --> LOADS2["Pumps, fans, heating, lights..."]
+    CAN --- LOG["📊 Dashboard / logger / SavvyCAN"]
+    PDM1 --> L1["Radiator fan · heater fan · wiper<br/>high & low beams · position lights"]
+    PDM2 --> L2["Fuel pumps · cabin fans<br/>rear lights · hazard · brake lights"]
 ```
- 
-A key press is sent by the keypad to the bus. Every PDM receives it and decides, from its own key-to-output mapping, whether one of its outputs is affected. The PDM then confirms the result by updating the LED on the same key and the output's LED on the board.
- 
-## Outputs
- 
-Nine outputs, grouped by current capability. Values below are the limits configured in the firmware. They were set to arbitrary, wide-margin values, and only after several tests. They obviously need to be fine-tuned for the actual load. Next planned feature: configuring these parameters over CAN through a GUI.
- 
-| Group | Outputs | Device | Continuous limit | Startup limit (duration) | Short-circuit threshold | Open-load threshold | Priority |
+
+A key press goes out on the bus and reaches both PDMs. Each board checks its own key-to-output map, switches the output if the key belongs to it, and answers by updating the key LED on the keypad and the output LED on the board.
+
+## 🔧 Hardware
+
+<table>
+<tr>
+<td width="55%">
+
+| Block | Part |
+|---|---|
+| MCU | STM32F446RET6, 168 MHz |
+| High outputs H1–H3 | BTS7002-1EPP |
+| Medium outputs M1–M2 | BTS7004-1EPZ |
+| Low outputs L1–L4 | BTS7008-2EPZ (dual channel) |
+| CAN transceiver | TJA1051, 120 Ω termination on board |
+| Temperature | MCP9808 (I²C) |
+| Status LEDs | PCAL6524 I/O expander (I²C) |
+| USB | DFU through the STM32 system bootloader |
+| Supply | 12 V vehicle battery |
+| Extra I/O | 4 digital + 4 analog inputs, FRAM footprint (not used by firmware yet) |
+
+</td>
+<td width="45%">
+<img src="docs/images/cover.png" alt="Enclosure cover, 3D model">
+<p align="center"><sub>Enclosure cover (<code>3D/Cover.stl</code>)</sub></p>
+</td>
+</tr>
+</table>
+
+- **PCB:** Altium Designer project in [`PCB/CAN_PDM/`](PCB/CAN_PDM/). Schematics and assembly drawings as PDF, BOM and Gerbers are in [`PCB/CAN_PDM/Project Outputs for CAN_PDM/Generate Files/`](PCB/CAN_PDM/Project%20Outputs%20for%20CAN_PDM/Generate%20Files/).
+- **Mechanics:** case, cover and bus bar in [`3D/`](3D/); STEP model of the assembled board in [`PCB/3d/`](PCB/3d/).
+- **Wiring:** what each output drives on the car, for both boards, is in [`Docs/`](Docs/).
+
+### Thermal & current-density analysis
+
+The high-current paths were checked with a DC-drop simulation before manufacturing.
+
+<p align="center">
+  <img src="PCB/Thermal_analysis/DC_DROP_CURRENT_DENSITY_TOP.png" width="32%" alt="Current density, top layer">
+  <img src="PCB/Thermal_analysis/DC_DROP_CURRENT_DENSITY_IN.png" width="32%" alt="Current density, inner layer">
+  <img src="PCB/Thermal_analysis/DC_DROP_CURRENT_DENSITY_BOTTOM.png" width="32%" alt="Current density, bottom layer">
+</p>
+
+## ⚡ Outputs
+
+The limits below are the ones currently set in the firmware. They are deliberately wide and still to be tuned for each load.
+
+| Group | Outputs | Device | Continuous | Inrush (time) | Short-circuit | Open load | Priority |
 |---|:---:|---|:---:|:---:|:---:|:---:|:---:|
-| High | H1, H2 | BTS7002-1EPP | 21 A | 81 A (1.5 s) | 50 A | 1.0 A | High |
-| High | H3 | BTS7002-1EPP | 21 A | 41 A (1.5 s) | 50 A | 0.5 A | High |
-| Medium | M1, M2 | BTS7004-1EPZ | 15 A | 40 A (3.0 s) | 40 A | 0.5 A | Medium |
-| Low | L1, L2 | BTS7008-2EPZ | 7.5 A | 25 A (2.5 s) | 25 A | 0.5 A | Low |
-| Low | L3, L4 | BTS7008-2EPZ | 7.5 A | 15 A (2.5 s) | 15 A | 0.5 A | Low |
- 
-- Each output has its own continuous limit, a higher startup limit for a set time (loads such as lamps, motors and pumps draw a large inrush current), a short-circuit threshold and an open-load threshold.
-- The BTS7008-2EPZ is a dual-channel device: **L1/L2 share one current-sense line and L3/L4 share another**.
-- Load current is measured from the PROFET current-sense output: the ADC reads the voltage across a 1.2 kΩ sense resistor, `IIS = V / Rsense`, and the load current is `Iload = IIS × kILIS`, where kILIS is the device's current-sense ratio.
-## Protection
- 
+| 🟧 High | H1, H2 | BTS7002-1EPP | 21 A | 81 A (1.5 s) | 50 A | < 1.0 A | High |
+| 🟧 High | H3 | BTS7002-1EPP | 21 A | 41 A (1.5 s) | 50 A | < 0.5 A | High |
+| 🟦 Medium | M1, M2 | BTS7004-1EPZ | 15 A | 40 A (3.0 s) | 40 A | < 0.5 A | Medium |
+| 🟩 Low | L1, L2 | BTS7008-2EPZ | 7.5 A | 25 A (2.5 s) | 25 A | < 0.5 A | Low |
+| 🟩 Low | L3, L4 | BTS7008-2EPZ | 7.5 A | 15 A (2.5 s) | 15 A | < 0.5 A | Low |
+
+Load current comes from the PROFET current-sense pin: the ADC reads the voltage across a 1.2 kΩ resistor and
+
+```
+I_load = (V_sense / R_sense) × k_ILIS
+```
+
+> [!NOTE]
+> The BTS7008-2EPZ is a dual-channel device with one shared sense pin: L1/L2 share one ADC input and L3/L4 share another.
+
+## 🛡️ Protection
+
 ### Per-channel faults
- 
-Current-based monitoring runs only while an output is on. While an output is off its current reading is ignored, so ADC noise cannot cause false faults.
- 
-| Fault | Condition | Result |
+
+Current checks run every 10 ms, and only while the output is on.
+
+| Fault | Trigger | Reaction |
 |---|---|---|
-| Short circuit | Current stays above the short-circuit threshold for at least 50 ms | Output switched off, fault latched |
-| Overcurrent | Current exceeds the active limit: the startup limit during the startup time, the continuous limit afterwards | Output switched off immediately, fault latched |
-| Open load | Current stays below the open-load threshold for at least 200 ms, checked starting 500 ms after switch-on | Fault reported, output stays on, cleared automatically when the current rises above the threshold |
-| Thermal | Thermal fault on the channel | Latched, like short circuit and overcurrent |
- 
-**Latched faults.** Short circuit, overcurrent and thermal faults are hard faults: the output cannot be switched on again until the fault is reset. Pressing the output's key on the keypad resets the fault and requests the output on. If the cause is still present, the fault is detected again and the output stays faulted until the next reset. Open load is the exception: it is not latched, and it clears by itself once the load draws current again.
- 
-Faults are shown on the keypad (blinking LED) and reported in the CAN fault messages.
- 
-### Over-temperature (board temperature)
- 
-| Level | Threshold | Action | Recovery |
-|---|:---:|---|:---:|
-| Warning | 70 °C | Reports the `OVERTEMP` state only | – |
-| Low priority | 85 °C | Low-priority outputs switched off | 80 °C |
-| Medium priority | 95 °C | Medium-priority outputs switched off | 90 °C |
-| Critical | 100 °C | All outputs switched off | 95 °C |
- 
-### Under-voltage (battery voltage)
- 
-| Level | Threshold | Action | Recovery |
-|---|:---:|---|:---:|
-| Warning | 11.8 V | Reports the `UNDERVOLTAGE` state only | – |
-| Low priority | 11.5 V | Low-priority outputs switched off | 12.0 V |
-| Medium priority | 11.2 V | Medium-priority outputs switched off | 11.8 V |
-| Critical | 9.5 V | All outputs switched off | 10.5 V |
- 
-Every level has a **hysteresis**: the recovery threshold is different from the shutdown threshold, so outputs do not turn on and off repeatedly around a limit.
- 
-- Outputs shed by a thermal or under-voltage shutdown come back **automatically** once the temperature or voltage passes the recovery threshold, as long as they are still requested on.
-- The warning levels only change the state reported over CAN. They do not switch anything off. If both warnings are active, `OVERTEMP` takes precedence over `UNDERVOLTAGE`.
-- Outputs in a latched fault (see above) are always kept off.
-- Priorities are ordered High (1), Medium (2), Low (3). Each shutdown level switches off its own priority and every less important one, so **High-priority outputs are only switched off at the critical level**.
-## Keypad control
- 
-The PDM works with a **Blink Marine CAN keypad**. Each button is associated with one output:
- 
-- Press a button to **toggle** its output.
-- If the output is in fault, pressing the button **resets the fault** and switches the output on again.
-- The LED shows the output state: green when on, off when off, and blinking yellow, amber, red or cyan for open load, overcurrent, short circuit and thermal faults.
-- The LED state is re-sent every 100 ms, so the keypad recovers if a CAN frame is lost.
-- Keypad brightness is set by the PDM at startup.
-The key-to-output mapping is different for each board and is listed in the CAN documentation.
- 
-## On-board LEDs
- 
-Each output has a bicolor (green/red) LED on the PCB, so its state can be read at a glance without a keypad or a CAN tool. Together with the keypad LEDs and the CAN messages, there are three ways to see what an output is doing.
- 
+| **Overcurrent** | Current above the active limit (inrush limit during start-up, continuous limit after) | Output off immediately, fault **latched** |
+| **Short circuit** | Current above the short-circuit threshold for 50 ms | Output off, fault **latched** |
+| **Open load** | Current below the open-load threshold for 200 ms, checked from 500 ms after switch-on | Reported only, output stays on, clears by itself |
+
+**Resetting a latched fault:** press the output's key. The fault is cleared and the output is switched on again; if the cause is still there, it trips again.
+
+### Load shedding
+
+| Level | Over-temperature | Under-voltage | Switched off | Recovery |
+|---|:---:|:---:|---|:---:|
+| ⚠️ Warning | > 70 °C | < 11.8 V | nothing, state reported on CAN | – |
+| 🟩 Low | > 85 °C | < 11.5 V | Low-priority outputs | < 80 °C / > 12.0 V |
+| 🟦 Medium | > 95 °C | < 11.2 V | Medium + Low | < 90 °C / > 11.8 V |
+| 🟥 Critical | > 100 °C | < 9.5 V | **All outputs** | < 95 °C / > 10.5 V |
+
+- Each level has its own recovery threshold, so outputs don't chatter around a limit.
+- Shed outputs come back on **automatically** once the board recovers, if they are still requested on.
+- High-priority outputs are only switched off at the critical level.
+
+## 🎛️ Keypad & LEDs
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Blink Marine keypad**
+
+- Press a key to **toggle** its output
+- Press it on a faulted output to **reset** the fault and retry
+- LED refreshed every 100 ms, so a lost frame fixes itself
+
+| Key LED | Meaning |
+|---|---|
+| ⚫ Off | Output off |
+| 🟢 Green | Output on |
+| 🟡 Yellow, blinking | Open load |
+| 🟠 Amber, blinking | Overcurrent |
+| 🔴 Red, blinking | Short circuit |
+
+</td>
+<td width="50%" valign="top">
+
+**On-board LEDs** (one green/red per output)
+
 | LED | Meaning |
 |---|---|
 | Both off | Output off |
-| Green, steady | Output on, no fault |
-| Red, blinking | Fault on this output (green is off) |
- 
-The number of red blinks tells which fault it is. The sequence is followed by a one-second pause and then repeats.
- 
+| 🟢 Steady | Output on, OK |
+| 🔴 Blinking | Fault – count the blinks |
+
 | Red blinks | Fault |
 |:---:|---|
 | 1 | Open load |
 | 2 | Overcurrent |
 | 3 | Short circuit |
-| 4 | Thermal |
-| 5 | Under-voltage |
- 
-Example: two blinks, pause, two blinks, pause... means overcurrent.
- 
-## CAN interface
- 
-| Parameter | Value |
+
+Blink sequence, ~1 s pause, repeat.
+
+</td>
+</tr>
+</table>
+
+## 📡 CAN interface
+
+| Bitrate | Cycle | Byte order | Units |
+|:---:|:---:|:---:|:---:|
+| **250 kbit/s** | 100 ms | Little-endian | A · V · °C |
+
+| Message | Dir | PDM_1 | PDM_2 |
+|---|:---:|:---:|:---:|
+| PDM status (heartbeat, state, total current, battery, temperature) | TX | `0x300` | `0x400` |
+| Fault types H / M / L1–L2 / L3–L4 | TX | `0x301`–`0x304` | `0x401`–`0x404` |
+| Outputs status + current H / M / L1–L2 / L3–L4 | TX | `0x310`–`0x313` | `0x410`–`0x413` |
+| Output command (bench testing) | RX | `0x200` | `0x200` |
+| Keypad key event | RX | `0x18EFFF21` | `0x18EFFF21` |
+| Keypad LED / brightness | TX | `0x18EF2130` | `0x18EF2131` |
+
+| Node | Address |
+|---|:---:|
+| Keypad | `0x21` |
+| PDM_1 | `0x30` |
+| PDM_2 | `0x31` |
+
+📘 Full byte layouts and scaling: [`FW/Doc/CAN/Can_doc_Readme.md`](FW/Doc/CAN/Can_doc_Readme.md)
+🗂️ DBC files for SavvyCAN: [`FW/Dbc_Database/`](FW/Dbc_Database/)
+
+## 🧠 Firmware
+
+STM32CubeIDE project in [`FW/Can_PDM/`](FW/Can_PDM/), STM32 HAL + FreeRTOS. The application code lives in [`FW/Can_PDM/PDM_Drivers/`](FW/Can_PDM/PDM_Drivers/).
+
+```mermaid
+flowchart TB
+    subgraph RTOS["FreeRTOS tasks"]
+      ACQ["Acquisition · 10 ms<br/>ADC, temperature, currents, fault checks"]
+      PWR["Power manager · 100 ms<br/>load shedding, applies requested states"]
+      TEL["Telemetry · 100 ms<br/>CAN messages, keypad LEDs"]
+      LED["Output LEDs · 50 ms<br/>PCAL6524 blink codes"]
+      CLED["CAN LEDs · 25 ms<br/>TX / RX activity"]
+    end
+    ISR["CAN RX interrupt<br/>keypad + 0x200 command"] --> PWR
+    ACQ --> PWR
+```
+
+| File | Role |
 |---|---|
-| Bitrate | 500 kbit/s |
-| Status messages | Every 100 ms |
-| Byte order | Little-endian |
-| Units | A, V, °C |
- 
-Transmitted messages: PDM status (heartbeat, state, total current, battery voltage, temperature), status and current of every output group, and fault codes for every output. Received messages: the output command and the keypad key frames.
- 
-The complete reference, with byte layouts and conversion formulas, is in [`FW/Doc/`](FW/Doc/). Ready-to-use DBC files for [SavvyCAN](https://www.savvycan.com/) are in [`FW/Dbc_Database/`](FW/Dbc_Database/).
- 
-## Running two boards
- 
-The car uses **two identical PDM boards**. They are not different hardware: `PDM_ID` in the firmware gives each board its own identity.
- 
-| | PDM_1 | PDM_2 |
-|---|:---:|:---:|
-| CAN address | `0x30` | `0x31` |
-| Status message ID | `0x300` | `0x400` |
-| Output messages | `0x301`–`0x313` | `0x401`–`0x413` |
-| Command frame | `0x200` | `0x200` |
- 
-Both boards share the same bus and receive the same keypad frames; each applies its own key-to-output mapping.
- 
-## Repository structure
- 
+| `pdm_config.c/.h` | Board identity (`PDM_ID`), thresholds, per-channel limits |
+| `profet.c/.h` | Output switching, current measurement, fault detection |
+| `can_manager.c/.h` | CAN filters, RX handling, telemetry frames |
+| `keypad_manager.c/.h` | Key-to-output mapping, keypad LEDs and brightness |
+| `io_expander.c`, `pcal6524.c` | On-board status LEDs |
+| `mcp9808.c` | Board temperature sensor |
+| `adc_manager.c` | DMA-driven ADC, battery voltage |
+
+### Build & flash
+
+1. Open `FW/Can_PDM/` in **STM32CubeIDE**.
+2. In `PDM_Drivers/pdm_config.h` set the board identity:
+   ```c
+   #define PDM_ID PDM_1   // or PDM_2
+   ```
+3. Build and flash with an ST-Link, or over USB using the STM32 DFU bootloader (hold **BOOT0** at power-up).
+
+> [!IMPORTANT]
+> Each board must be built with its own `PDM_ID`. Two boards with the same ID on one bus will clash.
+
+## 📁 Repository structure
+
 ```
 .
-├── 3D/                  3D models: bus bar, cover and case
-├── Docs/                Pinout of PDM_1 and PDM_2 as installed in the car
+├── 3D/                       Case, cover and bus bar models
+├── Docs/                     Output wiring of PDM_1 and PDM_2 on the car
 ├── FW/
-│   ├── Doc/             CAN message documentation
-│   ├── Dbc_Database/    DBC files for SavvyCAN (one per board)
-│   └── can_pdm/         Firmware project
+│   ├── Can_PDM/              STM32CubeIDE firmware project
+│   │   └── PDM_Drivers/      Application code
+│   ├── Dbc_Database/         DBC files (one per board)
+│   └── Doc/CAN/              CAN message reference
 └── PCB/
-    ├── 3d/              STEP model of the PCB
-    ├── CAN_PDM/         Altium Designer project
-    └── thermal analysis/ Thermal simulations
+    ├── 3d/                   STEP / DXF of the assembled board
+    ├── CAN_PDM/              Altium project + production outputs (PDF, BOM, Gerber)
+    └── Thermal_analysis/     DC-drop / current-density simulations
 ```
- 
-## Hardware
- 
-- **PCB:** designed in Altium Designer, project in `PCB/CAN_PDM/`. A STEP model of the assembled board is in `PCB/3d/`.
-- **Status LEDs:** nine bicolor LEDs, one per output, driven through a PCAL6524 I/O expander.
-- **Thermal analysis:** simulations of the board under load are in `PCB/thermal analysis/`.
-- **Mechanical parts:** bus bar, case and cover models are in `3D/`.
-- **Pinout:** the current pinout of both boards, as installed in the car, is in `Docs/`.
-## Firmware
- 
-- Microcontroller: **STM32F446RET6**
-- Framework: STM32 HAL, CAN1 at 500 kbit/s
-- Toolchain: **STM32CubeIDE**. Open `FW/can_pdm/` as a project, build and flash from the IDE.
-- Project: `FW/can_pdm/`
-- Board selection: set `PDM_ID` (`PDM_1` or `PDM_2`) in the firmware configuration before building. Each board must be flashed with its own identity.
-- Protection thresholds (temperature, voltage) and per-channel current limits are defined in `pdm_config`, and can be changed there.
-The firmware runs on FreeRTOS with three tasks:
- 
-| Task | Period | Job |
-|---|:---:|---|
-| Acquisition | 10 ms | Reads the battery voltage (ADC) and the board temperature (MCP9808 sensor), updates the current of all nine outputs and runs the fault checks |
-| Telemetry | 100 ms | Transmits all CAN status, current and fault messages, and updates the keypad LEDs |
-| Power manager | 100 ms | Applies the thermal and under-voltage protection, applies the requested state to every output and sets the PDM state |
- 
-PDM state reported in the CAN status message:
- 
-| State | When |
-|---|---|
-| `RUN` | Normal operation |
-| `UNDERVOLTAGE` | Battery voltage below 11.8 V |
-| `OVERTEMP` | Board temperature above 70 °C (takes precedence over `UNDERVOLTAGE`) |
-| `INIT` | Initial value at power-up |
-| `FAULT`, `SLEEP` | Defined in the firmware but not set by the power manager |
- 
-## License
- 
-This project is open source and released under the [MIT License](LICENSE). You are free to use, modify and share it, as long as the copyright notice is kept.
- 
-This hardware and firmware control high-current circuits in a vehicle. It is provided as is, with no warranty: build and install it at your own risk.
+
+## 🗺️ Roadmap
+
+- [x] V1 hardware tested on the car with two boards (front + rear)
+- [x] Per-channel protection, load shedding, keypad and CAN telemetry
+- [ ] Parameter setup over CAN from a desktop GUI
+- [ ] Settings stored in FRAM
+- [ ] Firmware update over USB DFU without pressing BOOT0
+- [ ] Digital and analog inputs (e.g. brake switch, sensors)
+- [ ] Per-channel PROFET diagnostics (thermal, selectable sense on dual channels)
+
+## 📄 License
+
+Released under the [MIT License](LICENSE).
+
+> [!WARNING]
+> This hardware and firmware switch high-current circuits in a vehicle. It is provided as is, without warranty. Build and install it at your own risk.
+
+<p align="center"><sub>Designed and built by <b>NR Developments</b></sub></p>
